@@ -1,0 +1,10 @@
+node_modules/
+promo/node_modules/
+.evolve/
+.pagesift/
+filter/out.mock/
+promo/out/promo.mp4
+promo/out/promo-nobgm.mp4
+promo/out/promo-bgm.mp4
+promo/out/promo-sfx.mp4
+.DS_Store

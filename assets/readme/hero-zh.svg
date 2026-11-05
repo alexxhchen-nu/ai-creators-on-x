@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-label="AI-CREATORS-ON-X Hero Banner">
+  <title>AI-CREATORS-ON-X 中文主视觉横幅</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="55%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#111C2D"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.6"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="17" fill="none" stroke="#30363D" stroke-width="2"/>
+  <rect x="44" y="0" width="260" height="4" rx="2" fill="url(#accentGrad)"/>
+
+  <g transform="translate(44, 48)">
+    <rect x="0" y="0" width="246" height="26" rx="13" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-width="1"/>
+    <circle cx="16" cy="13" r="4" fill="#10B981"/>
+    <text x="28" y="17" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">仓颉 v2.5 RIA-TV++ 能力包</text>
+
+    <text x="0" y="78" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1">AI-CREATORS-ON-X</text>
+    <text x="0" y="114" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500">20 位中文 X 头部 AI 创作者 · 1,145 条实战帖 → 6 张 RIA++ 能力卡</text>
+
+    <g transform="translate(0, 144)">
+      <rect x="0" y="0" width="276" height="32" rx="8" fill="#161F30" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="14" y="21" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600">达尔文 v2.1 · 65.8 → 88.9 (+23.1)</text>
+
+      <rect x="288" y="0" width="225" height="32" rx="8" fill="#161F30" stroke="#10B981" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="302" y="21" fill="#6EE7B7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600">18/18 实测断言 (100% 全过)</text>
+    </g>
+
+    <g transform="translate(0, 192)">
+      <rect x="0" y="0" width="513" height="38" rx="8" fill="#090D14" stroke="#334155" stroke-width="1.2"/>
+      <text x="16" y="24" fill="#F97316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">$</text>
+      <text x="34" y="24" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">npx skills add ai-creators-on-x   # Global 4-Hub Ready</text>
+    </g>
+  </g>
+
+  
+    <g transform="translate(600, 78)">
+      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#10B981" stroke-width="1.5" stroke-opacity="0.65"/>
+      <rect x="12" y="12" width="32" height="20" rx="5" fill="#10B981" fill-opacity="0.18"/>
+      <text x="28" y="26" fill="#10B981" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">01</text>
+      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">Agent 软件工厂</text>
+      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">Worktree · 1m CAS · 5000t</text>
+    </g>
+    <g transform="translate(790, 78)">
+      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#3B82F6" stroke-width="1.5" stroke-opacity="0.65"/>
+      <rect x="12" y="12" width="32" height="20" rx="5" fill="#3B82F6" fill-opacity="0.18"/>
+      <text x="28" y="26" fill="#3B82F6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">02</text>
+      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">出海 SEO &amp; GEO</text>
+      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">一词一页 TDH · Fan-out</text>
+    </g>
+    <g transform="translate(980, 78)">
+      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#F59E0B" stroke-width="1.5" stroke-opacity="0.65"/>
+      <rect x="12" y="12" width="32" height="20" rx="5" fill="#F59E0B" fill-opacity="0.18"/>
+      <text x="28" y="26" fill="#F59E0B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">03</text>
+      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">Video as Code</text>
+      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">白模预演 · BGM 先行 · MCP</text>
+    </g>
+    <g transform="translate(600, 186)">
+      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#EC4899" stroke-width="1.5" stroke-opacity="0.65"/>
+      <rect x="12" y="12" width="32" height="20" rx="5" fill="#EC4899" fill-opacity="0.18"/>
+      <text x="28" y="26" fill="#EC4899" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">04</text>
+      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">全栈去 AI 味</text>
+      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">62 项黑名单 · 零 AI 初稿</text>
+    </g>
+    <g transform="translate(790, 186)">
+      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#8B5CF6" stroke-width="1.5" stroke-opacity="0.65"/>
+      <rect x="12" y="12" width="32" height="20" rx="5" fill="#8B5CF6" fill-opacity="0.18"/>
+      <text x="28" y="26" fill="#8B5CF6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">05</text>
+      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">产物级压测路由</text>
+      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">Vector-DB 2x · 6 次连抽</text>
+    </g>
+    <g transform="translate(980, 186)">
+      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#06B6D4" stroke-width="1.5" stroke-opacity="0.65"/>
+      <rect x="12" y="12" width="32" height="20" rx="5" fill="#06B6D4" fill-opacity="0.18"/>
+      <text x="28" y="26" fill="#06B6D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">06</text>
+      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">企业 FDE 工作台</text>
+      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">5-8 万筛客 · 三层报错</text>
+    </g>
+</svg>

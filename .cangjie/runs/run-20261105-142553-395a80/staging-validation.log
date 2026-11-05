@@ -1,0 +1,6 @@
+  skill: .staging-run-20261105-142553-395a80-ai-creators-on-x   61 行    7514 字节
+
+共扫描 11 个 .md，其中 1 个 SKILL.md
+WARN  [name-dir] dist\.staging-run-20261105-142553-395a80-ai-creators-on-x\SKILL.md: name `ai-creators-on-x` 与目录名 `.staging-run-20261105-142553-395a80-ai-creators-on-x` 不一致
+
+结果: 0 errors, 1 warnings

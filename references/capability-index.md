@@ -1,0 +1,10 @@
+# 能力索引（完整版）
+
+| capability_id | 标题 | 重要度 | 意图 | 关键词 | 能力卡 |
+|---|---|---|---|---|---|
+| cap.xcreators.agent-software-factory | Agent 软件工厂与多分支并发工程 | critical | 怎么一个人用 AI 同时开发维护多个项目；AI 写代码太快 PR 根本看不过来怎么办；Xcode 多 Agent 并行编译太慢或 Preview MCP 不好用怎么破；怎么防止 Codex/Claude 过度工程、写超大文件或乱用 React useState；上游框架天天更新怎么让插件自动跟进 | 软件工厂、worktree、DerivedData、CAS、make preview、AGENTS.md、pre-commit、useReducer、advisor opus | capabilities/agent-software-factory.md |
+| cap.xcreators.seo-geo-growth-engine | 出海工具站 SEO/GEO 与流量裂变引擎 | critical | 出海 AI 工具站怎么规划目录和 URL 结构；为什么网站有搜索和 ChatGPT 流量却零出单；怎么做 GEO 让 ChatGPT 和 Perplexity 优先引用我的网站；多语言 SEO 页面怎么翻译才有效；怎么快速批量上线新词站或做垂直数据情报站 | SEO、GEO、一词一页、TDH、Topic Map、toolKey、Fan-out、意图组、生成器优先 | capabilities/seo-geo-growth-engine.md |
+| cap.xcreators.video-and-design-as-code | Video as Code 与参数化视觉生产流水线 | critical | 怎么用 AI 做多镜头一致的品牌广告或短剧视频；不用剪映和 AE 怎么让 Agent 写代码自动剪片卡点；图生视频怎么用白模预演控制运镜和省积分；怎么写可复用的商业海报与生活照参数化提示词模板；AI 生图做海报文字乱码、放不进二维码怎么解决 | Video as Code、白模预演、Remotion、Renoise MCP、Seedance、三图分工、Design Token、参数化提示词 | capabilities/video-and-design-as-code.md |
+| cap.xcreators.de-ai-taste-and-writing | 全栈「去 AI 味」与高密度内容生产协议 | high | 怎么去掉 AI 写出来的网页/UI 一眼假的感觉；怎么去掉 AI 生成照片和视频的塑料感与摆拍感；怎么用 AI 写文章或教程才没有浓重的 AI 腔和正确废话 | 去 AI 味、AI 味、impeccable、frontend-design、Apple Design System、LLM Voice、口喷写作 | capabilities/de-ai-taste-and-writing.md |
+| cap.xcreators.agent-benchmark-and-model-routing | 大模型与 Agent 实测压测与算力路由 | high | 怎么测一个新大模型或 Coding Agent 到底好不好用；为什么不能信官方跑分榜、怎么设计自己的 benchmark；怎么在不同场景（长线核心代码 vs 日常打杂 vs 企业客户交付）选模型和省 Token；怎么给 Codex 或 Claude Code 无缝切换底层模型 | benchmark、模型评测、reasoning_effort、早期智商债、OpenCodex、magpie、稳定性 | capabilities/agent-benchmark-and-model-routing.md |
+| cap.xcreators.enterprise-fde-and-one-person-ops | 企业 FDE 交付、高管审核制与一人公司工作台 | critical | 怎么给传统企业做 AI 落地（FDE）报价、筛客户和防踩坑；公司老板/高管怎么把飞书审批、微信沟通、跨端采购交给 Agent；一人公司怎么搭极简工作台、自生长知识库（LLM Wiki）和个人全量数据沉淀；SaaS 网站 Stripe 未付款订单怎么高效召回 | FDE、地基成本、三层报错、高管审核制、AI Native 2.0、一人公司、LLM Wiki、Stripe 召回、Shared Bot | capabilities/enterprise-fde-and-one-person-ops.md |

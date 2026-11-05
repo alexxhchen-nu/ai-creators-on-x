@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" role="img" aria-label="END-TO-END DISTILLATION &amp; DARWIN v2.1 EVOLUTION PIPELINE">
+  <title>AI-CREATORS-ON-X Five-Stage Engineering Pipeline</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="200" rx="14" fill="#0B111E" stroke="#1E293B" stroke-width="2"/>
+  <text x="32" y="28" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1">END-TO-END DISTILLATION &amp; DARWIN v2.1 EVOLUTION PIPELINE</text>
+  
+    <g transform="translate(30, 48)">
+      <rect width="202" height="124" rx="12" fill="#111827" stroke="#38BDF8" stroke-width="1.8"/>
+      <rect x="14" y="14" width="128" height="22" rx="6" fill="#38BDF8" fill-opacity="0.16"/>
+      <text x="22" y="29" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">STEP 1 · COLLECT</text>
+      <text x="14" y="66" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">1,641 Raw X Posts</text>
+      <text x="14" y="94" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12">pagesift 1.1.2 · 20 Accounts</text>
+    </g><path d="M 236 110 L 256 110" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(262, 48)">
+      <rect width="202" height="124" rx="12" fill="#111827" stroke="#8B5CF6" stroke-width="1.8"/>
+      <rect x="14" y="14" width="128" height="22" rx="6" fill="#8B5CF6" fill-opacity="0.16"/>
+      <text x="22" y="29" fill="#8B5CF6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">STEP 2 · FILTER</text>
+      <text x="14" y="66" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">1,145 Tech Posts (70%)</text>
+      <text x="14" y="94" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12">62,165 Likes · Coding/Agents</text>
+    </g><path d="M 468 110 L 488 110" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(494, 48)">
+      <rect width="202" height="124" rx="12" fill="#111827" stroke="#F59E0B" stroke-width="1.8"/>
+      <rect x="14" y="14" width="128" height="22" rx="6" fill="#F59E0B" fill-opacity="0.16"/>
+      <text x="22" y="29" fill="#F59E0B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">STEP 3 · DISTILL</text>
+      <text x="14" y="66" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">6 RIA++ Playbooks</text>
+      <text x="14" y="94" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12">Cangjie v2.5 · R/I/A1/A2/E/B</text>
+    </g><path d="M 700 110 L 720 110" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(726, 48)">
+      <rect width="202" height="124" rx="12" fill="#111827" stroke="#10B981" stroke-width="1.8"/>
+      <rect x="14" y="14" width="128" height="22" rx="6" fill="#10B981" fill-opacity="0.16"/>
+      <text x="22" y="29" fill="#10B981" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">STEP 4 · EVOLVE</text>
+      <text x="14" y="66" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">Darwin v2.1 (88.9)</text>
+      <text x="14" y="94" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12">Paired 3/3 Keep · BL-1..6 Gates</text>
+    </g><path d="M 932 110 L 952 110" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(958, 48)">
+      <rect width="202" height="124" rx="12" fill="#111827" stroke="#EC4899" stroke-width="1.8"/>
+      <rect x="14" y="14" width="128" height="22" rx="6" fill="#EC4899" fill-opacity="0.16"/>
+      <text x="22" y="29" fill="#EC4899" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">STEP 5 · DEPLOY</text>
+      <text x="14" y="66" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">4 Global Skill Hubs</text>
+      <text x="14" y="94" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="12">Magpie · Claude · Agents · Pi</text>
+    </g>
+</svg>

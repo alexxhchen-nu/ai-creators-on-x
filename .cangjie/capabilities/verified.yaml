@@ -1,0 +1,328 @@
+schema_version: 1
+bundle_id: bundle.ai-creators-on-x
+book:
+  title: 《AI Creators on X · 20 个中文 AI 创作者技术内容蒸馏》
+  author: 歸藏(@op7418)、Baye(@waylybaye)、向阳乔木(@vista8)、Viking(@vikingmute)、哥飞(@gefei55)、傅盛(@FuSheng_0306) 等 20 位 X 创作者（1,145 条技术帖实证蒸馏）
+  source_pack: Projects/x_creators
+  baseline_tag: baseline-ai-creators-6cap-20261105
+entry:
+  name: ai-creators-on-x
+  description: '当用户在做 AI 编程/多分支并发开发、出海工具站 SEO/GEO 增长、AIGC 视频与代码渲染动效（Video as Code）、消除代码/UI/视频/写作中的「AI 味」、大模型与 Agent 性能实测选型、或传统企业 FDE 交付与一人公司自动化运营时调用。浓缩 20 位中文 X 技术创作者 1,145 条实战帖的六大可执行工作流：Agent 软件工厂、SEO/GEO 增长引擎、Video as Code 视觉流水线、全栈去 AI 味协议、产物级 Benchmark 与模型路由、FDE 交付与高管审核制。不适用于：实时股价/币价查询、与 AI/出海/内容生产无关的纯行政流程、要求绕过支付校验或人工闸门的高危操作。Triggers: AI 创作者方法论/软件工厂/worktree 并发/xcode 冷编译/一词一页/TDH/GEO 意图组/Fan-out 选题/白模预演/Video as Code/去 AI 味/早期智商债/FDE 交付/高管审核制。'
+  core_principles:
+  - Agent 的瓶颈已从模型智力转向人类审核带宽（3–5 个并发会话上限）：用「一项目一专属 Bot + Git Worktree 并行 + E2E 录屏/视图截图自检」替代人工逐行盯屏幕。
+  - 出海工具站生死取决于结构与承接形态：先按「一书三层（Entity → Topic Map → URL）」与「一词一页 TDH」规划，再用「生成器优先」而非纯资讯页承接搜索与 ChatGPT（GEO）流量。
+  - 视频与设计全面代码化（Video & Marketing as Code）：用粗糙白模预演定调度、先拆 BGM 节拍排时间轴，再交由 Agent 写 Remotion/SwiftUI/HTML 代码或调 MCP 渲染成片。
+  - 去 AI 味必须落实为显式黑名单与物理不完美：代码层拦 >5000 tokens 大文件与过度防御；UI 层拉黑 Inter/紫渐变/三栏卡片；视觉层留手抖与后视镜灰尘；写作层严禁 AI 写初稿，坚持人出原稿/口喷观点再润色。
+  - 模型选型按场景隔离风险：长线核心代码库锁死 SOTA 并只记关键 Points 防「早期智商债」；ToB 企业交付锁死高稳定国模（DeepSeek/GLM）防 403；评测用「从 0 造产物性能 + 6 次连抽稳定性」取代刷题榜。
+  - 企业落地与一人公司严守成本与安全边界：制造业 FDE 先算 5–8 万/系统的 ERP/MES 地基成本并卡死 20 人天上限，配「代码→Agent→人工」三层报错；支付回调与对外发布必须保留签名校验与人工确认闸。
+  out_of_scope:
+  - 各大模型 API 或 SaaS 平台今日的实时价格、优惠活动与账单申诉（本文仅提供 2026-11 截面单价口径作核算参考）
+  - 绕过支付签名校验、伪造充值回调或未经人工确认直接群发/公开发布的高危操作
+  - 国内个人开发者无资质涉足的论坛/UGC 社区合规审批代办
+  - 与 AI Agent、独立开发、SEO/GEO、AIGC 视觉或企业数字化无关的通用学科问答
+  stop_conditions:
+  - 用户询问某平台今日实时价格、故障状态或账号申诉结果 → 明确告知本技能仅含 2026-11 实证截面口径，不猜实时数据。
+  - 用户要求跳过支付回调校验或跳过人工审核闸直接执行扣款/群发/上线 → 立即触发红灯停机，先输出「签名校验 + 人工确认闸」方案。
+  - 用户仅询问 20 位创作者名单、粉丝数或某人简介 → 直接读取 references/overview.md 回答后即停，不展开六步工程流水线。
+  - 用户意图在路由表与 capability-index.md 中均未命中 → 明确告知超出 20 位创作者技术蒸馏范围，不硬套框架。
+router_entry:
+  name: ai-creators-on-x
+  description: '当用户询问 20 位 X 中文 AI 创作者的整体画像、粉丝/均赞对比、工具热度榜、跨赛道共识与分歧，或按具体痛点寻找对应的实战工作流（Agent 软件工厂、出海 SEO/GEO、Video as Code、全栈去 AI 味、模型压测路由、企业 FDE 与一人公司）时调用。Triggers: ai-creators-on-x/20 个 AI 创作者/中文 X 创作者/工具热度/跨创作者共识/软件工厂/GEO/白模预演/去 AI 味/FDE。'
+promotion_budget: 8
+capabilities:
+- capability_id: cap.xcreators.agent-software-factory
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: agent-software-factory
+  title: Agent 软件工厂与多分支并发工程
+  importance: critical
+  importance_rationale: 覆盖 @vikingmute、@waylybaye、@vista8、@bozhou_ai 四位头部工程创作者的核心生产力闭环，解决单人维护多商业项目时的编译排队、PR 审查瓶颈与代码膨胀痛点。
+  one_liner: 一项目一 Bot + Git Worktree 并发（含 Xcode 独立 DerivedData/全局 CAS 1 分钟冷编译）+ 截图/录屏自检 + AGENTS.md 与 5000-token 门禁。
+  intents:
+  - 怎么一个人用 AI 同时开发维护多个项目
+  - AI 写代码太快 PR 根本看不过来怎么办
+  - Xcode 多 Agent 并行编译太慢或 Preview MCP 不好用怎么破
+  - 怎么防止 Codex/Claude 过度工程、写超大文件或乱用 React useState
+  - 上游框架天天更新怎么让插件自动跟进
+  keywords:
+  - 软件工厂
+  - worktree
+  - DerivedData
+  - CAS
+  - make preview
+  - AGENTS.md
+  - pre-commit
+  - useReducer
+  - advisor opus
+  also_read:
+  - de-ai-taste-and-writing
+  - agent-benchmark-and-model-routing
+  card: cards/agent-software-factory.md
+  frontmatter:
+    description: '当用户问「怎么一个人用 Agent 并发做多个项目」「AI 代码太多怎么 Review」「Xcode 多分支并发编译太慢怎么提速」「怎么拦住 AI 写冗余代码和超大文件」时调用。核心方法：一项目一 Bot + Worktree 并行 + Xcode 全局 CAS 与 make preview 截图自检 + AGENTS.md 反过度工程与 5000-token Pre-commit 拦截。Triggers: 软件工厂/worktree 并发/Xcode 冷编译/make preview/AGENTS.md/pre-commit 5000 tokens/React 状态收敛'
+    tags:
+    - agent-engineering
+    - worktree
+    - xcode
+    - code-review
+  source_evidence:
+  - source_id: src-ai-creators-on-x
+    location: '@vikingmute §核心方法论 1-4; @waylybaye §核心方法论 1-2; @vista8 §核心方法论 3-5; @bozhou_ai §核心方法论 1-4'
+  promotion:
+    destination: promoted
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 五条全过——AI 并发研发与代码门禁是高频独立工程需求，输入项目栈即可输出完整配置与 Hook。
+- capability_id: cap.xcreators.seo-geo-growth-engine
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: seo-geo-growth-engine
+  title: 出海工具站 SEO/GEO 与流量裂变引擎
+  importance: critical
+  importance_rationale: 汇集 @gefei55、@CoderJeffLee、@yaojingang、@AI_Jasonyu 四位出海增长代表人物的完整建站、扩词、GEO 引用优化与付费承接SOP。
+  one_liner: 按「一书三层 + 代码/CMS/toolKey 分离」建站，守住「一词一页 TDH + 生成器优先形态」，结合 GSC 长尾裂变与 Fan-out 意图组双吃 Google 与 ChatGPT 流量。
+  intents:
+  - 出海 AI 工具站怎么规划目录和 URL 结构
+  - 为什么网站有搜索和 ChatGPT 流量却零出单
+  - 怎么做 GEO 让 ChatGPT 和 Perplexity 优先引用我的网站
+  - 多语言 SEO 页面怎么翻译才有效
+  - 怎么快速批量上线新词站或做垂直数据情报站
+  keywords:
+  - SEO
+  - GEO
+  - 一词一页
+  - TDH
+  - Topic Map
+  - toolKey
+  - Fan-out
+  - 意图组
+  - 生成器优先
+  also_read:
+  - enterprise-fde-and-one-person-ops
+  - agent-software-factory
+  card: cards/seo-geo-growth-engine.md
+  frontmatter:
+    description: '当用户在做海外 AI 工具站/SaaS 增长，询问「URL 和目录怎么规划」「怎么做 SEO 和 GEO 拿搜索与 ChatGPT 流量」「为什么有 UV 却不出单」「多语言页面怎么本地化」时调用。核心方法：一书三层规划 + 代码/CMS/toolKey 三页分离 + 一词一页 TDH + 生成器优先转化 + Fan-out 轨迹与意图组 GEO。Triggers: 出海 SEO/GEO/一词一页/TDH/Topic Map/Fan-out queries/意图组/新词站'
+    tags:
+    - seo
+    - geo
+    - growth
+    - indie-saas
+  source_evidence:
+  - source_id: src-ai-creators-on-x
+    location: '@gefei55 §核心方法论 1-5; @CoderJeffLee §核心方法论 1-5; @yaojingang §核心方法论 1-6; @AI_Jasonyu §核心方法论 1-2'
+  promotion:
+    destination: promoted
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 五条全过——出海 SEO/GEO 建站与转化诊断具备明确输入输出契约与量化验收项。
+- capability_id: cap.xcreators.video-and-design-as-code
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: video-and-design-as-code
+  title: Video as Code 与参数化视觉生产流水线
+  importance: critical
+  importance_rationale: 整合 @MANISH1027512、@TanLuAI、@joshesye、@Adam38363368936、@liyue_ai、@op7418 六位视觉与视频创作者的工业化出片与代码剪辑方法。
+  one_liner: 粗糙白模预演定运镜 + 音乐节拍先行排时间轴 + Claude/Codex 写 Remotion/Renoise MCP 自动剪辑 + 三图分工与参数化模板锁一致性。
+  intents:
+  - 怎么用 AI 做多镜头一致的品牌广告或短剧视频
+  - 不用剪映和 AE 怎么让 Agent 写代码自动剪片卡点
+  - 图生视频怎么用白模预演控制运镜和省积分
+  - 怎么写可复用的商业海报与生活照参数化提示词模板
+  - AI 生图做海报文字乱码、放不进二维码怎么解决
+  keywords:
+  - Video as Code
+  - 白模预演
+  - Remotion
+  - Renoise MCP
+  - Seedance
+  - 三图分工
+  - Design Token
+  - 参数化提示词
+  also_read:
+  - de-ai-taste-and-writing
+  card: cards/video-and-design-as-code.md
+  frontmatter:
+    description: '当用户想用 AI 制作多镜头一致的商业短片/漫剧、用代码（Remotion/HyperFrames/Renoise MCP）替代剪映/AE 自动剪辑卡点、用白模预演控制运镜省积分、或设计参数化生图模板与带二维码无乱码海报时调用。Triggers: Video as Code/白模预演/Remotion 剪辑/Renoise MCP/三图分工/商业短片提示词/参数化海报/Seedance'
+    tags:
+    - video-as-code
+    - aigc-video
+    - prompt-engineering
+    - remotion
+  source_evidence:
+  - source_id: src-ai-creators-on-x
+    location: '@MANISH1027512 §核心方法论 1-6; @TanLuAI §核心方法论 1-6; @joshesye §核心方法论 1-6; @Adam38363368936 §核心方法论 1-6; @liyue_ai §核心方法论 1-4; @op7418 §核心方法论 1-2; @jinchenma_ai §核心方法论 2'
+  promotion:
+    destination: promoted
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 五条全过——AI 视频预演、代码剪辑与参数化提示词是独立高需求场景。
+- capability_id: cap.xcreators.de-ai-taste-and-writing
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: de-ai-taste-and-writing
+  title: 全栈「去 AI 味」与高密度内容生产协议
+  importance: high
+  importance_rationale: 横跨 UI、视觉与写作的共性痛点，整合 @sitinme、@waylybaye、@Adam38363368936、@TanLuAI、@vikingmute、@jinchenma_ai、@CoderJeffLee 的反模板化实操规则。
+  one_liner: 前端拉黑 Inter/紫渐变/三栏卡片并还原原生设计系统；视觉主动注入手抖/反光/狼狈感；写作禁 AI 初稿，坚持「人口喷/给原稿 → AI 仅按章润色」。
+  intents:
+  - 怎么去掉 AI 写出来的网页/UI 一眼假的感觉
+  - 怎么去掉 AI 生成照片和视频的塑料感与摆拍感
+  - 怎么用 AI 写文章或教程才没有浓重的 AI 腔和正确废话
+  keywords:
+  - 去 AI 味
+  - AI 味
+  - impeccable
+  - frontend-design
+  - Apple Design System
+  - LLM Voice
+  - 口喷写作
+  also_read:
+  - video-and-design-as-code
+  - agent-software-factory
+  card: cards/de-ai-taste-and-writing.md
+  frontmatter:
+    description: '当用户抱怨 AI 写的前端界面（紫色渐变/三栏卡片）、生成的照片视频（精致塑料感）或写出的文章（正确废话/AI 腔）一眼假，想要系统性「去 AI 味」时调用。涵盖前端黑名单与原生设计转换、视觉不完美感注入、以及「禁 AI 初稿 + 口喷/原稿驱动」的高密度写作法。Triggers: 去 AI 味/消除 AI 感/impeccable/LLM Voice/前端 AI 味/照片真实感/口喷写作'
+    tags:
+    - de-ai-taste
+    - ui-design
+    - writing
+    - realism
+  source_evidence:
+  - source_id: src-ai-creators-on-x
+    location: '@sitinme §核心方法论 5; @waylybaye §核心方法论 5; @Adam38363368936 §核心方法论 5; @TanLuAI §可复用片段; @vikingmute §判断与趋势; @jinchenma_ai §核心方法论 3; @CoderJeffLee §核心方法论 6'
+  promotion:
+    destination: promoted
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 五条全过——全栈去 AI 味具有极高辨识度与可执行黑名单检查项。
+- capability_id: cap.xcreators.agent-benchmark-and-model-routing
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: agent-benchmark-and-model-routing
+  title: 大模型与 Agent 实测压测与算力路由
+  importance: high
+  importance_rationale: 凝聚 @karminski3 的工程化评测体系与 @waylybaye、@cnzhihao、@sitinme、@bozhou_ai 的模型选型/省钱/协议解耦方案。
+  one_liner: 用「从 0 造产物性能 + 6 次连抽稳定性 + 260MB 真实日志」压测模型；长线工程锁 SOTA 防早期智商债，ToB 交付锁高稳国模，日常用 OpenCodex/magpie 与 advisor 分层路由。
+  intents:
+  - 怎么测一个新大模型或 Coding Agent 到底好不好用
+  - 为什么不能信官方跑分榜、怎么设计自己的 benchmark
+  - 怎么在不同场景（长线核心代码 vs 日常打杂 vs 企业客户交付）选模型和省 Token
+  - 怎么给 Codex 或 Claude Code 无缝切换底层模型
+  keywords:
+  - benchmark
+  - 模型评测
+  - reasoning_effort
+  - 早期智商债
+  - OpenCodex
+  - magpie
+  - 稳定性
+  also_read:
+  - agent-software-factory
+  - enterprise-fde-and-one-person-ops
+  card: cards/agent-benchmark-and-model-routing.md
+  frontmatter:
+    description: '当用户想自建可复现的大模型/Agent 评测基准、判断模型是否被量化降智、或在「SOTA 防早期智商债 / 高低搭配省钱 / ToB 稳定基模 / OpenCodex 协议解耦」之间做模型选型与算力路由时调用。Triggers: 模型评测/自建 benchmark/reasoning_effort/早期智商债/OpenCodex/换模型/抽卡稳定性'
+    tags:
+    - benchmark
+    - model-routing
+    - evaluation
+    - cost-optimization
+  source_evidence:
+  - source_id: src-ai-creators-on-x
+    location: '@karminski3 §核心方法论 1-6; @waylybaye §核心方法论 4; @cnzhihao §核心方法论 3; @sitinme §核心方法论 4; @bozhou_ai §核心方法论 2'
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: false
+    notes: 保留在路由入口内，与 agent-software-factory 和 enterprise-fde-and-one-person-ops 协同调用。
+- capability_id: cap.xcreators.enterprise-fde-and-one-person-ops
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: enterprise-fde-and-one-person-ops
+  title: 企业 FDE 交付、高管审核制与一人公司工作台
+  importance: critical
+  importance_rationale: 覆盖 @cnzhihao（乙方 FDE）、@FuSheng_0306（甲方 CEO 转型）、@jinchenma_ai（一人公司与传统企业咨询）、@sitinme（收款召回与岗位 Bot）、@icycat（本地数据留痕）的完整组织与商业闭环。
+  one_liner: 对外用「地基成本（5–8 万/系统）+ 20 人天上限 + 外围四件套 + 三层报错」做企业 FDE；对内用「高管审核制 + 岗位 Shared Bot + 本地索引/云端正文知识库 + Stripe 直达链接召回」跑通一人公司与 AI Native 组织。
+  intents:
+  - 怎么给传统企业做 AI 落地（FDE）报价、筛客户和防踩坑
+  - 公司老板/高管怎么把飞书审批、微信沟通、跨端采购交给 Agent
+  - 一人公司怎么搭极简工作台、自生长知识库（LLM Wiki）和个人全量数据沉淀
+  - SaaS 网站 Stripe 未付款订单怎么高效召回
+  keywords:
+  - FDE
+  - 地基成本
+  - 三层报错
+  - 高管审核制
+  - AI Native 2.0
+  - 一人公司
+  - LLM Wiki
+  - Stripe 召回
+  - Shared Bot
+  also_read:
+  - seo-geo-growth-engine
+  - agent-benchmark-and-model-routing
+  card: cards/enterprise-fde-and-one-person-ops.md
+  frontmatter:
+    description: '当用户从事企业 AI 落地交付（FDE）、推进公司 AI Native 2.0 转型、或搭建一人公司极简工作台（本地索引+Notion 知识库、微信/飞书 Agent 审核制、Stripe 未付款直达收银台链接召回、个人会话数据沉淀）时调用。Triggers: FDE 交付/企业 AI 落地/地基成本/三层报错/高管审核制/一人公司/LLM Wiki/Stripe 未付款召回'
+    tags:
+    - fde
+    - enterprise-ai
+    - one-person-company
+    - operations
+  source_evidence:
+  - source_id: src-ai-creators-on-x
+    location: '@cnzhihao §核心方法论 1-6; @FuSheng_0306 §核心方法论 1-5; @jinchenma_ai §核心方法论 1,4,5; @sitinme §核心方法论 1-3; @icycat §核心方法论 1-2'
+  promotion:
+    destination: promoted
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 五条全过——企业 FDE 报价/排障与一人公司运营具备独立契约与明确验收标准。

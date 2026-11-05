@@ -1,0 +1,323 @@
+[
+ {
+  "handle": "Adam38363368936",
+  "name": "Adam也叫吉米",
+  "followers": "18.6K",
+  "track": "AI 品牌广告",
+  "kept": 69,
+  "total": 81,
+  "posts": 69,
+  "topics": {
+   "AI Agent": 59,
+   "技术工具": 10
+  },
+  "likes": 829,
+  "rts": 239
+ },
+ {
+  "handle": "AI_Jasonyu",
+  "name": "鱼总聊AI",
+  "followers": "72.3K",
+  "track": "SaaS & APP 出海",
+  "kept": 37,
+  "total": 82,
+  "posts": 37,
+  "topics": {
+   "技术工具": 18,
+   "AI Agent": 15,
+   "编程": 2,
+   "商业增长": 2
+  },
+  "likes": 1806,
+  "rts": 231
+ },
+ {
+  "handle": "bozhou_ai",
+  "name": "泊舟",
+  "followers": "32.8K",
+  "track": "AI 编程",
+  "kept": 62,
+  "total": 81,
+  "posts": 62,
+  "topics": {
+   "技术工具": 22,
+   "编程": 14,
+   "AI Agent": 26
+  },
+  "likes": 1662,
+  "rts": 370
+ },
+ {
+  "handle": "cnzhihao",
+  "name": "做 FDE 的智昊",
+  "followers": "2,531",
+  "track": "FDE",
+  "kept": 50,
+  "total": 83,
+  "posts": 50,
+  "topics": {
+   "AI Agent": 33,
+   "编程": 4,
+   "技术工具": 12,
+   "商业增长": 1
+  },
+  "likes": 450,
+  "rts": 61
+ },
+ {
+  "handle": "CoderJeffLee",
+  "name": "写增长的子木",
+  "followers": "7,743",
+  "track": "AI 工具站",
+  "kept": 30,
+  "total": 82,
+  "posts": 30,
+  "topics": {
+   "商业增长": 2,
+   "技术工具": 19,
+   "AI Agent": 9
+  },
+  "likes": 388,
+  "rts": 36
+ },
+ {
+  "handle": "FuSheng_0306",
+  "name": "傅盛",
+  "followers": "63.7K",
+  "track": "成熟公司 AI Native 转型",
+  "kept": 48,
+  "total": 83,
+  "posts": 48,
+  "topics": {
+   "技术工具": 7,
+   "AI Agent": 38,
+   "编程": 3
+  },
+  "likes": 4793,
+  "rts": 903
+ },
+ {
+  "handle": "gefei55",
+  "name": "哥飞",
+  "followers": "67.7K",
+  "track": "出海 SEO",
+  "kept": 30,
+  "total": 83,
+  "posts": 30,
+  "topics": {
+   "技术工具": 14,
+   "AI Agent": 9,
+   "编程": 6,
+   "商业增长": 1
+  },
+  "likes": 1858,
+  "rts": 377
+ },
+ {
+  "handle": "icycat",
+  "name": "冷酷小猫 IcyCat",
+  "followers": "8,402",
+  "track": "浏览器插件开发",
+  "kept": 47,
+  "total": 83,
+  "posts": 47,
+  "topics": {
+   "技术工具": 17,
+   "AI Agent": 25,
+   "编程": 5
+  },
+  "likes": 213,
+  "rts": 105
+ },
+ {
+  "handle": "jinchenma_ai",
+  "name": "金尘马",
+  "followers": "32.9K",
+  "track": "一人公司",
+  "kept": 54,
+  "total": 82,
+  "posts": 54,
+  "topics": {
+   "技术工具": 11,
+   "编程": 6,
+   "AI Agent": 37
+  },
+  "likes": 1034,
+  "rts": 149
+ },
+ {
+  "handle": "joshesye",
+  "name": "行者AI视频",
+  "followers": "25.8K",
+  "track": "AI 视频",
+  "kept": 52,
+  "total": 82,
+  "posts": 53,
+  "topics": {
+   "AI Agent": 46,
+   "技术工具": 6,
+   "": 1
+  },
+  "likes": 1825,
+  "rts": 187
+ },
+ {
+  "handle": "karminski3",
+  "name": "karminski-牙医",
+  "followers": "40.1K",
+  "track": "大模型性能实测",
+  "kept": 78,
+  "total": 83,
+  "posts": 78,
+  "topics": {
+   "AI Agent": 66,
+   "技术工具": 10,
+   "编程": 2
+  },
+  "likes": 7267,
+  "rts": 1080
+ },
+ {
+  "handle": "liyue_ai",
+  "name": "李岳",
+  "followers": "54.7K",
+  "track": "图生视频 / 提示词分享",
+  "kept": 56,
+  "total": 81,
+  "posts": 56,
+  "topics": {
+   "AI Agent": 53,
+   "技术工具": 3
+  },
+  "likes": 2698,
+  "rts": 358
+ },
+ {
+  "handle": "MANISH1027512",
+  "name": "古一",
+  "followers": "47.5K",
+  "track": "AIGC 视觉",
+  "kept": 49,
+  "total": 81,
+  "posts": 49,
+  "topics": {
+   "AI Agent": 21,
+   "技术工具": 28
+  },
+  "likes": 2985,
+  "rts": 313
+ },
+ {
+  "handle": "op7418",
+  "name": "歸藏(guizang.ai)",
+  "followers": "185.9K",
+  "track": "AI 图像 / 视频 / 设计工具",
+  "kept": 71,
+  "total": 83,
+  "posts": 71,
+  "topics": {
+   "技术工具": 26,
+   "AI Agent": 42,
+   "编程": 3
+  },
+  "likes": 5594,
+  "rts": 850
+ },
+ {
+  "handle": "sitinme",
+  "name": "sitin",
+  "followers": "32.8K",
+  "track": "AI 出海网站",
+  "kept": 74,
+  "total": 80,
+  "posts": 74,
+  "topics": {
+   "技术工具": 15,
+   "AI Agent": 58,
+   "商业增长": 1
+  },
+  "likes": 460,
+  "rts": 69
+ },
+ {
+  "handle": "TanLuAI",
+  "name": "探路AI",
+  "followers": "9,807",
+  "track": "AI 视频",
+  "kept": 83,
+  "total": 84,
+  "posts": 83,
+  "topics": {
+   "AI Agent": 80,
+   "技术工具": 2,
+   "商业增长": 1
+  },
+  "likes": 2790,
+  "rts": 316
+ },
+ {
+  "handle": "vikingmute",
+  "name": "Viking",
+  "followers": "69.6K",
+  "track": "SaaS",
+  "kept": 66,
+  "total": 80,
+  "posts": 66,
+  "topics": {
+   "技术工具": 23,
+   "AI Agent": 30,
+   "编程": 13
+  },
+  "likes": 7388,
+  "rts": 1388
+ },
+ {
+  "handle": "vista8",
+  "name": "向阳乔木",
+  "followers": "136.4K",
+  "track": "AI 编程 / vibe coding",
+  "kept": 71,
+  "total": 81,
+  "posts": 71,
+  "topics": {
+   "技术工具": 35,
+   "AI Agent": 25,
+   "编程": 10,
+   "商业增长": 1
+  },
+  "likes": 6614,
+  "rts": 1197
+ },
+ {
+  "handle": "waylybaye",
+  "name": "Baye",
+  "followers": "164.4K",
+  "track": "一人做 App（独立开发）",
+  "kept": 57,
+  "total": 82,
+  "posts": 57,
+  "topics": {
+   "技术工具": 23,
+   "AI Agent": 26,
+   "编程": 8
+  },
+  "likes": 7405,
+  "rts": 402
+ },
+ {
+  "handle": "yaojingang",
+  "name": "姚金刚",
+  "followers": "23.4K",
+  "track": "GEO",
+  "kept": 60,
+  "total": 84,
+  "posts": 60,
+  "topics": {
+   "技术工具": 18,
+   "AI Agent": 41,
+   "编程": 1
+  },
+  "likes": 4106,
+  "rts": 938
+ }
+]

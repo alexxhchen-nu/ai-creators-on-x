@@ -1,0 +1,3 @@
+timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
+2026-11-05T17:50	baseline	ai-creators-on-x	-	65.8	baseline	-	3独立judge静态中位数+实测基线	full_test
+2026-11-05T17:58	92f2cd2	ai-creators-on-x	65.8	3-0 better (88.9)	keep	dim2+dim3+dim4+dim9	新增4步I/O工作流、2个🔴CHECKPOINT、4行失败恢复表与BL-1..6黑名单；实测断言18/18	paired

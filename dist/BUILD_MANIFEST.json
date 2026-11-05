@@ -1,0 +1,36 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\agent-benchmark-and-model-routing.md": "a2a7f10493f1a916399c9339dc1d8623037f380cdbe0fe0afe04f8804e20c595",
+    "references\\capabilities\\agent-software-factory.md": "80b824d95e130c46df3e62b8f9bdaa887fcd3b42e16d4f39149ee9149720ec98",
+    "references\\capabilities\\de-ai-taste-and-writing.md": "8344693785b86fdf59f5eb08478e9f4f9fef637e5aaa0e1fdd0b32af81407b8c",
+    "references\\capabilities\\enterprise-fde-and-one-person-ops.md": "2e84f8668309f9e7829374b5bf9c615e01b5792f294ecb0496f16e333d4af92c",
+    "references\\capabilities\\seo-geo-growth-engine.md": "9a9d97d3144783832f7735131dcaf1d5ed6d418e5a204901bc91df21a61e80bd",
+    "references\\capabilities\\video-and-design-as-code.md": "c3079a0ca7eb296ccafacfbc38b187fdda9aecc8666ed69c17299afcda6c6470",
+    "references\\capability-index.md": "95aba37cd8d01b98c4cd1f8ba408585c355abea010d593a0b68f30f35afdbe50",
+    "references\\cheatsheet.md": "c290f872de4e601d241ff020cd4199059222e5c6566c9c66c29b0dd9b832a156",
+    "references\\glossary.md": "dd889d9297271d6c253d27c2f17074ab3956b4f79a2141e5d9240f671ff36da7",
+    "references\\overview.md": "da202b7fe195ec0840506602c9aef42393d86dccc47d641f57dc9de09f942814",
+    "SKILL.md": "07f01693641a8477a680568ad4f1f384cf8621c43e7b1c26c66f2ab5830f9a67"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.ai-creators-on-x",
+  "bundle_sha256": "7983b76c5b8de9c4dcfd82803cc13bc17316d4d813827013e9f9830ade58dec4",
+  "variant": "single",
+  "run_id": "run-20261105-124835-3c7935",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 5,
+    "capability_count": 6,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 5 个晋级 Skill，共 6 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
