@@ -8,7 +8,7 @@ import layout from '../live-layout.json';
 export const SCENE_OUTRO_DEFAULTS = {
   wordmark: 'AI-CREATORS-ON-X',
   wordmarkSize: 118,
-  tagline: '1,145 Tech Posts · 6 RIA++ Playbooks · Darwin 88.9',
+  tagline: '1,145 Tech Posts · 8 RIA++ Playbooks · Darwin 88.9',
   taglineSize: 25,
   ink: '#13110f',    // oklch(18% 0.006 82)
   amber: '#955905',  // oklch(52% 0.115 65)

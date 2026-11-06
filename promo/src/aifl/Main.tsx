@@ -30,8 +30,8 @@ export const AIFL_TOTAL = 1085;
 // title-card copy: space-separated words, `*word*` = amber italic accent. Single
 // source for the render below and for the workbench manifest (workbench.ts).
 export const TITLE_CARDS = {
-  card1: { text: '1,145 tech posts distilled into *six* executable playbooks.' },
-  card2: { text: 'Six *RIA++* capability cards, battle-tested in production.', sub: 'of 20 creator tracks unified', subDigits: '6' },
+  card1: { text: '1,145 tech posts distilled into *eight* executable playbooks.' },
+  card2: { text: 'Eight *RIA++* capability cards, battle-tested in production.', sub: 'of 20 creator tracks unified', subDigits: '8' },
   cardWbr: { text: 'Evolved with *Darwin* v2.1 — paired 3-0 blind verdict.' },
   card3: { text: 'Installed *globally* across Magpie, Claude, and Agents.' },
 } as const;

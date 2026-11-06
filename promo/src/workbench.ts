@@ -167,10 +167,10 @@ const PAPER_WORKBENCH = {
   background: '#f1f0ed',
   shots: [
     scene('morning', 'S1 准星开场 → 全景 → 主角卡', SceneOpen, D.open, SCHEMAS.open),
-    title('card1', '字卡① 6 Playbooks'),
+    title('card1', '字卡① 8 Playbooks'),
     scene('table', 'S3 牌堆 → 发牌 → 搜索筛选', SceneFlyIn, D.flyin, SCHEMAS.flyin),
     scene('macro', 'S4 软件工厂 5 护栏详情', SceneDetail, D.detail, SCHEMAS.detail),
-    title('card2', '字卡② 6 RIA++ Cards'),
+    title('card2', '字卡② 8 RIA++ Cards'),
     scene('chart', 'S6 能力卡矩阵堆叠', ScenePapers, D.papers, SCHEMAS.papers),
     title('cardWbr', '字卡③ Darwin v2.1'),
     scene('wbr', 'S8 Darwin 进化报告自写', SceneWbr, D.wbr, SCHEMAS.wbr),

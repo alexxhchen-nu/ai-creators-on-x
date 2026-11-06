@@ -10,9 +10,9 @@ import layout from '../live-layout.json';
 export const SCENE_OPEN_DEFAULTS = {
   wordmark: 'AI-CREATORS-ON-X',
   wordmarkSize: 112,
-  kicker: '20 X CREATORS · 1,145 TECH POSTS · 6 PLAYBOOKS',
+  kicker: '20 X CREATORS · 1,145 TECH POSTS · 8 PLAYBOOKS',
   kickerSize: 24,
-  noteLine1: '6 Playbooks,',
+  noteLine1: '8 Playbooks,',
   noteLine2: '18/18 Verified.',
   noteSize: 37,
   ink: '#13110f',    // oklch(18% 0.006 82)

@@ -11,7 +11,7 @@ const PAGE_H = layout.papers.pageH;
 
 /** Context-level defaults (screen-space counter copy / palette), editable per clip in the workbench. */
 export const SCENE_PAPERS_DEFAULTS = {
-  title: '6 Playbooks',
+  title: '8 Playbooks',
   subtitle: 'Of 20 Creator Tracks Unified',
   counterSize: 96,
   amber: '#955905',  // oklch(52% 0.115 65)
