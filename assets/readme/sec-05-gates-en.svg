@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" width="100%" role="img" aria-label="05 Control Flow &amp; Safety Gates">
-  <title>05 Control Flow &amp; Safety Gates</title>
-  <rect width="1200" height="56" rx="10" fill="#0D131F" stroke="#1E293B" stroke-width="1.5"/>
-  <rect x="0" y="0" width="6" height="56" rx="3" fill="#8B5CF6"/>
-  <rect x="22" y="13" width="42" height="30" rx="6" fill="#8B5CF6" fill-opacity="0.16" stroke="#8B5CF6" stroke-width="1"/>
-  <text x="43" y="33" fill="#8B5CF6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="800" text-anchor="middle">05</text>
-  <text x="80" y="34" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700">Control Flow &amp; Safety Gates</text>
-  <text x="1176" y="33" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" text-anchor="end">CHECKPOINT 1 &amp; 2 · BL-1..6</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" width="100%" role="img" aria-labelledby="t">
+  <title id="t">05 Control Flow &amp; Safety Gates — CHECKPOINT 1 &amp; 2 · BL-1..6</title>
+  <rect width="1200" height="56" rx="6" fill="#e8e7e3"/>
+  <rect x="0" y="0" width="6" height="56" rx="3" fill="#b31b1b"/>
+  <rect x="22" y="14" width="40" height="28" rx="4" fill="#b31b1b"/>
+  <text x="42" y="33" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" text-anchor="middle">05</text>
+  <text x="78" y="35" fill="#1a1a1a" font-family="Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif" font-size="21" font-weight="700">Control Flow &amp; Safety Gates</text>
+  <text x="1176" y="34" fill="#868e96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" text-anchor="end">CHECKPOINT 1 &amp; 2 · BL-1..6</text>
 </svg>

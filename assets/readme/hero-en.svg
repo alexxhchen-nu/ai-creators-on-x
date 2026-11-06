@@ -1,89 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-label="AI-CREATORS-ON-X Hero Banner">
-  <title>AI-CREATORS-ON-X English Hero Banner</title>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#090D16"/>
-      <stop offset="55%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#111C2D"/>
-    </linearGradient>
-    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#10B981"/>
-      <stop offset="50%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#F97316"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.6"/>
-    </pattern>
-  </defs>
-  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1198" height="318" rx="17" fill="none" stroke="#30363D" stroke-width="2"/>
-  <rect x="44" y="0" width="260" height="4" rx="2" fill="url(#accentGrad)"/>
-
-  <g transform="translate(44, 48)">
-    <rect x="0" y="0" width="246" height="26" rx="13" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-width="1"/>
-    <circle cx="16" cy="13" r="4" fill="#10B981"/>
-    <text x="28" y="17" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">CANGJIE v2.5 RIA-TV++ BUNDLE</text>
-
-    <text x="0" y="78" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1">AI-CREATORS-ON-X</text>
-    <text x="0" y="114" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500">20 Chinese X AI Creators · 1,145 Tech Posts → 6 RIA++ Agent Playbooks</text>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-labelledby="ttl">
+  <title id="ttl">AI-CREATORS-ON-X — 20 Chinese X AI creators · 1,145 tech posts → 6 RIA++ agent playbooks</title>
+  <rect width="1200" height="320" rx="8" fill="#f1f0ed"/>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="8" fill="none" stroke="#d9d9d9" stroke-width="1"/>
+  <g transform="translate(44, 46)">
+    <rect x="0" y="0" width="252" height="26" rx="4" fill="#e8e7e3"/>
+    <circle cx="16" cy="13" r="4" fill="#0b7285"/>
+    <text x="28" y="18" fill="#0b7285" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700">CANGJIE v2.5 RIA-TV++ BUNDLE</text>
+    <text x="0" y="84" fill="#1a1a1a" font-family="Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif" font-size="46" font-weight="700" letter-spacing="-0.5">AI-CREATORS-ON-X</text>
+    <text x="0" y="116" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5">20 Chinese X AI creators · 1,145 tech posts → 6 RIA++ agent playbooks</text>
     <g transform="translate(0, 144)">
-      <rect x="0" y="0" width="276" height="32" rx="8" fill="#161F30" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.5"/>
-      <text x="14" y="21" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600">DARWIN v2.1 · 65.8 → 88.9 (+23.1)</text>
-
-      <rect x="288" y="0" width="225" height="32" rx="8" fill="#161F30" stroke="#10B981" stroke-width="1" stroke-opacity="0.5"/>
-      <text x="302" y="21" fill="#6EE7B7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600">18/18 ASSERTIONS (100%)</text>
+      <rect x="0" y="0" width="284" height="30" rx="4" fill="#ffffff" stroke="#4263eb" stroke-width="1"/>
+      <text x="14" y="20" fill="#4263eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">Darwin v2.1 · 65.8 → 88.9 (+23.1)</text>
+      <rect x="296" y="0" width="220" height="30" rx="4" fill="#ffffff" stroke="#2f9e44" stroke-width="1"/>
+      <text x="310" y="20" fill="#2f9e44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">18/18 assertions · 100%</text>
     </g>
-
     <g transform="translate(0, 192)">
-      <rect x="0" y="0" width="513" height="38" rx="8" fill="#090D14" stroke="#334155" stroke-width="1.2"/>
-      <text x="16" y="24" fill="#F97316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">$</text>
-      <text x="34" y="24" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">npx skills add ai-creators-on-x   # Global 4-Hub Ready</text>
+      <rect x="0" y="0" width="516" height="38" rx="4" fill="#2b2b2b"/>
+      <text x="16" y="24" fill="#f59f00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">$</text>
+      <text x="34" y="24" fill="#f1f0ed" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5">npx skills add alexxhchen-nu/ai-creators-on-x</text>
     </g>
   </g>
-
-  
-    <g transform="translate(600, 78)">
-      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#10B981" stroke-width="1.5" stroke-opacity="0.65"/>
-      <rect x="12" y="12" width="32" height="20" rx="5" fill="#10B981" fill-opacity="0.18"/>
-      <text x="28" y="26" fill="#10B981" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">01</text>
-      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">AGENT FACTORY</text>
-      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">Worktree · 1m CAS · 5000t</text>
-    </g>
-    <g transform="translate(790, 78)">
-      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#3B82F6" stroke-width="1.5" stroke-opacity="0.65"/>
-      <rect x="12" y="12" width="32" height="20" rx="5" fill="#3B82F6" fill-opacity="0.18"/>
-      <text x="28" y="26" fill="#3B82F6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">02</text>
-      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">SEO &amp; GEO ENGINE</text>
-      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">1-Word-1-Page · Fan-out</text>
-    </g>
-    <g transform="translate(980, 78)">
-      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#F59E0B" stroke-width="1.5" stroke-opacity="0.65"/>
-      <rect x="12" y="12" width="32" height="20" rx="5" fill="#F59E0B" fill-opacity="0.18"/>
-      <text x="28" y="26" fill="#F59E0B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">03</text>
-      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">VIDEO AS CODE</text>
-      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">White-Model · Remotion</text>
-    </g>
-    <g transform="translate(600, 186)">
-      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#EC4899" stroke-width="1.5" stroke-opacity="0.65"/>
-      <rect x="12" y="12" width="32" height="20" rx="5" fill="#EC4899" fill-opacity="0.18"/>
-      <text x="28" y="26" fill="#EC4899" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">04</text>
-      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">DE-AI TASTE</text>
-      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">62 UI Rules · Raw Voice</text>
-    </g>
-    <g transform="translate(790, 186)">
-      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#8B5CF6" stroke-width="1.5" stroke-opacity="0.65"/>
-      <rect x="12" y="12" width="32" height="20" rx="5" fill="#8B5CF6" fill-opacity="0.18"/>
-      <text x="28" y="26" fill="#8B5CF6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">05</text>
-      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">REAL BENCHMARK</text>
-      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">Vector-DB 2x · 6/6 Draw</text>
-    </g>
-    <g transform="translate(980, 186)">
-      <rect width="176" height="94" rx="10" fill="#131C2E" stroke="#06B6D4" stroke-width="1.5" stroke-opacity="0.65"/>
-      <rect x="12" y="12" width="32" height="20" rx="5" fill="#06B6D4" fill-opacity="0.18"/>
-      <text x="28" y="26" fill="#06B6D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle">06</text>
-      <text x="12" y="54" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">ENTERPRISE FDE</text>
-      <text x="12" y="76" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="11">3-Layer Gate · Approval</text>
+  <g transform="translate(596, 68)">
+      <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+      <rect x="0" y="0" width="182" height="4" rx="2" fill="#2f9e44"/>
+      <text x="14" y="36" fill="#2f9e44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">01</text>
+      <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">Agent Factory</text>
+      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Worktree · 1m CAS · 5000t</text>
+    </g><g transform="translate(792, 68)">
+      <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+      <rect x="0" y="0" width="182" height="4" rx="2" fill="#4dabf7"/>
+      <text x="14" y="36" fill="#4dabf7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">02</text>
+      <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">SEO &amp; GEO Engine</text>
+      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">1-word-1-page · Fan-out</text>
+    </g><g transform="translate(988, 68)">
+      <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+      <rect x="0" y="0" width="182" height="4" rx="2" fill="#f59f00"/>
+      <text x="14" y="36" fill="#f59f00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">03</text>
+      <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">Video as Code</text>
+      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">White-model previz · MCP</text>
+    </g><g transform="translate(596, 186)">
+      <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+      <rect x="0" y="0" width="182" height="4" rx="2" fill="#e8590c"/>
+      <text x="14" y="36" fill="#e8590c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">04</text>
+      <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">De-AI Taste</text>
+      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">62 UI rules · no AI draft</text>
+    </g><g transform="translate(792, 186)">
+      <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+      <rect x="0" y="0" width="182" height="4" rx="2" fill="#4263eb"/>
+      <text x="14" y="36" fill="#4263eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">05</text>
+      <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">Real Benchmark</text>
+      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Vector-DB 2x · 6/6 draw</text>
+    </g><g transform="translate(988, 186)">
+      <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+      <rect x="0" y="0" width="182" height="4" rx="2" fill="#7950f2"/>
+      <text x="14" y="36" fill="#7950f2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">06</text>
+      <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">Enterprise FDE</text>
+      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">3-layer gate · approval</text>
     </g>
 </svg>
