@@ -24,26 +24,26 @@
   <a href="./evolve/REPORT.md"><img src="https://img.shields.io/badge/Darwin_v2.1-88.9_%2F_100_(+23.1)-3FB950?style=flat-square" alt="Darwin Score 88.9"></a>
   <a href="./evolve/REPORT.md"><img src="https://img.shields.io/badge/Paired_Judge-3%2F3_Unanimous_Keep-3FB950?style=flat-square" alt="Paired 3/3"></a>
   <a href="./acceptance/test-prompts.json"><img src="https://img.shields.io/badge/Assertions-18%2F18_(100%25)-10B981?style=flat-square" alt="Assertions 18/18"></a>
-  <a href="./ai-creators-on-x.md"><img src="https://img.shields.io/badge/Corpus-1,145_Tech_Posts-F97316?style=flat-square" alt="1,145 Tech Posts"></a>
+  <a href="./ai-creators-on-x.md"><img src="https://img.shields.io/badge/Corpus-1145_Tech_Posts-F97316?style=flat-square" alt="1,145 Tech Posts"></a>
 </p>
 
 <p align="center">
-  <a href="./SELLING_POINTS.md"><img src="https://img.shields.io/badge/🔥_核心卖点手册-6_Playbooks-10B981?style=for-the-badge&labelColor=0D1117" alt="Selling Points"></a>
+  <a href="./SELLING_POINTS.md"><img src="./assets/readme/cta-selling-zh.svg" height="34" alt="核心卖点手册 · 6 Playbooks"></a>
   &nbsp;
-  <a href="./ai-creators-on-x.md"><img src="https://img.shields.io/badge/📖_20人全文蒸馏-1,890_Lines-F97316?style=for-the-badge&labelColor=0D1117" alt="Full Digest"></a>
+  <a href="./ai-creators-on-x.md"><img src="./assets/readme/cta-digest-zh.svg" height="34" alt="20人全文蒸馏 · 1,890 Lines"></a>
   &nbsp;
-  <a href="./evolve/REPORT.md"><img src="https://img.shields.io/badge/🧬_达尔文进化报告-65.8_→_88.9-2563EB?style=for-the-badge&labelColor=0D1117" alt="Darwin Report"></a>
+  <a href="./evolve/REPORT.md"><img src="./assets/readme/cta-darwin-zh.svg" height="34" alt="达尔文进化报告 · 65.8 → 88.9"></a>
   &nbsp;
-  <a href="./README.en.md"><img src="https://img.shields.io/badge/🌐_Read_in_English-Switch_Now-8B5CF6?style=for-the-badge&labelColor=0D1117" alt="Read in English"></a>
+  <a href="./README.en.md"><img src="./assets/readme/btn-en-switch.svg" height="34" alt="Read in English"></a>
 </p>
 
 <p align="center">
-  <a href="#-横屏宣传片169-horizontal-promo">🎬 横屏宣传片</a> ·
-  <a href="#-五阶工程流水线pipeline">⚡ 蒸馏流水线</a> ·
-  <a href="#-六大可执行能力卡interactive-playbooks">🧩 六大能力卡</a> ·
-  <a href="#-宣传片关键帧画廊shotcraft-gallery">🖼️ 镜头画廊</a> ·
-  <a href="#-控制流与安全门禁logic-map">🛡️ 门禁路由图</a> ·
-  <a href="#-darwin-v21-量化评测账本">📊 进化账本</a> ·
+  <a href="#promo-video">🎬 横屏宣传片</a> ·
+  <a href="#pipeline">⚡ 蒸馏流水线</a> ·
+  <a href="#playbooks">🧩 六大能力卡</a> ·
+  <a href="#gallery">🖼️ 镜头画廊</a> ·
+  <a href="#logic-map">🛡️ 门禁路由图</a> ·
+  <a href="#scoreboard">📊 进化账本</a> ·
   <a href="#-30-秒快速上手与全局安装">🚀 快速安装</a>
 </p>
 
@@ -51,26 +51,14 @@
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  HORIZONTAL PROMO VIDEO · 16:9 (1920×1080 · 36.2s)  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="promo-video"></div>
 
-## 🎬 横屏宣传片（16:9 Horizontal Promo）
+<img src="./assets/readme/sec-01-video-zh.svg" width="100%" alt="01 Horizontal Promo Video">
 
 > **零人声旁白（No Narration）· 32 处逐帧钉死电影级 SFX + Tech House BGM · 2x 矢量界面渲染**
 
-<!-- 1. HTML5 横屏播放器（适用于 VS Code / Typora / Obsidian / 网页 Markdown） -->
-<video src="./promo/out/promo-readme.mp4" poster="./product-card/card.png" width="100%" controls autoplay loop muted playsinline>
-  Your markdown viewer does not support HTML5 video. Click the animated preview below to open the full MP4.
-</video>
-
 <!-- 2. 标准 Markdown 16:9 横屏动图内嵌（GitHub README 通用，点击动图直接播放有声 MP4） -->
 [![AI-CREATORS-ON-X Horizontal 16:9 Promo Video](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
-
-<!-- 3. Obsidian 原生双链横屏视频播放器 -->
-![[promo/out/promo-readme.mp4]]
 
 | 宣传片版本 | 文件路径 | 画幅 / 分辨率 | 体积 | 音轨与用途说明 |
 | --- | --- | --- | --- | --- |
@@ -81,13 +69,9 @@
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  END-TO-END DISTILLATION & EVOLUTION PIPELINE  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="pipeline"></div>
 
-## ⚡ 五阶工程流水线（Pipeline）
+<img src="./assets/readme/sec-02-pipeline-zh.svg" width="100%" alt="02 Five-Stage Engineering Pipeline">
 
 <p align="center">
   <img src="./assets/readme/pipeline-zh.svg" width="100%" alt="五阶工程流水线：原始抓取 1,641 帖 → 双层精筛 1,145 帖 → 仓颉拆解 6 张能力卡 → 达尔文进化 88.9 分 → 全机 4 端同步部署">
@@ -101,23 +85,9 @@
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  SIX EXECUTABLE PLAYBOOKS · INTERACTIVE CARDS  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="playbooks"></div>
 
-## 🧩 六大可执行能力卡（Interactive Playbooks）
-
-```
-┌─ TRACK A–C PLAYBOOKS (3) ───────────┬─ TRACK D–E PLAYBOOKS (3) ─────────┐
-│ ◇ 01 agent-software-factory         │ ◇ 04 de-ai-taste-and-writing      │
-│ ◇ 02 seo-geo-growth-engine          │ ◇ 05 agent-benchmark-routing      │
-│ ◇ 03 video-and-design-as-code       │ ◇ 06 enterprise-fde-and-ops       │
-├─ CORPUS & VERIFICATION ─────────────┴───────────────────────────────────┤
-│ ▸ 20 Creators · 1,145 Tech Posts · 62,165 Likes · 18/18 Assertions Pass │
-└──────────────────────────────────────────────────────────────────────────┘
-```
+<img src="./assets/readme/sec-03-playbooks-zh.svg" width="100%" alt="03 Six Executable Playbooks">
 
 点击下方任意能力卡即可展开查看 **真实痛点、量化工程门禁、可执行命令与代表创作者**（完整卡片位于 `dist/ai-creators-on-x/references/capabilities/`）：
 
@@ -204,13 +174,9 @@
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  SHOTCRAFT GALLERY · 1920×1080 VECTOR KEYFRAMES  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="gallery"></div>
 
-## 🖼️ 宣传片关键帧画廊（Shotcraft Gallery）
+<img src="./assets/readme/sec-04-gallery-zh.svg" width="100%" alt="04 Shotcraft Keyframe Gallery">
 
 <table>
   <tr>
@@ -233,63 +199,24 @@
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  CONTROL FLOW & SAFETY GATES · LOGIC MAP  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="logic-map"></div>
 
-## 🛡️ 控制流与安全门禁（Logic Map）
+<img src="./assets/readme/sec-05-gates-zh.svg" width="100%" alt="05 Control Flow & Safety Gates">
 
 > [!IMPORTANT]
 > **🔴 CHECKPOINT 硬门禁（源自 20 位创作者真实翻车教训）**
 > 1. **支付回调与不可逆操作门禁（`BL-1`）**：`@gefei55` 亲历 AI 编写的充值回调漏掉签名校验，被伪造 23 笔订单刷走上万美金积分。凡涉及支付回调、微信/邮件群发、生产库改写，**必须强制停机输出签名校验与人工审稿闸方案**。
 > 2. **FDE 地基成本与建站四关门禁（`CHECKPOINT 2`）**：制造业 FDE 先算 **5–8 万元/系统**地基成本并卡死 **20 人天上限**（`@cnzhihao`）；新开网站目录必过四关（`@CoderJeffLee`）。
 
-```
-                     User Task / Intent Arrives
-                                 │
-                                 ▼
-              ┌─────────────────────────────────────┐
-              │  Step 1 · 意图分类与不适用清单预检   │
-              │  (实时价格? 绕过校验? 泛学科问答?)   │
-              └──────────────────┬──────────────────┘
-                   ┌─── hit ─────┴───── pass ───┐
-                   ▼                            ▼
-         ✗ STOP & REFUSE/OVERVIEW    ┌───────────────────────────┐
-           (Read overview.md or      │ Step 2 · 按路由表加载 1 卡 │
-            output safety gate)      │ 核对 ## E 段「必需输入」   │
-                                     └─────────────┬─────────────┘
-                                      ┌── missing ─┴─ complete ──┐
-                                      ▼                          ▼
-                            列出 2–4 项缺失参数          ┌───────────────────┐
-                            或输出 [占位符] 骨架         │ ▣ CHECKPOINT 1 & 2│
-                                                        │ 涉支付/群发/FDE?  │
-                                                        └─────────┬─────────┘
-                                                   ┌── high-risk ─┴─ normal ─┐
-                                                   ▼                         ▼
-                                         🛑 STOP 先出校验方案       Step 3 · 按 E 段步骤
-                                            获确认后再放行          产出配置/代码/SOP
-                                                   │                         │
-                                                   └───────────┬─────────────┘
-                                                               ▼
-                                                ┌─────────────────────────────┐
-                                                │ Step 4 · 对照 ## B 自检清单  │
-                                                │ (5000t / BL-1..6 / 去AI味)  │
-                                                └──────────────┬──────────────┘
-                                                               ▼
-                                                     ✓ DELIVER VERIFIED
-```
+<p align="center">
+  <img src="./assets/readme/logic-map-zh.svg" width="100%" alt="4-Step Execution and Safety Checkpoint Logic Map">
+</p>
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  DARWIN v2.1 EVOLUTION SCOREBOARD & RUBRIC  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="scoreboard"></div>
 
-## 📊 Darwin v2.1 量化评测账本
+<img src="./assets/readme/sec-06-darwin-zh.svg" width="100%" alt="06 Darwin v2.1 Evaluation Scoreboard">
 
 基于微软研究院 **SkillLens（arXiv 2605.23899）9 维 Rubric** 与 **Darwin v2.1 Paired 同-Judge 盲评棘轮**（3 个独立 `scout` 子代理随机互换 A/B 标签，消除单评 ±8 换尺噪音）：
 
@@ -308,13 +235,9 @@
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  QUICK START & GLOBAL INSTALLATION STATUS  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="quick-start"></div>
 
-## 🚀 30 秒快速上手与全局安装
+<img src="./assets/readme/sec-07-install-zh.svg" width="100%" alt="07 Quick Start & Global Install">
 
 ### 1. 本机 4 端全局安装状态（已同步生效）
 
@@ -341,13 +264,12 @@
 
 ### 3. 仓库核心文件索引
 
-```
-   ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-           README.md           ─── 中文交互式旗舰首页（点击右上角切换英文）
-           README.en.md        ─── English Interactive Homepage (Click-to-Switch)
-           ai-creators-on-x.md ─── 20 位创作者 1,890 行完整蒸馏长文（§1–§6）
-           SELLING_POINTS.md   ─── 六大核心痛点与量化卖点速查手册
-           evolve/REPORT.md    ─── Darwin v2.1 Paired 3/3 盲评与 9 维进化报告
-   ◆       promo/              ─── ShotCraft 36.2s 16:9 横屏宣传片工程与 MP4/GIF
-   ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-```
+| 文件路径 | 核心内容说明 |
+| --- | --- |
+| [`README.md`](./README.md) | 🇨🇳 中文交互式旗舰首页（点击右上角胶囊按钮一键切换英文） |
+| [`README.en.md`](./README.en.md) | 🌐 英文交互式旗舰首页（点击右上角胶囊按钮一键切换中文） |
+| [`SKILL.md`](./SKILL.md) / [`references/`](./references/) | 仓库根目录标准 Skill 入口与 6 张 RIA++ 能力卡（支持 `npx skills add` 直装） |
+| [`ai-creators-on-x.md`](./ai-creators-on-x.md) | 20 位创作者 1,890 行完整蒸馏长文（§1–§6 全文与外链核验表） |
+| [`SELLING_POINTS.md`](./SELLING_POINTS.md) | 六大核心痛点与量化卖点速查手册 |
+| [`evolve/REPORT.md`](./evolve/REPORT.md) | Darwin v2.1 Paired 3/3 盲评与 9 维进化报告 |
+| [`promo/`](./promo/) | ShotCraft 36.2s 16:9 横屏宣传片 Remotion 工程与 MP4/GIF 产物 |

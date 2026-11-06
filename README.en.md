@@ -24,53 +24,41 @@
   <a href="./evolve/REPORT.md"><img src="https://img.shields.io/badge/Darwin_v2.1-88.9_%2F_100_(+23.1)-3FB950?style=flat-square" alt="Darwin Score 88.9"></a>
   <a href="./evolve/REPORT.md"><img src="https://img.shields.io/badge/Paired_Judge-3%2F3_Unanimous_Keep-3FB950?style=flat-square" alt="Paired 3/3"></a>
   <a href="./acceptance/test-prompts.json"><img src="https://img.shields.io/badge/Assertions-18%2F18_(100%25)-10B981?style=flat-square" alt="Assertions 18/18"></a>
-  <a href="./ai-creators-on-x.md"><img src="https://img.shields.io/badge/Corpus-1,145_Tech_Posts-F97316?style=flat-square" alt="1,145 Tech Posts"></a>
+  <a href="./ai-creators-on-x.md"><img src="https://img.shields.io/badge/Corpus-1145_Tech_Posts-F97316?style=flat-square" alt="1,145 Tech Posts"></a>
 </p>
 
 <p align="center">
-  <a href="./SELLING_POINTS.md"><img src="https://img.shields.io/badge/🔥_Selling_Points-6_Playbooks-10B981?style=for-the-badge&labelColor=0D1117" alt="Selling Points"></a>
+  <a href="./SELLING_POINTS.md"><img src="./assets/readme/cta-selling-en.svg" height="34" alt="Selling Points · 6 Playbooks"></a>
   &nbsp;
-  <a href="./ai-creators-on-x.md"><img src="https://img.shields.io/badge/📖_Full_Digest-1,890_Lines-F97316?style=for-the-badge&labelColor=0D1117" alt="Full Digest"></a>
+  <a href="./ai-creators-on-x.md"><img src="./assets/readme/cta-digest-en.svg" height="34" alt="Full Digest · 1,890 Lines"></a>
   &nbsp;
-  <a href="./evolve/REPORT.md"><img src="https://img.shields.io/badge/🧬_Darwin_Report-65.8_→_88.9-2563EB?style=for-the-badge&labelColor=0D1117" alt="Darwin Report"></a>
+  <a href="./evolve/REPORT.md"><img src="./assets/readme/cta-darwin-en.svg" height="34" alt="Darwin Report · 65.8 → 88.9"></a>
   &nbsp;
-  <a href="./README.md"><img src="https://img.shields.io/badge/🇨🇳_阅读中文版-一键切换-8B5CF6?style=for-the-badge&labelColor=0D1117" alt="Switch to Chinese"></a>
+  <a href="./README.md"><img src="./assets/readme/btn-zh-switch.svg" height="34" alt="切换到简体中文"></a>
 </p>
 
 <p align="center">
-  <a href="#-horizontal-promo-video-169">🎬 Promo Video</a> ·
-  <a href="#-five-stage-engineering-pipeline">⚡ Pipeline</a> ·
-  <a href="#-six-executable-playbooks-interactive-cards">🧩 6 Playbooks</a> ·
-  <a href="#-shotcraft-keyframe-gallery">🖼️ Keyframe Gallery</a> ·
-  <a href="#-control-flow--safety-gates-logic-map">🛡️ Logic Map</a> ·
-  <a href="#-darwin-v21-evaluation-scoreboard">📊 Darwin Scoreboard</a> ·
-  <a href="#-30-second-quick-start--global-install">🚀 Quick Start</a>
+  <a href="#promo-video">🎬 Promo Video</a> ·
+  <a href="#pipeline">⚡ Pipeline</a> ·
+  <a href="#playbooks">🧩 6 Playbooks</a> ·
+  <a href="#gallery">🖼️ Keyframe Gallery</a> ·
+  <a href="#logic-map">🛡️ Logic Map</a> ·
+  <a href="#scoreboard">📊 Darwin Scoreboard</a> ·
+  <a href="#quick-start">🚀 Quick Start</a>
 </p>
 
 </div>
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  HORIZONTAL PROMO VIDEO · 16:9 (1920×1080 · 36.2s)  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="promo-video"></div>
 
-## 🎬 Horizontal Promo Video (16:9)
+<img src="./assets/readme/sec-01-video-en.svg" width="100%" alt="01 Horizontal Promo Video">
 
 > **Zero Voiceover Narration · 32 Frame-Pinned Cinematic SFX + Tech House BGM · 2x Vector UI Rendering**
 
-<!-- 1. HTML5 Horizontal Video Player (VS Code / Typora / Obsidian / Web Markdown) -->
-<video src="./promo/out/promo-readme.mp4" poster="./product-card/card.png" width="100%" controls autoplay loop muted playsinline>
-  Your markdown viewer does not support HTML5 video. Click the animated preview below to open the full MP4.
-</video>
-
 <!-- 2. Standard Markdown 16:9 Animated GIF Fallback (Works natively on GitHub README; click to open MP4 with sound) -->
 [![AI-CREATORS-ON-X Horizontal 16:9 Promo Video](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
-
-<!-- 3. Obsidian Native Wikilink Video Embed -->
-![[promo/out/promo-readme.mp4]]
 
 | Video Edition | File Path | Aspect Ratio / Resolution | Size | Audio & Delivery Notes |
 | --- | --- | --- | --- | --- |
@@ -81,13 +69,9 @@
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  END-TO-END DISTILLATION & EVOLUTION PIPELINE  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="pipeline"></div>
 
-## ⚡ Five-Stage Engineering Pipeline
+<img src="./assets/readme/sec-02-pipeline-en.svg" width="100%" alt="02 Five-Stage Engineering Pipeline">
 
 <p align="center">
   <img src="./assets/readme/pipeline-en.svg" width="100%" alt="Five-Stage Pipeline: Collect 1,641 Raw Posts → Filter 1,145 Tech Posts → Distill 6 RIA++ Playbooks → Evolve to 88.9 via Darwin v2.1 → Deploy Across 4 Global Skill Hubs">
@@ -101,23 +85,9 @@
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  SIX EXECUTABLE PLAYBOOKS · INTERACTIVE CARDS  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="playbooks"></div>
 
-## 🧩 Six Executable Playbooks (Interactive Cards)
-
-```
-┌─ TRACK A–C PLAYBOOKS (3) ───────────┬─ TRACK D–E PLAYBOOKS (3) ─────────┐
-│ ◇ 01 agent-software-factory         │ ◇ 04 de-ai-taste-and-writing      │
-│ ◇ 02 seo-geo-growth-engine          │ ◇ 05 agent-benchmark-routing      │
-│ ◇ 03 video-and-design-as-code       │ ◇ 06 enterprise-fde-and-ops       │
-├─ CORPUS & VERIFICATION ─────────────┴───────────────────────────────────┤
-│ ▸ 20 Creators · 1,145 Tech Posts · 62,165 Likes · 18/18 Assertions Pass │
-└──────────────────────────────────────────────────────────────────────────┘
-```
+<img src="./assets/readme/sec-03-playbooks-en.svg" width="100%" alt="03 Six Executable Playbooks">
 
 Click any capability card below to expand its **real-world pain points, quantified engineering guardrails, and creator attributions** (full cards live under `dist/ai-creators-on-x/references/capabilities/`):
 
@@ -204,13 +174,9 @@ Click any capability card below to expand its **real-world pain points, quantifi
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  SHOTCRAFT GALLERY · 1920×1080 VECTOR KEYFRAMES  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="gallery"></div>
 
-## 🖼️ Shotcraft Keyframe Gallery
+<img src="./assets/readme/sec-04-gallery-en.svg" width="100%" alt="04 Shotcraft Keyframe Gallery">
 
 <table>
   <tr>
@@ -233,63 +199,24 @@ Click any capability card below to expand its **real-world pain points, quantifi
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  CONTROL FLOW & SAFETY GATES · LOGIC MAP  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="logic-map"></div>
 
-## 🛡️ Control Flow & Safety Gates (Logic Map)
+<img src="./assets/readme/sec-05-gates-en.svg" width="100%" alt="05 Control Flow & Safety Gates">
 
 > [!IMPORTANT]
 > **🔴 Hard Safety Checkpoints (Grounded in Real Creator Post-Mortems)**
 > 1. **Payment Webhook &amp; Irreversible Action Gate (`BL-1`)**: `@gefei55` documented an AI-written top-up webhook that omitted signature verification and was exploited for 23 fake orders ($10,000+ in credits). Any payment callback, bulk outbound messaging, or production DB mutation **triggers an immediate STOP until signature verification and human approval gates are specified**.
 > 2. **FDE Foundation Cost &amp; 4-Gate Directory Check (`CHECKPOINT 2`)**: Manufacturing FDE engagements must budget **50k–80k RMB per legacy ERP/MES connector** and cap scope at **≤20 man-days** (`@cnzhihao`); new site directories must clear all 4 structural gates (`@CoderJeffLee`).
 
-```
-                     User Task / Intent Arrives
-                                 │
-                                 ▼
-              ┌─────────────────────────────────────┐
-              │  Step 1 · Intent & Out-of-Scope Gate│
-              │  (Live price? Bypass auth? Off-topic)│
-              └──────────────────┬──────────────────┘
-                   ┌─── hit ─────┴───── pass ───┐
-                   ▼                            ▼
-         ✗ STOP & REFUSE/OVERVIEW    ┌───────────────────────────┐
-           (Read overview.md or      │ Step 2 · Load 1 Card via  │
-            output safety gate)      │ Routing Table & Check ## E│
-                                     └─────────────┬─────────────┘
-                                      ┌── missing ─┴─ complete ──┐
-                                      ▼                          ▼
-                            Ask 2–4 missing fields      ┌───────────────────┐
-                            or emit [placeholder] spec  │ ▣ CHECKPOINT 1 & 2│
-                                                        │ Payment/FDE/Send? │
-                                                        └─────────┬─────────┘
-                                                   ┌── high-risk ─┴─ normal ─┐
-                                                   ▼                         ▼
-                                         🛑 STOP: Emit Auth Gate   Step 3 · Execute ## E
-                                            & Wait for Approval    Steps & Emit Artifacts
-                                                   │                         │
-                                                   └───────────┬─────────────┘
-                                                               ▼
-                                                ┌─────────────────────────────┐
-                                                │ Step 4 · Verify Against ## B│
-                                                │ (5000t / BL-1..6 / De-AI)   │
-                                                └──────────────┬──────────────┘
-                                                               ▼
-                                                     ✓ DELIVER VERIFIED
-```
+<p align="center">
+  <img src="./assets/readme/logic-map-en.svg" width="100%" alt="4-Step Execution and Safety Checkpoint Logic Map">
+</p>
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  DARWIN v2.1 EVOLUTION SCOREBOARD & RUBRIC  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="scoreboard"></div>
 
-## 📊 Darwin v2.1 Evaluation Scoreboard
+<img src="./assets/readme/sec-06-darwin-en.svg" width="100%" alt="06 Darwin v2.1 Evaluation Scoreboard">
 
 Evaluated under Microsoft Research's **SkillLens (arXiv 2605.23899) 9-Dimension Rubric** and **Darwin v2.1 Paired Within-Judge Blind Ratchet** (3 independent `scout` judges with randomized A/B order to cancel ±8 judge scale noise):
 
@@ -308,13 +235,9 @@ Evaluated under Microsoft Research's **SkillLens (arXiv 2605.23899) 9-Dimension 
 
 ---
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█▓▒░  ◆  QUICK START & GLOBAL INSTALLATION STATUS  ◆  ░▒▓█
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<div id="quick-start"></div>
 
-## 🚀 30-Second Quick Start & Global Install
+<img src="./assets/readme/sec-07-install-en.svg" width="100%" alt="07 Quick Start & Global Install">
 
 ### 1. Global Installation Status (Live Across All 4 Agent Hubs)
 
@@ -341,13 +264,12 @@ Use ai-creators-on-x to draft a 15-second 4-shot commercial video prompt for See
 
 ### 3. Repository Artifact Timeline
 
-```
-   ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-           README.md           ─── Chinese Interactive Homepage (Click top-right for EN)
-           README.en.md        ─── English Interactive Homepage (Click top-right for ZH)
-           ai-creators-on-x.md ─── Full 1,890-line Distilled Source Digest (§1–§6)
-           SELLING_POINTS.md   ─── Six Core Pain-Points & Quantified Value Matrix
-           evolve/REPORT.md    ─── Darwin v2.1 Paired 3/3 Blind Verdict & 9-Dim Report
-   ◆       promo/              ─── ShotCraft 36.2s 16:9 Horizontal Promo & Workbench
-   ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-```
+| Path | Description |
+| --- | --- |
+| [`README.md`](./README.md) | 🇨🇳 Chinese Interactive Homepage (Click top-right button to switch) |
+| [`README.en.md`](./README.en.md) | 🌐 English Interactive Homepage (Click top-right button to switch) |
+| [`SKILL.md`](./SKILL.md) / [`references/`](./references/) | Root Agent Skill Entrypoint & 6 RIA++ Capability Cards (`npx skills add` ready) |
+| [`ai-creators-on-x.md`](./ai-creators-on-x.md) | Full 1,890-line Distilled Source Digest (§1–§6 across 20 creators) |
+| [`SELLING_POINTS.md`](./SELLING_POINTS.md) | Six Core Pain-Points & Quantified Value Matrix |
+| [`evolve/REPORT.md`](./evolve/REPORT.md) | Darwin v2.1 Paired 3/3 Blind Verdict & 9-Dimension Report |
+| [`promo/`](./promo/) | ShotCraft 36.2s 16:9 Horizontal Promo Project & MP4/GIF Outputs |
