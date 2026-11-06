@@ -1,21 +1,10 @@
-<div align="right">
-
-<!-- Click-to-Switch Bilingual Bar (EN <-> ZH) -->
-<a href="./README.md"><img src="./assets/readme/btn-zh-switch.svg" height="34" alt="切换到简体中文"></a>
-&nbsp;
-<span title="Active language"><img src="./assets/readme/btn-en-active.svg" height="34" alt="Active Language: English"></span>
-
-[**← 切换到简体中文**](./README.md) · **English**
-
-</div>
-
 <div align="center">
 
 <!-- readme-theme: open-science (aligned to aipoch/open-science: warm paper #f1f0ed, ink #1a1a1a, teal accent #0b7285, Open Color wayfinding) -->
 
 <img src="./assets/readme/hero-en.svg" width="100%" alt="AI-CREATORS-ON-X Hero Banner: 20 Chinese X AI Creators · 1,145 Tech Posts → 8 RIA++ Agent Playbooks">
 
-# AI-CREATORS-ON-X
+<h1 align="center"><img src="./assets/readme/title-rainbow.svg" width="100%" alt="AI-CREATORS-ON-X"></h1>
 
 **1,145 high-signal technical posts and 60+ open-source repositories from 20 top Chinese AI creators on X — distilled into 8 callable RIA++ Agent Playbooks.**
 
@@ -35,6 +24,7 @@
   &nbsp;
   <a href="./evolve/REPORT.md"><img src="./assets/readme/cta-darwin-en.svg" height="34" alt="Darwin Report · 65.8 → 88.9"></a>
   &nbsp;
+  <span title="Active language"><img src="./assets/readme/btn-en-active.svg" height="34" alt="Active Language: English"></span>
   <a href="./README.md"><img src="./assets/readme/btn-zh-switch.svg" height="34" alt="切换到简体中文"></a>
 </p>
 

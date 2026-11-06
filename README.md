@@ -1,22 +1,10 @@
-<div align="right">
-
-<!-- Click-to-Switch Bilingual Bar (ZH <-> EN) -->
-<span title="当前语言"><img src="./assets/readme/btn-zh-active.svg" height="34" alt="当前语言：简体中文"></span>
-
-&nbsp;
-<a href="./README.en.md"><img src="./assets/readme/btn-en-switch.svg" height="34" alt="Switch to English"></a>
-
-**简体中文** · [**English Version →**](./README.en.md)
-
-</div>
-
 <div align="center">
 
 <!-- readme-theme: open-science (aligned to aipoch/open-science: warm paper #f1f0ed, ink #1a1a1a, teal accent #0b7285, Open Color wayfinding) -->
 
 <img src="./assets/readme/hero-zh.svg" width="100%" alt="AI-CREATORS-ON-X Hero Banner: 20 位中文 X 头部 AI 创作者 · 1,145 条实战帖 → 8 张 RIA++ 能力卡">
 
-# AI-CREATORS-ON-X
+<h1 align="center"><img src="./assets/readme/title-rainbow.svg" width="100%" alt="AI-CREATORS-ON-X"></h1>
 
 **把 20 位中文 X（Twitter）头部 AI 创作者的 1,145 条高纯度技术帖与 60+ 开源仓库，蒸馏为 8 张随叫随到的 RIA++ 实战能力卡。**
 
@@ -36,6 +24,7 @@
   &nbsp;
   <a href="./evolve/REPORT.md"><img src="./assets/readme/cta-darwin-zh.svg" height="34" alt="达尔文进化报告 · 65.8 → 88.9"></a>
   &nbsp;
+  <span title="当前语言"><img src="./assets/readme/btn-zh-active.svg" height="34" alt="当前语言：简体中文"></span>
   <a href="./README.en.md"><img src="./assets/readme/btn-en-switch.svg" height="34" alt="Read in English"></a>
 </p>
 
