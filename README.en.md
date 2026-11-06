@@ -180,16 +180,16 @@ Click any capability card below to expand its **real-world pain points, quantifi
 
 <table>
   <tr>
-    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./promo/out/qa/f150-hero-card.png" width="100%" alt="Shot 1: 3D Spotlight Hero Card"></a></td>
-    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./promo/out/qa/f690-papers-stack.png" width="100%" alt="Shot 6: 6 Playbooks Stack"></a></td>
+    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-01-spotlight-hero-card.png" width="100%" alt="Shot 1: 3D Spotlight Hero Card"></a></td>
+    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-06-playbooks-stack.png" width="100%" alt="Shot 6: 6 Playbooks Stack"></a></td>
   </tr>
   <tr>
     <td align="center"><sub><b>Shot 1 · 3D Spotlight Hero Card (04 · Video as Code)</b>: 2.6x oblique push-in + <code>18/18 Verified.</code> floating note + dual perimeter beam laps</sub></td>
     <td align="center"><sub><b>Shot 6 · Six RIA++ Playbooks Stack</b>: Spring-loaded stack press + live <code>DigitRoll</code> counter</sub></td>
   </tr>
   <tr>
-    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./promo/out/qa/f850-darwin-wbr.png" width="100%" alt="Shot 8: Darwin v2.1 Evolution Report"></a></td>
-    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./promo/out/qa/f1040-outro.png" width="100%" alt="Shot 10: Group Photo Finale"></a></td>
+    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-08-darwin-report.png" width="100%" alt="Shot 8: Darwin v2.1 Evolution Report"></a></td>
+    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-10-group-photo-finale.png" width="100%" alt="Shot 10: Group Photo Finale"></a></td>
   </tr>
   <tr>
     <td align="center"><sub><b>Shot 8 · Darwin v2.1 Self-Writing Report</b>: <code>65.8 → 88.9 (+23.1)</code> pairwise wipe reveal + 6 creator tracks popping into the left rail</sub></td>

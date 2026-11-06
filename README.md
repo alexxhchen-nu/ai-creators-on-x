@@ -180,16 +180,16 @@
 
 <table>
   <tr>
-    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./promo/out/qa/f150-hero-card.png" width="100%" alt="Shot 1: 3D Spotlight Hero Card"></a></td>
-    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./promo/out/qa/f690-papers-stack.png" width="100%" alt="Shot 6: 6 Playbooks Stack"></a></td>
+    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-01-spotlight-hero-card.png" width="100%" alt="Shot 1: 3D Spotlight Hero Card"></a></td>
+    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-06-playbooks-stack.png" width="100%" alt="Shot 6: 6 Playbooks Stack"></a></td>
   </tr>
   <tr>
     <td align="center"><sub><b>Shot 1 · 3D 聚光主角卡（04 · Video as Code）</b>：2.6x 侧斜推近 + <code>18/18 Verified.</code> 悬浮批注 + 光束绕框两周</sub></td>
     <td align="center"><sub><b>Shot 6 · 六大 RIA++ 能力卡堆叠</b>：下压回弹入槽 + 右上角 <code>DigitRoll</code> 计数器实时滚动</sub></td>
   </tr>
   <tr>
-    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./promo/out/qa/f850-darwin-wbr.png" width="100%" alt="Shot 8: Darwin v2.1 Evolution Report"></a></td>
-    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./promo/out/qa/f1040-outro.png" width="100%" alt="Shot 10: Group Photo Finale"></a></td>
+    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-08-darwin-report.png" width="100%" alt="Shot 8: Darwin v2.1 Evolution Report"></a></td>
+    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-10-group-photo-finale.png" width="100%" alt="Shot 10: Group Photo Finale"></a></td>
   </tr>
   <tr>
     <td align="center"><sub><b>Shot 8 · Darwin v2.1 进化报告自写</b>：<code>65.8 → 88.9 (+23.1)</code> 成对擦除揭示 + 左栏 6 大赛道逐条弹入</sub></td>
