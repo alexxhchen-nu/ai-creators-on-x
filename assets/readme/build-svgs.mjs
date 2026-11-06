@@ -45,8 +45,8 @@ const T = {
   badge: `Verdana, Geneva, 'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif`,
 };
 const TITLE = (l) => `  <title id="t">${esc(l)}</title>\n`;
-const svg = (vbW, vbH, label, body, id = "t") =>
-  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${vbW} ${vbH}" width="100%" role="img" aria-labelledby="${id}">\n  <title id="${id}">${esc(label)}</title>\n${body}</svg>\n`;
+const svg = (vbW, vbH, label, body, id = "t", fixedHeight = false) =>
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${vbW} ${vbH}" ${fixedHeight ? `height="${vbH}"` : 'width="100%"'} role="img" aria-labelledby="${id}">\n  <title id="${id}">${esc(label)}</title>\n${body}</svg>\n`;
 
 // ------------------------------------------------- 1. shields-style pills
 // Used for both badges and language/CTA pills. Advance estimate per character,
@@ -94,7 +94,7 @@ const BADGES = [
 ];
 for (const [file, label, value, fill, alt] of BADGES) {
   const b = shield(label, value, fill);
-  write(`badges/${file}`, svg(b.w, 20, alt, b.body));
+  write(`badges/${file}`, svg(b.w, 20, alt, b.body, "t", true));
 }
 
 const PILLS = [
@@ -133,7 +133,7 @@ for (const [file, label, value, leftFill, rightFill, alt] of PILLS) {
   <g font-family="${T.sans}" font-size="12.5" font-weight="600" text-anchor="middle">
     <text x="${(wl / 2).toFixed(1)}" y="21" fill="${leftText}">${esc(label)}</text>
     <text x="${(wl + wv / 2).toFixed(1)}" y="21" fill="${rightText}">${esc(value)}</text>
-  </g>`));
+  </g>`, "t", true));
 }
 
 // --------------------------------------------- 2. section headers 1200x56
