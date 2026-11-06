@@ -20,12 +20,12 @@
 **把 20 位中文 X（Twitter）头部 AI 创作者的 1,145 条高纯度技术帖与 60+ 开源仓库，蒸馏为 6 张随叫随到的 RIA++ 实战能力卡。**
 
 <p align="center">
-  <a href="./dist/ai-creators-on-x/SKILL.md"><img alt="Built with Cangjie 2.5 RIA-TV++" src="https://img.shields.io/badge/Cangjie-v2.5%20RIA--TV%2B%2B-0b7285?style=flat"></a>
-  <a href="./evolve/REPORT.md"><img alt="Darwin v2.1 evolution score 88.9 out of 100" src="https://img.shields.io/badge/Darwin%20v2.1-88.9%20%2F%20100%20(%2B23.1)-2f9e44?style=flat"></a>
-  <a href="./evolve/REPORT.md"><img alt="Paired blind judge verdict: unanimous 3 of 3 keep" src="https://img.shields.io/badge/paired%20judge-3%2F3%20keep-4263eb?style=flat"></a>
-  <a href="./acceptance/test-prompts.json"><img alt="Empirical assertions passed 18 of 18" src="https://img.shields.io/badge/assertions-18%2F18%20(100%25)-4dabf7?style=flat"></a>
-  <a href="./ai-creators-on-x.md"><img alt="Corpus: 1145 technical posts from 20 creators" src="https://img.shields.io/badge/corpus-1%2C145%20posts-e8590c?style=flat"></a>
-  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-see%20LICENSE-7950f2?style=flat"></a>
+  <a href="./dist/ai-creators-on-x/SKILL.md"><img alt="Built with Cangjie 2.5 RIA-TV++" src="./assets/readme/badges/badge-cangjie.svg"></a>
+  <a href="./evolve/REPORT.md"><img alt="Darwin v2.1 evolution score 88.9 out of 100, up 23.1" src="./assets/readme/badges/badge-darwin.svg"></a>
+  <a href="./evolve/REPORT.md"><img alt="Paired blind judge verdict: unanimous 3 of 3 keep" src="./assets/readme/badges/badge-paired.svg"></a>
+  <a href="./acceptance/test-prompts.json"><img alt="Empirical assertions passed 18 of 18" src="./assets/readme/badges/badge-assert.svg"></a>
+  <a href="./ai-creators-on-x.md"><img alt="Corpus: 1,145 technical posts" src="./assets/readme/badges/badge-corpus.svg"></a>
+  <a href="./LICENSE"><img alt="License" src="./assets/readme/badges/badge-license.svg"></a>
 </p>
 
 <p align="center">
