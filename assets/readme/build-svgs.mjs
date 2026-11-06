@@ -47,11 +47,21 @@ const svg = (vbW, vbH, label, body, id = "t") =>
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${vbW} ${vbH}" width="100%" role="img" aria-labelledby="${id}">\n  <title id="${id}">${esc(label)}</title>\n${body}</svg>\n`;
 
 // ------------------------------------------------- 1. shields-style pills
-// Used for both badges and language/CTA pills. textW() below is a conservative
-// advance estimate (CJK counts 1.0em, latin 0.55em) widened until the Chromium
-// harness reported >= 6 units of slack on every half.
-const em = (s) => [...s].reduce((a, c) => a + (/[\u2E80-\u9FFF\uF900-\uFAFF]/.test(c) ? 1.0 : 0.55), 0);
-const halfW = (s, fs = 11) => Math.max(24, Math.round(em(s) * fs * 1.02) + 20);
+// Used for both badges and language/CTA pills. Advance estimate per character,
+// calibrated against Chromium measurements: lower-case latin 0.56em, upper-case
+// 0.72em, digits 0.62em, space 0.30em, CJK 1.0em. A flat 0.55em for everything
+// under-counted uppercase by up to 25% and made 'DARWIN REPORT' overflow its
+// half by 5.2 units; the separated classes plus 20 units of padding per half keep
+// every pill/badge on >= 6 units of slack (verified by the harness).
+const em = (s) => [...s].reduce((a, c) => {
+  if (/[\u2E80-\u9FFF\uF900-\uFAFF\uFF00-\uFFEF]/.test(c)) return a + 1.0;
+  if (c === " ") return a + 0.30;
+  if (/[A-Z]/.test(c)) return a + 0.72;
+  if (/[0-9]/.test(c)) return a + 0.62;
+  if (/[a-z]/.test(c)) return a + 0.56;
+  return a + 0.62;
+}, 0);
+const halfW = (s, fs = 11) => Math.max(24, Math.ceil(em(s) * fs) + 20);
 
 function shield(label, value, fill) {
   const wl = halfW(label), wv = halfW(value), w = wl + wv;

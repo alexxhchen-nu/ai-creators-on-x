@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 32" width="100%" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207 32" width="100%" role="img" aria-labelledby="t">
   <title id="t">Darwin Report · 65.8 to 88.9</title>
   <defs>
     <linearGradient id="shp349627935" x2="0" y2="100%"><stop stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".06"/></linearGradient>
-    <clipPath id="clp349627935"><rect width="188" height="32" rx="4"/></clipPath>
+    <clipPath id="clp349627935"><rect width="207" height="32" rx="4"/></clipPath>
   </defs>
   <g clip-path="url(#clp349627935)">
-    <rect width="100" height="32" fill="#3d3d3d"/>
-    <rect x="100" width="88" height="32" fill="#3d5bd8"/>
-    <rect width="188" height="32" fill="url(#shp349627935)"/>
+    <rect width="119" height="32" fill="#3d3d3d"/>
+    <rect x="119" width="88" height="32" fill="#3d5bd8"/>
+    <rect width="207" height="32" fill="url(#shp349627935)"/>
   </g>
   <g font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">
-    <text x="50.0" y="21" fill="#ffffff">DARWIN REPORT</text>
-    <text x="144.0" y="21" fill="#ffffff">65.8 → 88.9</text>
+    <text x="59.5" y="21" fill="#ffffff">DARWIN REPORT</text>
+    <text x="163.0" y="21" fill="#ffffff">65.8 → 88.9</text>
   </g></svg>
