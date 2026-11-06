@@ -64,9 +64,11 @@
 
 <!-- 2. GitHub 原生：动图预览，点击即打开带声音的 MP4 -->
 <details>
-<summary>▶ <a href="./promo/out/promo-readme.mp4">打开 MP4 播放（含声音）</a> —— 动图预览</summary>
+<summary>▶ 展开动图预览（960×540 GIF，6.11 MB）</summary>
 
-[![AI-CREATORS-ON-X 横屏 16:9 宣传片，36.2 秒，无人声旁白 —— 点击展开后才开始播放](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
+> 🔊 有声高清版：[**打开 `promo-readme.mp4`（1920×1080，7.01 MB）**](./promo/out/promo-readme.mp4)
+
+[![AI-CREATORS-ON-X 横屏 16:9 宣传片，36.2 秒，无人声旁白 —— 点击打开有声 MP4](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
 </details>
 
 <!-- 3. Obsidian / Typora：上方 HTML5 播放器已覆盖本地渲染器，无需额外内嵌 -->
@@ -209,8 +211,14 @@
 > 2. **FDE 地基成本与建站四关门禁（`CHECKPOINT 2`）**：制造业 FDE 先算 **5–8 万元/系统**地基成本并卡死 **20 人天上限**（`@cnzhihao`）；新开网站目录必过四关（`@CoderJeffLee`）。
 
 <p align="center">
-  <img src="./assets/readme/logic-map-zh.svg" width="100%" alt="4-Step Execution and Safety Checkpoint Logic Map">
+  <img src="./assets/readme/logic-map-zh.svg" width="100%" alt="四步执行闭环与双红灯安全门禁路由图：STEP 1 意图预检 → STEP 2 加载单张能力卡 → CHECKPOINT 1 & 2 硬门禁拦截 → STEP 3 执行能力卡步骤 → STEP 4 边界与黑名单自检">
 </p>
+
+1. **STEP 1 · 意图预检**：遇到实时价格、越权请求或泛问答，直接拦截或仅用总览表回答。
+2. **STEP 2 · 加载能力卡**：按意图路由表匹配唯一能力卡，并核对 `## E` 段必需输入参数。
+3. **CHECKPOINT 1 & 2 · 红灯门禁**：涉及支付回调、批量外发或制造业 FDE，立即暂停并先输出签名校验、审批流与地基核算。
+4. **STEP 3 · 执行步骤**：严格按能力卡 `## E` 段生成配置、脚本或提示词模板。
+5. **STEP 4 · 门禁自检**：交付前对照 `## B` 段逐条核销（`5000-token` 上限、`BL-1..6` 黑名单、去 AI 味）。
 
 ---
 

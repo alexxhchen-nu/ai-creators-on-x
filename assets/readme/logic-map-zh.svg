@@ -1,37 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 204" width="100%" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 232" width="100%" role="img" aria-labelledby="t">
   <title id="t">四步执行闭环 · 双红灯安全门禁路由图</title>
   <defs><marker id="ar2" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 8 5 L 0 9 z" fill="#ced4da"/></marker></defs>
-  <rect width="1200" height="204" rx="8" fill="#f1f0ed" stroke="#d9d9d9" stroke-width="1"/>
-  <text x="28" y="28" fill="#495057" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600">四步执行闭环 · 双红灯安全门禁路由图</text>
-  <g transform="translate(24, 44)">
-      <rect width="212" height="136" rx="8" fill="#ffffff" stroke="#4dabf7" stroke-width="1.5"/>
-      <rect x="0" y="0" width="212" height="4" rx="2" fill="#4dabf7"/>
-      <text x="106" y="32" fill="#4dabf7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">STEP 1 · 意图分类与预检</text>
-      <text x="106" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">实时价格 / 越权 / 泛问答?</text>
-      <text x="106" y="104" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">命中不适用项则立即拦截</text>
-    </g><path d="M 236 112 L 252 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/><g transform="translate(258, 44)">
-      <rect width="212" height="136" rx="8" fill="#ffffff" stroke="#4263eb" stroke-width="1.5"/>
-      <rect x="0" y="0" width="212" height="4" rx="2" fill="#4263eb"/>
-      <text x="106" y="32" fill="#4263eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">STEP 2 · 加载单张能力卡</text>
-      <text x="106" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">匹配六大能力卡意图列</text>
-      <text x="106" y="104" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">核对 ## E 段必需输入参数</text>
-    </g><path d="M 470 112 L 486 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/><g transform="translate(492, 44)">
-      <rect width="212" height="136" rx="8" fill="#ffffff" stroke="#b31b1b" stroke-width="1.5"/>
-      <rect x="0" y="0" width="212" height="4" rx="2" fill="#b31b1b"/>
-      <text x="106" y="32" fill="#b31b1b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">CHECKPOINT 1 &amp; 2 门禁</text>
-      <text x="106" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">涉支付回调 / 群发 / FDE?</text>
-      <text x="106" y="104" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">STOP：先出签名校验与地基核算</text>
-    </g><path d="M 704 112 L 720 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/><g transform="translate(726, 44)">
-      <rect width="212" height="136" rx="8" fill="#ffffff" stroke="#f59f00" stroke-width="1.5"/>
-      <rect x="0" y="0" width="212" height="4" rx="2" fill="#f59f00"/>
-      <text x="106" y="32" fill="#f59f00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">STEP 3 · 执行能力卡步骤</text>
-      <text x="106" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">按 ## E 段步骤生成产物</text>
-      <text x="106" y="104" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">输出配置 / 脚本 / 提示词模板</text>
-    </g><path d="M 938 112 L 954 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/><g transform="translate(960, 44)">
-      <rect width="212" height="136" rx="8" fill="#ffffff" stroke="#2f9e44" stroke-width="1.5"/>
-      <rect x="0" y="0" width="212" height="4" rx="2" fill="#2f9e44"/>
-      <text x="106" y="32" fill="#2f9e44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">STEP 4 · 边界与黑名单自检</text>
-      <text x="106" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">对照 ## B 段自检清单核销</text>
-      <text x="106" y="104" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">5000t · BL-1..6 · 去 AI 味</text>
-    </g>
+  <rect width="960" height="232" rx="8" fill="#f1f0ed" stroke="#d9d9d9" stroke-width="1"/>
+  <text x="20" y="26" fill="#495057" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600">四步执行闭环 · 双红灯安全门禁路由图</text>
+  <g transform="translate(20.0, 42)">
+    <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#306a99" stroke-width="1.5"/>
+    <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#4dabf7"/>
+    <text x="13" y="34" fill="#306a99" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700">STEP 1 · 意图预检</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">实时价格 / 越权</text>
+    <text x="13" y="102" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">/ 泛问答?</text>
+    <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">命中不适用项立即拦截</text>
+  </g>
+  <path d="M 194.2 127 L 203.2 127" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/>
+  <g transform="translate(207.2, 42)">
+    <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#3d5bd8" stroke-width="1.5"/>
+    <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#4263eb"/>
+    <text x="13" y="34" fill="#3d5bd8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700">STEP 2 · 加载能力卡</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">匹配六大能力卡</text>
+    <text x="13" y="102" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">意图路由表</text>
+    <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">核对 ## E 段必需参数</text>
+  </g>
+  <path d="M 381.4 127 L 390.4 127" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/>
+  <g transform="translate(394.4, 42)">
+    <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#b31b1b" stroke-width="1.5"/>
+    <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#b31b1b"/>
+    <text x="13" y="34" fill="#b31b1b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700">CHECKPOINT 1 &amp; 2</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">涉支付回调 / 群发</text>
+    <text x="13" y="102" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">/ 制造业 FDE?</text>
+    <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">STOP：签名与地基核算</text>
+  </g>
+  <path d="M 568.6 127 L 577.6 127" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/>
+  <g transform="translate(581.6, 42)">
+    <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#8e5c00" stroke-width="1.5"/>
+    <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#f59f00"/>
+    <text x="13" y="34" fill="#8e5c00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700">STEP 3 · 执行步骤</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">按 ## E 段步骤</text>
+    <text x="13" y="102" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">生成工程产物</text>
+    <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">输出配置 / 脚本 / 模板</text>
+  </g>
+  <path d="M 755.8 127 L 764.8 127" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/>
+  <g transform="translate(768.8, 42)">
+    <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#237532" stroke-width="1.5"/>
+    <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#2f9e44"/>
+    <text x="13" y="34" fill="#237532" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700">STEP 4 · 门禁自检</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">对照 ## B 段清单</text>
+    <text x="13" y="102" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">逐条核销</text>
+    <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">5000t · BL-1..6 · 去AI味</text>
+  </g>
 </svg>

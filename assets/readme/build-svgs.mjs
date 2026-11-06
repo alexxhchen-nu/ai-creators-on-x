@@ -1,9 +1,8 @@
 // assets/readme/build-svgs.mjs — single source of truth for the README SVG system.
 //
-// Regenerates every generated SVG asset under assets/readme/ from the open-science
-// token block below (badges, pills, section chips, pipeline). The four hand-
-// authored compositions (hero, logic-map, product card) are not rebuilt; they
-// share the same muted-text color by convention (gray-7 #495057). Run with:
+// Regenerates README SVG assets under assets/readme/ from the open-science
+// token block below (badges, pills, section chips, pipeline, logic-map, hero).
+// The 1600x900 product card remains standalone. Run with:
 //   node assets/readme/build-svgs.mjs
 //
 // Two rules are enforced by construction, because both were previously violated:
@@ -212,4 +211,116 @@ ${mains}
   <text x="${M}" y="26" fill="${T.gray7}" font-family="${T.mono}" font-size="13" font-weight="600">${esc(PL_TITLE[lang])}</text>
 ${nodes}`));
 }
-console.log("wrote badges(6) + pills(10) + sections(14) + pipeline(2)");
+// ------------------------------------------------- 4. logic-map 960x232
+const LM = {
+  zh: [
+    { label: "STEP 1 · 意图预检", main: ["实时价格 / 越权", "/ 泛问答?"], sub: "命中不适用项立即拦截", c: T.iBlue, rule: T.blue },
+    { label: "STEP 2 · 加载能力卡", main: ["匹配六大能力卡", "意图路由表"], sub: "核对 ## E 段必需参数", c: T.iIndigo, rule: T.indigo },
+    { label: "CHECKPOINT 1 & 2", main: ["涉支付回调 / 群发", "/ 制造业 FDE?"], sub: "STOP：签名与地基核算", c: T.iRed, rule: T.red },
+    { label: "STEP 3 · 执行步骤", main: ["按 ## E 段步骤", "生成工程产物"], sub: "输出配置 / 脚本 / 模板", c: T.iYellow, rule: T.yellow },
+    { label: "STEP 4 · 门禁自检", main: ["对照 ## B 段清单", "逐条核销"], sub: "5000t · BL-1..6 · 去AI味", c: T.iGreen, rule: T.green },
+  ],
+  en: [
+    { label: "STEP 1 · PRE-CHECK", main: ["Out-of-scope or", "live pricing?"], sub: "Stop or use overview", c: T.iBlue, rule: T.blue },
+    { label: "STEP 2 · LOAD CARD", main: ["Route to 1 of 6", "playbooks"], sub: "Check ## E inputs", c: T.iIndigo, rule: T.indigo },
+    { label: "CHECKPOINT 1 & 2", main: ["Webhook / bulk", "send / FDE?"], sub: "STOP: auth & cost gate", c: T.iRed, rule: T.red },
+    { label: "STEP 3 · EXECUTE", main: ["Follow ## E steps", "deterministically"], sub: "Emit config / script", c: T.iYellow, rule: T.yellow },
+    { label: "STEP 4 · SELF-CHECK", main: ["Audit output vs", "## B checklist"], sub: "5000t · BL-1..6 · de-AI", c: T.iGreen, rule: T.green },
+  ],
+};
+const LM_TITLE = {
+  zh: "四步执行闭环 · 双红灯安全门禁路由图",
+  en: "Four-step execution loop · two red-light safety checkpoints",
+};
+for (const lang of ["zh", "en"]) {
+  const nodes = LM[lang].map((n, i) => {
+    const x = M + i * (NW + G);
+    const arrow = i < 4
+      ? `  <path d="M ${(x + NW + 3).toFixed(1)} ${NY + NH / 2} L ${(x + NW + G - 4).toFixed(1)} ${NY + NH / 2}" stroke="${T.rule}" stroke-width="2" marker-end="url(#ar2)"/>\n`
+      : "";
+    const mains = n.main.map((t, k) =>
+      `    <text x="${IN}" y="${k === 0 ? STEP_STYLE.main1 : STEP_STYLE.main2}" fill="${T.ink}" font-family="${T.sans}" font-size="15.5" font-weight="700">${esc(t)}</text>`).join("\n");
+    return `  <g transform="translate(${x.toFixed(1)}, ${NY})">
+    <rect width="${NW}" height="${NH}" rx="8" fill="${T.surface}" stroke="${n.c}" stroke-width="1.5"/>
+    <rect x="0" y="0" width="${NW}" height="4" rx="2" fill="${n.rule}"/>
+    <text x="${IN}" y="${STEP_STYLE.label}" fill="${n.c}" font-family="${T.mono}" font-size="12.5" font-weight="700">${esc(n.label)}</text>
+${mains}
+    <line x1="${IN}" y1="${STEP_STYLE.rule}" x2="${NW - IN}" y2="${STEP_STYLE.rule}" stroke="${T.border}" stroke-width="1"/>
+    <text x="${IN}" y="${STEP_STYLE.sub}" fill="${T.gray7}" font-family="${T.sans}" font-size="12">${esc(n.sub)}</text>
+  </g>\n${arrow}`;
+  }).join("");
+  write(`logic-map-${lang}.svg`, svg(960, PIPELINE.vbH, LM_TITLE[lang], `  <defs><marker id="ar2" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 8 5 L 0 9 z" fill="${T.rule}"/></marker></defs>
+  <rect width="960" height="${PIPELINE.vbH}" rx="8" fill="${T.paper}" stroke="${T.border}" stroke-width="1"/>
+  <text x="${M}" y="26" fill="${T.gray7}" font-family="${T.mono}" font-size="13" font-weight="600">${esc(LM_TITLE[lang])}</text>
+${nodes}`));
+}
+
+// ------------------------------------------------- 5. hero 1080x312
+const HERO_CARDS = {
+  zh: [
+    ["01", "Agent 软件工厂", "Worktree · 1m CAS · 5000t", T.green, T.iGreen],
+    ["02", "出海 SEO & GEO", "一词一页 · Fan-out 意图组", T.blue, T.iBlue],
+    ["03", "Video as Code", "白模预演 · BGM 先行 · MCP", T.yellow, T.iYellow],
+    ["04", "全栈去 AI 味", "62 项黑名单 · 零 AI 初稿", T.orange, T.iOrange],
+    ["05", "产物级压测路由", "Vector-DB 2x · 6 次连抽", T.indigo, T.iIndigo],
+    ["06", "企业 FDE 工作台", "5–8 万筛客 · 三层报错", T.violet, T.iViolet],
+  ],
+  en: [
+    ["01", "Agent Factory", "Worktree · 1m CAS · 5000t", T.green, T.iGreen],
+    ["02", "SEO & GEO Engine", "1-word-1-page · Fan-out", T.blue, T.iBlue],
+    ["03", "Video as Code", "White-model previz · MCP", T.yellow, T.iYellow],
+    ["04", "De-AI Taste", "62 UI rules · no AI draft", T.orange, T.iOrange],
+    ["05", "Real Benchmark", "Vector-DB 2x · 6/6 draw", T.indigo, T.iIndigo],
+    ["06", "Enterprise FDE", "3-layer gate · approval", T.violet, T.iViolet],
+  ],
+};
+const HERO_COPY = {
+  zh: {
+    ttl: "AI-CREATORS-ON-X — 20 位中文 X 头部 AI 创作者 · 1,145 条实战帖 → 6 张 RIA++ 能力卡",
+    kicker: "仓颉 v2.5 RIA-TV++ 能力包",
+    sub: "20 位中文 X 头部 AI 创作者 · 1,145 条实战帖 → 6 张 RIA++ 能力卡",
+    chip2: "18/18 实测断言 · 100% 全过",
+  },
+  en: {
+    ttl: "AI-CREATORS-ON-X — 20 Chinese X AI creators · 1,145 tech posts → 6 RIA++ agent playbooks",
+    kicker: "CANGJIE v2.5 RIA-TV++ BUNDLE",
+    sub: "20 Chinese X AI creators · 1,145 tech posts → 6 RIA++ playbooks",
+    chip2: "18/18 assertions · 100%",
+  },
+};
+for (const lang of ["zh", "en"]) {
+  const c = HERO_COPY[lang];
+  const cards = HERO_CARDS[lang].map(([num, title, desc, rule, inkC], idx) => {
+    const col = idx % 3, row = Math.floor(idx / 3);
+    const x = 516 + col * 180, y = 52 + row * 112;
+    return `  <g transform="translate(${x}, ${y})">
+    <rect width="168" height="100" rx="8" fill="${T.surface}" stroke="${T.border}" stroke-width="1"/>
+    <rect x="0" y="0" width="168" height="4" rx="2" fill="${rule}"/>
+    <text x="12" y="32" fill="${inkC}" font-family="${T.mono}" font-size="13" font-weight="700">${num}</text>
+    <text x="12" y="59" fill="${T.ink}" font-family="${T.sans}" font-size="15" font-weight="700">${esc(title)}</text>
+    <text x="12" y="84" fill="${T.gray7}" font-family="${T.sans}" font-size="11.5">${esc(desc)}</text>
+  </g>`;
+  }).join("\n");
+  write(`hero-${lang}.svg`, svg(1080, 304, c.ttl, `  <rect width="1080" height="304" rx="8" fill="${T.paper}"/>
+  <rect x="0.5" y="0.5" width="1079" height="303" rx="8" fill="none" stroke="${T.border}" stroke-width="1"/>
+  <g transform="translate(32, 42)">
+    <rect x="0" y="0" width="256" height="28" rx="4" fill="${T.chip}"/>
+    <circle cx="16" cy="14" r="4" fill="${T.iCyan}"/>
+    <text x="28" y="19" fill="${T.iCyan}" font-family="${T.mono}" font-size="12" font-weight="700">${esc(c.kicker)}</text>
+    <text x="0" y="82" fill="${T.ink}" font-family="${T.serif}" font-size="44" font-weight="700" letter-spacing="-0.5">AI-CREATORS-ON-X</text>
+    <text x="0" y="114" fill="${T.gray7}" font-family="${T.sans}" font-size="14.5">${esc(c.sub)}</text>
+    <g transform="translate(0, 140)">
+      <rect x="0" y="0" width="252" height="30" rx="4" fill="${T.surface}" stroke="${T.iIndigo}" stroke-width="1"/>
+      <text x="12" y="20" fill="${T.iIndigo}" font-family="${T.mono}" font-size="12" font-weight="700">Darwin v2.1 · 65.8 → 88.9 (+23.1)</text>
+      <rect x="262" y="0" width="202" height="30" rx="4" fill="${T.surface}" stroke="${T.iGreen}" stroke-width="1"/>
+      <text x="274" y="20" fill="${T.iGreen}" font-family="${T.mono}" font-size="12" font-weight="700">${esc(c.chip2)}</text>
+    </g>
+    <g transform="translate(0, 186)">
+      <rect x="0" y="0" width="464" height="38" rx="4" fill="#2b2b2b"/>
+      <text x="14" y="24" fill="#f59f00" font-family="${T.mono}" font-size="13" font-weight="700">$</text>
+      <text x="30" y="24" fill="${T.paper}" font-family="${T.mono}" font-size="12.5">npx skills add alexxhchen-nu/ai-creators-on-x</text>
+    </g>
+  </g>
+${cards}`, "ttl"));
+}
+console.log("wrote badges(6) + pills(10) + sections(14) + pipeline(2) + logic-map(2) + hero(2)");

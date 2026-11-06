@@ -58,9 +58,11 @@
 
 <!-- 2. Standard Markdown 16:9 Animated GIF Fallback (Works natively on GitHub README; click to open MP4 with sound) -->
 <details>
-<summary>▶ <a href="./promo/out/promo-readme.mp4">Play the MP4 with sound</a> — animated preview</summary>
+<summary>▶ Expand animated GIF preview (960×540, 6.11 MB)</summary>
 
-[![AI-CREATORS-ON-X Horizontal 16:9 Promo Video — expands and starts playing only on click](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
+> 🔊 Full audio edition: [**Open `promo-readme.mp4` with sound (1920×1080, 7.01 MB)**](./promo/out/promo-readme.mp4)
+
+[![AI-CREATORS-ON-X Horizontal 16:9 Promo Video — click to open MP4 with sound](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
 </details>
 
 | Video Edition | File Path | Aspect Ratio / Resolution | Size | Audio & Delivery Notes |
@@ -201,8 +203,14 @@ Click any capability card below to expand its **real-world pain points, quantifi
 > 2. **FDE Foundation Cost &amp; 4-Gate Directory Check (`CHECKPOINT 2`)**: Manufacturing FDE engagements must budget **50k–80k RMB per legacy ERP/MES connector** and cap scope at **≤20 man-days** (`@cnzhihao`); new site directories must clear all 4 structural gates (`@CoderJeffLee`).
 
 <p align="center">
-  <img src="./assets/readme/logic-map-en.svg" width="100%" alt="4-Step Execution and Safety Checkpoint Logic Map">
+  <img src="./assets/readme/logic-map-en.svg" width="100%" alt="Four-Step Execution and Safety Checkpoint Logic Map: STEP 1 Pre-Check → STEP 2 Load One Card → CHECKPOINT 1 & 2 Hard Gate → STEP 3 Execute Steps → STEP 4 Self-Check">
 </p>
+
+1. **STEP 1 · Pre-Check**: Stop immediately on out-of-scope or live-pricing prompts, or answer strictly from the overview table.
+2. **STEP 2 · Load Card**: Route to exactly 1 of the 6 playbooks and verify all required `## E` inputs.
+3. **CHECKPOINT 1 & 2 · Hard Gate**: On payment webhooks, bulk messaging, or manufacturing FDE, STOP and output signature verification, approval gates, and foundation-cost estimates first.
+4. **STEP 3 · Execute**: Follow the playbook's `## E` steps deterministically to emit configs, scripts, or prompt templates.
+5. **STEP 4 · Self-Check**: Audit the final output against the `## B` checklist (`5000-token` cap, `BL-1..6`, de-AI taste) before delivery.
 
 ---
 
