@@ -1,0 +1,106 @@
+---
+name: ai-creators-on-x
+description: |
+  当用户在做 AI 编程/多分支并发开发、出海工具站 SEO/GEO 增长、AIGC 视频与代码渲染动效（Video as Code）、消除代码/UI/视频/写作中的「AI 味」、大模型与 Agent 性能实测选型、或传统企业 FDE 交付与一人公司自动化运营时调用。浓缩 20 位中文 X 技术创作者 1,145 条实战帖的八大可执行工作流：Agent 软件工厂、SEO/GEO 增长引擎、Video as Code 视觉流水线、全栈去 AI 味协议、产物级 Benchmark 与模型路由、FDE 交付与高管审核制、前沿账号信息源雷达、从零重建学习法。不适用于：实时股价/币价查询、与 AI/出海/内容生产无关的纯行政流程、要求绕过支付校验或人工闸门的高危操作。Triggers: AI 创作者方法论/软件工厂/worktree 并发/xcode 冷编译/一词一页/TDH/GEO 意图组/Fan-out 选题/白模预演/Video as Code/去 AI 味/早期智商债/FDE 交付/高管审核制/信息源雷达/账号雷达/从零实现/教学法。
+metadata:
+  cangjie.generated-by: cangjie-tools v2.5.0
+  cangjie.variant: single
+  cangjie.bundle-id: bundle.ai-creators-on-x
+  cangjie.capability-count: 8
+  cangjie.entrypoint-count: 1
+---
+# 《AI Creators on X · 20 个中文 AI 创作者技术内容蒸馏》 — 全书能力入口
+
+## 触发与不触发
+
+**适用**：与本书 8 大能力域相关的工程搭建、出海增长、视觉代码化、去 AI 味、模型评测与企业 FDE 落地任务（见下方路由表）。
+**不适用**：
+- 各大模型 API 或 SaaS 平台今日的实时价格、优惠活动与账单申诉（本文仅提供 2026-11 截面单价口径作核算参考）
+- 绕过支付签名校验、伪造充值回调或未经人工确认直接群发/公开发布的高危操作
+- 国内个人开发者无资质涉足的论坛/UGC 社区合规审批代办
+- 与 AI Agent、独立开发、SEO/GEO、AIGC 视觉或企业数字化无关的通用学科问答
+
+## 核心原则（常驻速览，概览类问题读到这里即可回答）
+
+1. **审核带宽定上限**：人类并发跟进上限为 3–5 个活跃会话（@vista8）；用「一项目一专属 Bot + Git Worktree 并行 + E2E 录屏/视图截图自检」（@vikingmute、@waylybaye）替代逐行人工 PR Review。
+2. **结构与承接定转化**：出海站先按「Entity → Topic Map → URL 三层」与「代码/CMS/toolKey 三页分离」规划（@CoderJeffLee），严守「一词一页 TDH + 首屏生成器优先形态」（@gefei55），结合 Fan-out 轨迹与意图组布局 GEO（@yaojingang）。
+3. **视频与设计全面代码化**：用粗糙白模预演定运镜（@TanLuAI）、先拆 BGM 节拍排时间轴（@MANISH1027512），再交由 Agent 写 Remotion/SwiftUI/HTML 代码或调 Renoise MCP 渲染成片与无乱码二维码海报（@joshesye、@jinchenma_ai）。
+4. **全栈硬规则去 AI 味**：代码层用 Pre-commit 拦截 >5,000 tokens 单文件并禁过度防御（@vikingmute）；UI 层用 `impeccable` 拉黑 Inter/紫渐变/三栏卡片等 62 项特征（@sitinme）；视觉层保留手抖与后视镜灰尘（@Adam38363368936）；写作层严禁 AI 写初稿，坚持人给原稿/口喷观点再由 AI 按章润色（@jinchenma_ai）。
+5. **按场景隔离模型风险**：长线核心代码库锁死 SOTA 并只记关键 Points 防「早期智商债」（@waylybaye）；ToB 企业交付锁死高稳定国模（DeepSeek/GLM）防 403（@cnzhihao）；评测用「从 0 写向量数据库性能 + 6 次连抽稳定性」取代刷题榜（@karminski3）。
+6. **商业落地先立门禁**：制造业 FDE 先算 5–8 万元/系统的 ERP/MES 地基成本并卡死 5 人内 ≤20 人天上限，配「代码→Agent→人工」三层报错（@cnzhihao）；高管用「一周不登飞书审核制」（@FuSheng_0306），Stripe 未付款用直达收银台链接召回（@sitinme）。
+7. **信息源按信号域路由、归属回一手核验**：前沿动态按「信号域」而非「实验室」分层订阅（@ai_explorer25），用流速阈值 + 关键词过滤降噪（@icycat）、情报库化沉淀（@AI_Jasonyu）；「谁加入哪家」等归属表述回到当事人原文核验，防二手打假。
+8. **理解靠从零重建、教学是最高杠杆**：学一个概念 = 从零手写最小可运行版（micrograd/nanoGPT/llm.c 路线，@karpathy），再把重建路径压缩成递进式教程；教学与 agent 工程内容分路由，后者归软件工厂卡。
+
+## 标准执行工作流（4 步闭环，含明确输入/输出）
+
+1. **Step 1：意图分类与红灯预检**
+   - **输入**：用户原始请求与当前项目上下文。
+   - **动作**：核对「不适用」清单与下方「检查点与失败恢复表」；若命中高危或超纲项立即按规则拦截。
+   - **输出**：命中的单一主能力卡路径（跨域任务最多 2 张）或概览/拒答响应。
+2. **Step 2：按需加载能力卡与检查必需输入**
+   - **输入**：Step 1 选定的 `references/capabilities/<slug>.md`。
+   - **动作**：读取该卡的 `## E — 可执行步骤`，核对用户是否提供了该卡要求的「必需输入」（如技术栈、目标词/站点形态、视频时长/参考源、企业系统现状）。
+   - **输出**：若输入齐全则进入 Step 3；若缺失关键输入则列出缺失项清单一次性追问用户。
+3. **Step 3：🔴 CHECKPOINT 方案对齐与执行产出**
+   - **输入**：已对齐的用户参数与能力卡 `E` 段步骤。
+   - **动作**：涉及破坏性改动、付费 API 批量调用、生产环境部署或对外发信时，**🛑 STOP 先输出执行方案与量化阈值，获用户确认后再执行**；常规方案直接按能力卡步骤产出配置、命令、Prompt 模板或架构表。
+   - **输出**：可复现的工程配置/脚本/SOP 产物（附出处账号与日期）。
+4. **Step 4：边界自检与证据验收**
+   - **输入**：Step 3 产出的方案或代码。
+   - **动作**：对照所加载能力卡的 `## B — 适用边界与反例` 中的「自检清单」逐项核销（如 Pre-commit 5,000-token 阈值、支付回调签名校验、去 AI 味黑名单）。
+   - **输出**：最终交付物 + 自检通过项清单。
+
+## 检查点与失败恢复表（先读）
+
+- 🔴 **CHECKPOINT 1（不可逆动作门禁）**：凡涉及支付/充值回调上线、对外群发消息（微信/邮件）、生产库直接改写 → **🛑 STOP 必须先输出带签名校验或人工审稿闸的方案，严禁无人确认直接放行**（依据 @gefei55 充值回调被刷 23 单教训、@sitinme 飞书审稿闸、@FuSheng_0306 微信确认闸）。
+- 🔴 **CHECKPOINT 2（FDE 与建站成本门禁）**：凡涉及传统企业定制或批量买域名建站 → **🛑 STOP 先核算 ERP/MES 地基成本（5–8 万/系统）与 20 人天上限，或先过新开目录四关**，防止陷入无 PMF 泥潭。
+
+| 触发条件（如果 X 失败/异常） | 一线修复动作（先执行 Y） | 仍失败兜底（Fallback Z） |
+|---|---|---|
+| 用户意图未命中路由表前 8 行 | 检索 `references/capability-index.md` 与 `references/glossary.md` 匹配近义词 | 明确告知超出 20 位创作者实证范围，列出最接近的已知边界，禁止凭通用常识硬编 |
+| 用户未提供能力卡 `E` 段必需输入（如缺技术栈、缺参考图/时长） | 列出 2–4 个具体缺失字段向用户一次性确认 | 若用户要求直接给通用模板，使用 `[占位符]` 输出标准骨架并显式标注待替换项 |
+| 目标工具/平台受运行环境限制无法调用（如无 Xcode、无特定 MCP） | 切换同卡内的跨平台替代方案（如 Git Worktree + 通用 CI 截图、本地 DuckDB 替代零散 MCP） | 退化为输出纯静态规则文件（`AGENTS.md`、Pre-commit Hook 脚本、分段 Prompt 模板） |
+| 用户要求实时价格/今日跑分/被封账号申诉保证 | 提供了 2026-11 抓取截面数据（如 Topview T1 $0.22/s vs Seedance 2.5 $0.585/s）并声明时间戳 | 引导用户前往对应官方账单页或 `vector-db-bench` 实时榜单核对，绝不编造今日价格 |
+
+## 反例与黑名单（禁止动作）
+
+| 编号 | 禁止动作（不要做什么） | 风险后果（原帖实证） | 强制替代做法 |
+|---|---|---|---|
+| **BL-1** | **禁止上线未做签名与状态校验的 AI 支付/充值回调代码** | @gefei55 亲历 AI 写漏充值回调校验，被伪造 23 笔订单刷走上万美金积分（`2026-10-26`） | 支付回调必须强制人工审计签名验证，且接入 `expired/completed` hooks（@sitinme） |
+| **BL-2** | **禁止让 AI 直接从零生成文章初稿或脱离原稿自由扩写** | 产生难以洗掉的「LLM Voice 恐怖谷」与无增量正确废话（@vikingmute、@jinchenma_ai） | 必须由人先口喷真实经历或提供原稿大纲，明确约束 AI「别脱离原稿表达、别 YY」（@CoderJeffLee） |
+| **BL-3** | **禁止用低性价比/早期模型生成长篇 Spec 文档长期留存** | 新模型会盲目信任旧模型留下的含错文档，导致「早期智商债」被继承放大（@waylybaye） | 长线核心工程坚持用 SOTA 模型，且只记关键 Points，留出模型升级后的系统自愈空间 |
+| **BL-4** | **禁止在 React 中放任 AI 狂塞裸 `useEffect` 与复杂本地 `useState`，或提交 >5,000 tokens 单文件** | 多状态同步必翻车、单文件膨胀导致 Agent 上下文退化（@vikingmute） | 强制全局状态用 Zustand、复杂交互用 `useReducer`、服务端用 React Query，加 Pre-commit 5,000-token 硬拦截 |
+| **BL-5** | **禁止用精细人像做视频运镜预演，或用生图模型一把梭生成多字带二维码海报** | 预演细节会污染后续转绘；生图模型字多必乱码且二维码不可扫（@TanLuAI、@jinchenma_ai） | 运镜预演必须用极简粗糙立方体/无脸白模；多字带二维码海报必须用 HTML/CSS 渲染后截图导出 |
+| **BL-6** | **禁止用主动爬虫硬刚小红书/抖音风控，或把个人记忆当全网 GEO 投喂** | 弄两下即触发验证码/封号警告；跟豆包私聊提品牌名只会进个人记忆而非全网信源（@icycat、@jinchenma_ai） | 国内强风控社媒改用浏览器插件在人工浏览时被动采集；GEO 必须建设公开可抓取的独立站与高权威信源 |
+
+## 能力路由（先读本表，按意图加载 1 张能力卡）
+
+| 用户意图 | 先读 | 补读/备注 |
+|---|---|---|
+| 怎么一个人用 AI 同时开发维护多个项目；AI 写代码太快 PR 根本看不过来怎么办；Xcode 多 Agent 并行编译太慢或 Preview MCP 不好用怎么破；怎么防止 Codex/Claude 过度工程、写超大文件或乱用 React useState；上游框架天天更新怎么让插件自动跟进 | references/capabilities/agent-software-factory.md | references/capabilities/de-ai-taste-and-writing.md、references/capabilities/agent-benchmark-and-model-routing.md |
+| 出海 AI 工具站怎么规划目录和 URL 结构；为什么网站有搜索和 ChatGPT 流量却零出单；怎么做 GEO 让 ChatGPT 和 Perplexity 优先引用我的网站；多语言 SEO 页面怎么翻译才有效；怎么快速批量上线新词站或做垂直数据情报站 | references/capabilities/seo-geo-growth-engine.md | references/capabilities/enterprise-fde-and-one-person-ops.md、references/capabilities/agent-software-factory.md |
+| 怎么用 AI 做多镜头一致的品牌广告或短剧视频；不用剪映和 AE 怎么让 Agent 写代码自动剪片卡点；图生视频怎么用白模预演控制运镜和省积分；怎么写可复用的商业海报与生活照参数化提示词模板；AI 生图做海报文字乱码、放不进二维码怎么解决 | references/capabilities/video-and-design-as-code.md | references/capabilities/de-ai-taste-and-writing.md |
+| 怎么去掉 AI 写出来的网页/UI 一眼假的感觉；怎么去掉 AI 生成照片和视频的塑料感与摆拍感；怎么用 AI 写文章或教程才没有浓重的 AI 腔和正确废话 | references/capabilities/de-ai-taste-and-writing.md | references/capabilities/video-and-design-as-code.md、references/capabilities/agent-software-factory.md |
+| 怎么测一个新大模型或 Coding Agent 到底好不好用；为什么不能信官方跑分榜、怎么设计自己的 benchmark；怎么在不同场景（长线核心代码 vs 日常打杂 vs 企业客户交付）选模型和省 Token；怎么给 Codex 或 Claude Code 无缝切换底层模型 | references/capabilities/agent-benchmark-and-model-routing.md | references/capabilities/agent-software-factory.md、references/capabilities/enterprise-fde-and-one-person-ops.md |
+| 怎么给传统企业做 AI 落地（FDE）报价、筛客户和防踩坑；公司老板/高管怎么把飞书审批、微信沟通、跨端采购交给 Agent；一人公司怎么搭极简工作台、自生长知识库（LLM Wiki）和个人全量数据沉淀；SaaS 网站 Stripe 未付款订单怎么高效召回 | references/capabilities/enterprise-fde-and-one-person-ops.md | references/capabilities/seo-geo-growth-engine.md、references/capabilities/agent-benchmark-and-model-routing.md |
+| 怎么找到每个前沿实验室（Anthropic/OpenAI/Google AI/xAI）值得关注的一手账号；怎么把「关注谁」按信号域重排而不是照实验室排；时间线全是噪音怎么用流速阈值和关键词过滤黄推广告；怎么把关注列表升级成可查询的情报库 | references/capabilities/source-radar.md | references/capabilities/agent-benchmark-and-model-routing.md |
+| 怎么真正搞懂 Transformer/反向传播而不是只会调 API；怎么把某个 AI 概念从零手写出来（micrograd/nanoGPT/llm.c 路线）；怎么写教程把复杂概念讲透、设计从入门到精通的系列课 | references/capabilities/from-scratch-teaching.md | references/capabilities/agent-software-factory.md |
+
+**非能力类查询**：
+- 书名/作者/章节/整书概览 → references/overview.md
+- 术语解释 → references/glossary.md
+- 决策规则速查（不需要原文依据时） → references/cheatsheet.md
+- 完整意图与关键词索引（本表未覆盖的意图先查这里） → references/capability-index.md
+
+## 加载规则
+
+- 每次任务先读本文件，再按路由表加载 **1** 张能力卡；任务明确跨域时最多加载 2 张。
+- 概览/书名类问题不加载能力卡，用「核心原则」与 overview.md 回答。
+- 路由表与 capability-index.md 都无法命中的意图，明确告知超出本书范围，不要硬套。
+
+## 边界与判停
+
+- 用户询问某平台今日实时价格、故障状态或账号申诉结果 → 明确告知本技能仅含 2026-11 实证截面口径，不猜实时数据。
+- 用户要求跳过支付回调校验或跳过人工审核闸直接执行扣款/群发/上线 → 立即触发红灯停机，先输出「签名校验 + 人工确认闸」方案。
+- 用户仅询问 20 位创作者名单、粉丝数或某人简介 → 直接读取 references/overview.md 回答后即停，不展开四步工程流水线。
+- 用户意图在路由表与 capability-index.md 中均未命中 → 明确告知超出 20 位创作者技术蒸馏范围，不硬套框架。

@@ -98,10 +98,10 @@ for (const [file, label, value, fill, alt] of BADGES) {
 }
 
 const PILLS = [
-  ["cta-selling-zh.svg", "核心卖点手册", "6 PLAYBOOKS", "#3d3d3d", T.iGreen, "核心卖点手册 · 6 Playbooks"],
+  ["cta-selling-zh.svg", "核心卖点手册", "8 PLAYBOOKS", "#3d3d3d", T.iGreen, "核心卖点手册 · 8 Playbooks"],
   ["cta-digest-zh.svg", "20人全文蒸馏", "1,890 LINES", "#3d3d3d", T.iOrange, "20 人全文蒸馏 · 1,890 Lines"],
   ["cta-darwin-zh.svg", "达尔文进化报告", "65.8 → 88.9", "#3d3d3d", T.iIndigo, "达尔文进化报告 · 65.8 to 88.9"],
-  ["cta-selling-en.svg", "SELLING POINTS", "6 PLAYBOOKS", "#3d3d3d", T.iGreen, "Selling Points · 6 Playbooks"],
+  ["cta-selling-en.svg", "SELLING POINTS", "8 PLAYBOOKS", "#3d3d3d", T.iGreen, "Selling Points · 8 Playbooks"],
   ["cta-digest-en.svg", "FULL DIGEST", "1,890 LINES", "#3d3d3d", T.iOrange, "Full Digest · 1,890 Lines"],
   ["cta-darwin-en.svg", "DARWIN REPORT", "65.8 → 88.9", "#3d3d3d", T.iIndigo, "Darwin Report · 65.8 to 88.9"],
   ["btn-zh-active.svg", "简体中文", "CURRENT", "#3d3d3d", T.iCyan, "当前语言：简体中文"],
@@ -140,7 +140,7 @@ for (const [file, label, value, leftFill, rightFill, alt] of PILLS) {
 const SECS = [
   ["01", "sec-01-video", "横屏宣传片", "16:9 Horizontal Promo", "NO NARRATION · 32 SFX + BGM", T.iGreen],
   ["02", "sec-02-pipeline", "五阶工程流水线", "Five-Stage Pipeline", "CANGJIE v2.5 × DARWIN v2.1", T.iCyan],
-  ["03", "sec-03-playbooks", "八大可执行能力卡", "Six Interactive Playbooks", "8 RIA++ CAPABILITY CARDS", T.iYellow],
+  ["03", "sec-03-playbooks", "八大可执行能力卡", "Eight Interactive Playbooks", "8 RIA++ CAPABILITY CARDS", T.iYellow],
   ["04", "sec-04-gallery", "宣传片关键帧画廊", "Shotcraft Keyframe Gallery", "1920×1080 QA STILLS", T.iOrange],
   ["05", "sec-05-gates", "控制流与安全门禁", "Control Flow & Safety Gates", "CHECKPOINT 1 & 2 · BL-1..6", T.iRed],
   ["06", "sec-06-darwin", "达尔文量化评测账本", "Darwin v2.1 Scoreboard", "65.8 → 88.9 (+23.1) · 3/3 KEEP", T.iIndigo],
@@ -180,7 +180,7 @@ const PL = {
   en: [
     { label: "STEP 1 · COLLECT", main: ["1,641 Raw Posts"], sub: "pagesift · 20 accounts", c: T.iBlue },
     { label: "STEP 2 · FILTER", main: ["1,145 Tech", "· 70% Kept"], sub: "62,165 likes aggregated", c: T.iIndigo },
-    { label: "STEP 3 · DISTILL", main: ["6 Playbooks"], sub: "Cangjie v2.5 · RIA++", c: T.iYellow },
+    { label: "STEP 3 · DISTILL", main: ["8 Playbooks"], sub: "Cangjie v2.5 · RIA++", c: T.iYellow },
     { label: "STEP 4 · EVOLVE", main: ["Darwin v2.1", "· 88.9 / 100"], sub: "Paired 3/3 · BL-1..6", c: T.iGreen },
     { label: "STEP 5 · DEPLOY", main: ["4 skill hubs"], sub: "Magpie · Claude · Pi", c: T.iOrange },
   ],

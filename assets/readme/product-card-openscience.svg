@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="ct">
-  <title id="ct">AI-CREATORS-ON-X — 20 Chinese X AI creators, 1,145 tech posts distilled into 6 callable RIA++ agent playbooks</title>
+  <title id="ct">AI-CREATORS-ON-X — 20 Chinese X AI creators, 1,145 tech posts distilled into 8 callable RIA++ agent playbooks</title>
   <defs>
     <linearGradient id="pillshine" x2="0" y2="100%">
       <stop stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".06"/>
@@ -19,7 +19,7 @@
   <text x="88" y="196" fill="#1a1a1a" font-family="Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif" font-size="72" font-weight="700" letter-spacing="-1.5">AI-CREATORS-ON-X</text>
 
   <!-- subtitle -->
-  <text x="88" y="242" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="21">20 Chinese X AI creators · 1,145 high-signal technical posts → 6 callable RIA++ agent playbooks</text>
+  <text x="88" y="242" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="21">20 Chinese X AI creators · 1,145 high-signal technical posts → 8 callable RIA++ agent playbooks</text>
 
   <!-- badges -->
   <g transform="translate(88, 300)">

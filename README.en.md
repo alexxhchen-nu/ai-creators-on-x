@@ -17,7 +17,7 @@
 
 # AI-CREATORS-ON-X
 
-**1,145 high-signal technical posts and 60+ open-source repositories from 20 top Chinese AI creators on X — distilled into 6 callable RIA++ Agent Playbooks.**
+**1,145 high-signal technical posts and 60+ open-source repositories from 20 top Chinese AI creators on X — distilled into 8 callable RIA++ Agent Playbooks.**
 
 <p align="center">
   <a href="./dist/ai-creators-on-x/SKILL.md"><img alt="Built with Cangjie 2.5 RIA-TV++" src="./assets/readme/badges/badge-cangjie.svg"></a>
@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <a href="./SELLING_POINTS.md"><img src="./assets/readme/cta-selling-en.svg" height="34" alt="Selling Points · 6 Playbooks"></a>
+  <a href="./SELLING_POINTS.md"><img src="./assets/readme/cta-selling-en.svg" height="34" alt="Selling Points · 8 Playbooks"></a>
   &nbsp;
   <a href="./ai-creators-on-x.md"><img src="./assets/readme/cta-digest-en.svg" height="34" alt="Full Digest · 1,890 Lines"></a>
   &nbsp;
@@ -41,7 +41,7 @@
 <p align="center">
   <a href="#promo-video">🎬 Promo Video</a> ·
   <a href="#pipeline">⚡ Pipeline</a> ·
-  <a href="#playbooks">🧩 6 Playbooks</a> ·
+  <a href="#playbooks">🧩 8 Playbooks</a> ·
   <a href="#gallery">🖼️ Keyframe Gallery</a> ·
   <a href="#logic-map">🛡️ Logic Map</a> ·
   <a href="#scoreboard">📊 Darwin Scoreboard</a> ·
@@ -85,7 +85,7 @@
 
 ---
 
-<h2 id="playbooks" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-03-playbooks-en.svg" width="100%" alt="03 Six Executable Playbooks" style="display:block"></h2>
+<h2 id="playbooks" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-03-playbooks-en.svg" width="100%" alt="03 Eight Executable Playbooks" style="display:block"></h2>
 
 Click any capability card below to expand its **real-world pain points, quantified engineering guardrails, and creator attributions** (full cards live under `dist/ai-creators-on-x/references/capabilities/`):
 
@@ -177,11 +177,11 @@ Click any capability card below to expand its **real-world pain points, quantifi
 <table>
   <tr>
     <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-01-spotlight-hero-card.png" width="100%" alt="Shot 1: 3D Spotlight Hero Card"></a></td>
-    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-06-playbooks-stack.png" width="100%" alt="Shot 6: 6 Playbooks Stack"></a></td>
+    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-06-playbooks-stack.png" width="100%" alt="Shot 6: 8 Playbooks Stack"></a></td>
   </tr>
   <tr>
     <td align="center"><sub><b>Shot 1 · 3D Spotlight Hero Card (04 · Video as Code)</b>: 2.6x oblique push-in + <code>18/18 Verified.</code> floating note + dual perimeter beam laps</sub></td>
-    <td align="center"><sub><b>Shot 6 · Six RIA++ Playbooks Stack</b>: Spring-loaded stack press + live <code>DigitRoll</code> counter</sub></td>
+    <td align="center"><sub><b>Shot 6 · Eight RIA++ Playbooks Stack</b>: Spring-loaded stack press + live <code>DigitRoll</code> counter</sub></td>
   </tr>
   <tr>
     <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-08-darwin-report.png" width="100%" alt="Shot 8: Darwin v2.1 Evolution Report"></a></td>
@@ -266,6 +266,6 @@ Use ai-creators-on-x to draft a 15-second 4-shot commercial video prompt for See
 | [`README.en.md`](./README.en.md) | 🌐 English Interactive Homepage (Click top-right button to switch) |
 | [`SKILL.md`](./SKILL.md) / [`references/`](./references/) | Root Agent Skill Entrypoint & 8 RIA++ Capability Cards (`npx skills add` ready) |
 | [`ai-creators-on-x.md`](./ai-creators-on-x.md) | Full 1,890-line Distilled Source Digest (§1–§6 across 20 creators) |
-| [`SELLING_POINTS.md`](./SELLING_POINTS.md) | Six Core Pain-Points & Quantified Value Matrix |
+| [`SELLING_POINTS.md`](./SELLING_POINTS.md) | Eight Core Pain-Points & Quantified Value Matrix |
 | [`evolve/REPORT.md`](./evolve/REPORT.md) | Darwin v2.1 Paired 3/3 Blind Verdict & 9-Dimension Report |
 | [`promo/`](./promo/) | ShotCraft 36.2s 16:9 Horizontal Promo Project & MP4/GIF Outputs |

@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-  <a href="./SELLING_POINTS.md"><img src="./assets/readme/cta-selling-zh.svg" height="34" alt="核心卖点手册 · 6 Playbooks"></a>
+  <a href="./SELLING_POINTS.md"><img src="./assets/readme/cta-selling-zh.svg" height="34" alt="核心卖点手册 · 8 Playbooks"></a>
   &nbsp;
   <a href="./ai-creators-on-x.md"><img src="./assets/readme/cta-digest-zh.svg" height="34" alt="20人全文蒸馏 · 1,890 Lines"></a>
   &nbsp;
@@ -185,7 +185,7 @@
 <table>
   <tr>
     <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-01-spotlight-hero-card.png" width="100%" alt="Shot 1: 3D Spotlight Hero Card"></a></td>
-    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-06-playbooks-stack.png" width="100%" alt="Shot 6: 6 Playbooks Stack"></a></td>
+    <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-06-playbooks-stack.png" width="100%" alt="Shot 6: 8 Playbooks Stack"></a></td>
   </tr>
   <tr>
     <td align="center"><sub><b>Shot 1 · 3D 聚光主角卡（04 · Video as Code）</b>：2.6x 侧斜推近 + <code>18/18 Verified.</code> 悬浮批注 + 光束绕框两周</sub></td>
