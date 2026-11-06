@@ -8,3 +8,12 @@ promo/out/promo-nobgm.mp4
 promo/out/promo-bgm.mp4
 promo/out/promo-sfx.mp4
 .DS_Store
+
+# BGM bed (8.8 MB third-party track from the video-shotcraft library) — only needed to
+# render the unshipped --bgm masters; the shipped builds are SFX-only.
+promo/public/audio/bgm.mp3
+
+# Demo textures only used by the `ink-press` theme; `open-science` (the default and the
+# theme the shipped film uses) recolours generated SVG instead, so these PNGs are unused.
+promo/public/textures/live/
+
