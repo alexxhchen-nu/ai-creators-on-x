@@ -25,36 +25,36 @@
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#2f9e44"/>
       <text x="14" y="36" fill="#2f9e44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">01</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">Agent 软件工厂</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Worktree · 1m CAS · 5000t</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Worktree · 1m CAS · 5000t</text>
     </g><g transform="translate(792, 68)">
       <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#4dabf7"/>
       <text x="14" y="36" fill="#4dabf7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">02</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">出海 SEO &amp; GEO</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">一词一页 · Fan-out 意图组</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">一词一页 · Fan-out 意图组</text>
     </g><g transform="translate(988, 68)">
       <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#f59f00"/>
       <text x="14" y="36" fill="#f59f00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">03</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">Video as Code</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">白模预演 · BGM 先行 · MCP</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">白模预演 · BGM 先行 · MCP</text>
     </g><g transform="translate(596, 186)">
       <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#e8590c"/>
       <text x="14" y="36" fill="#e8590c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">04</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">全栈去 AI 味</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">62 项黑名单 · 零 AI 初稿</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">62 项黑名单 · 零 AI 初稿</text>
     </g><g transform="translate(792, 186)">
       <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#4263eb"/>
       <text x="14" y="36" fill="#4263eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">05</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">产物级压测路由</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Vector-DB 2x · 6 次连抽</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Vector-DB 2x · 6 次连抽</text>
     </g><g transform="translate(988, 186)">
       <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#7950f2"/>
       <text x="14" y="36" fill="#7950f2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">06</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">企业 FDE 工作台</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">5–8 万筛客 · 三层报错</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">5–8 万筛客 · 三层报错</text>
     </g>
 </svg>

@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229 32" width="100%" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 32" width="100%" role="img" aria-labelledby="t">
   <title id="t">Selling Points · 6 Playbooks</title>
   <defs>
     <linearGradient id="shp960917920" x2="0" y2="100%"><stop stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".06"/></linearGradient>
-    <clipPath id="clp960917920"><rect width="229" height="32" rx="4"/></clipPath>
+    <clipPath id="clp960917920"><rect width="241" height="32" rx="4"/></clipPath>
   </defs>
   <g clip-path="url(#clp960917920)">
-    <rect width="127" height="32" fill="#3d3d3d"/>
-    <rect x="127" width="102" height="32" fill="#237532"/>
-    <rect width="229" height="32" fill="url(#shp960917920)"/>
+    <rect width="133" height="32" fill="#3d3d3d"/>
+    <rect x="133" width="108" height="32" fill="#237532"/>
+    <rect width="241" height="32" fill="url(#shp960917920)"/>
   </g>
   <g font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">
-    <text x="63.5" y="21" fill="#ffffff">SELLING POINTS</text>
-    <text x="178.0" y="21" fill="#ffffff">6 PLAYBOOKS</text>
+    <text x="66.5" y="21" fill="#ffffff">SELLING POINTS</text>
+    <text x="187.0" y="21" fill="#ffffff">6 PLAYBOOKS</text>
   </g></svg>

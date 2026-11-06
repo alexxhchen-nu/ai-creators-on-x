@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 32" width="100%" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 32" width="100%" role="img" aria-labelledby="t">
   <title id="t">Full Digest · 1,890 Lines</title>
   <defs>
     <linearGradient id="shp810809948" x2="0" y2="100%"><stop stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".06"/></linearGradient>
-    <clipPath id="clp810809948"><rect width="200" height="32" rx="4"/></clipPath>
+    <clipPath id="clp810809948"><rect width="212" height="32" rx="4"/></clipPath>
   </defs>
   <g clip-path="url(#clp810809948)">
-    <rect width="103" height="32" fill="#3d3d3d"/>
-    <rect x="103" width="97" height="32" fill="#b04409"/>
-    <rect width="200" height="32" fill="url(#shp810809948)"/>
+    <rect width="109" height="32" fill="#3d3d3d"/>
+    <rect x="109" width="103" height="32" fill="#b04409"/>
+    <rect width="212" height="32" fill="url(#shp810809948)"/>
   </g>
   <g font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">
-    <text x="51.5" y="21" fill="#ffffff">FULL DIGEST</text>
-    <text x="151.5" y="21" fill="#ffffff">1,890 LINES</text>
+    <text x="54.5" y="21" fill="#ffffff">FULL DIGEST</text>
+    <text x="160.5" y="21" fill="#ffffff">1,890 LINES</text>
   </g></svg>

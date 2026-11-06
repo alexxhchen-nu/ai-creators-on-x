@@ -25,36 +25,36 @@
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#2f9e44"/>
       <text x="14" y="36" fill="#2f9e44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">01</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">Agent Factory</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Worktree · 1m CAS · 5000t</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Worktree · 1m CAS · 5000t</text>
     </g><g transform="translate(792, 68)">
       <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#4dabf7"/>
       <text x="14" y="36" fill="#4dabf7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">02</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">SEO &amp; GEO Engine</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">1-word-1-page · Fan-out</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">1-word-1-page · Fan-out</text>
     </g><g transform="translate(988, 68)">
       <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#f59f00"/>
       <text x="14" y="36" fill="#f59f00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">03</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">Video as Code</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">White-model previz · MCP</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">White-model previz · MCP</text>
     </g><g transform="translate(596, 186)">
       <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#e8590c"/>
       <text x="14" y="36" fill="#e8590c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">04</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">De-AI Taste</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">62 UI rules · no AI draft</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">62 UI rules · no AI draft</text>
     </g><g transform="translate(792, 186)">
       <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#4263eb"/>
       <text x="14" y="36" fill="#4263eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">05</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">Real Benchmark</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Vector-DB 2x · 6/6 draw</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Vector-DB 2x · 6/6 draw</text>
     </g><g transform="translate(988, 186)">
       <rect width="182" height="102" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
       <rect x="0" y="0" width="182" height="4" rx="2" fill="#7950f2"/>
       <text x="14" y="36" fill="#7950f2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700">06</text>
       <text x="14" y="63" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="700">Enterprise FDE</text>
-      <text x="14" y="88" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">3-layer gate · approval</text>
+      <text x="14" y="88" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">3-layer gate · approval</text>
     </g>
 </svg>

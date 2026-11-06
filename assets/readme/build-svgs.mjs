@@ -1,7 +1,10 @@
 // assets/readme/build-svgs.mjs — single source of truth for the README SVG system.
 //
-// Regenerates every text-bearing SVG under assets/readme/ from the open-science
-// token block below. Run with:  node assets/readme/build-svgs.mjs
+// Regenerates every generated SVG asset under assets/readme/ from the open-science
+// token block below (badges, pills, section chips, pipeline). The four hand-
+// authored compositions (hero, logic-map, product card) are not rebuilt; they
+// share the same muted-text color by convention (gray-7 #495057). Run with:
+//   node assets/readme/build-svgs.mjs
 //
 // Two rules are enforced by construction, because both were previously violated:
 //
@@ -49,19 +52,20 @@ const svg = (vbW, vbH, label, body, id = "t") =>
 // ------------------------------------------------- 1. shields-style pills
 // Used for both badges and language/CTA pills. Advance estimate per character,
 // calibrated against Chromium measurements: lower-case latin 0.56em, upper-case
-// 0.72em, digits 0.62em, space 0.30em, CJK 1.0em. A flat 0.55em for everything
-// under-counted uppercase by up to 25% and made 'DARWIN REPORT' overflow its
-// half by 5.2 units; the separated classes plus 20 units of padding per half keep
-// every pill/badge on >= 6 units of slack (verified by the harness).
+// 0.72em, digits 0.62em, space 0.30em. A flat 0.55em for everything under-counted
+// uppercase by up to 25% and made 'DARWIN REPORT' overflow its half by 5.2 units.
+// Measured CJK advance in Microsoft YaHei is ~1.17em, not 1.0em, so CJK counts at
+// 1.20em; with 26 units of padding per half the minimum observed slack is >= 10
+// units, enough to absorb a fallback font wider than the one measured here.
 const em = (s) => [...s].reduce((a, c) => {
-  if (/[\u2E80-\u9FFF\uF900-\uFAFF\uFF00-\uFFEF]/.test(c)) return a + 1.0;
+  if (/[\u2E80-\u9FFF\uF900-\uFAFF\uFF00-\uFFEF]/.test(c)) return a + 1.20;
   if (c === " ") return a + 0.30;
   if (/[A-Z]/.test(c)) return a + 0.72;
   if (/[0-9]/.test(c)) return a + 0.62;
   if (/[a-z]/.test(c)) return a + 0.56;
   return a + 0.62;
 }, 0);
-const halfW = (s, fs = 11) => Math.max(24, Math.ceil(em(s) * fs) + 20);
+const halfW = (s, fs = 11) => Math.max(24, Math.ceil(em(s) * fs) + 26);
 
 function shield(label, value, fill) {
   const wl = halfW(label), wv = halfW(value), w = wl + wv;

@@ -2,36 +2,36 @@
   <title id="t">Four-step execution loop · two red-light safety checkpoints</title>
   <defs><marker id="ar2" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 8 5 L 0 9 z" fill="#ced4da"/></marker></defs>
   <rect width="1200" height="204" rx="8" fill="#f1f0ed" stroke="#d9d9d9" stroke-width="1"/>
-  <text x="28" y="28" fill="#868e96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600">Four-step execution loop · two red-light safety checkpoints</text>
+  <text x="28" y="28" fill="#495057" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600">Four-step execution loop · two red-light safety checkpoints</text>
   <g transform="translate(24, 44)">
       <rect width="212" height="136" rx="8" fill="#ffffff" stroke="#4dabf7" stroke-width="1.5"/>
       <rect x="0" y="0" width="212" height="4" rx="2" fill="#4dabf7"/>
       <text x="106" y="32" fill="#4dabf7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">STEP 1 · INTENT PRE-CHECK</text>
       <text x="106" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">Out-of-scope / live price?</text>
-      <text x="106" y="104" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">Stop, or answer from overview</text>
+      <text x="106" y="104" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">Stop, or answer from overview</text>
     </g><path d="M 236 112 L 252 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/><g transform="translate(258, 44)">
       <rect width="212" height="136" rx="8" fill="#ffffff" stroke="#4263eb" stroke-width="1.5"/>
       <rect x="0" y="0" width="212" height="4" rx="2" fill="#4263eb"/>
       <text x="106" y="32" fill="#4263eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">STEP 2 · LOAD ONE CARD</text>
       <text x="106" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">Route by intent table</text>
-      <text x="106" y="104" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">Verify ## E required inputs</text>
+      <text x="106" y="104" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">Verify ## E required inputs</text>
     </g><path d="M 470 112 L 486 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/><g transform="translate(492, 44)">
       <rect width="212" height="136" rx="8" fill="#ffffff" stroke="#b31b1b" stroke-width="1.5"/>
       <rect x="0" y="0" width="212" height="4" rx="2" fill="#b31b1b"/>
       <text x="106" y="32" fill="#b31b1b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">CHECKPOINT 1 &amp; 2</text>
       <text x="106" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">Payment / send / FDE scope?</text>
-      <text x="106" y="104" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">STOP: emit auth &amp; cost gate</text>
+      <text x="106" y="104" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">STOP: emit auth &amp; cost gate</text>
     </g><path d="M 704 112 L 720 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/><g transform="translate(726, 44)">
       <rect width="212" height="136" rx="8" fill="#ffffff" stroke="#f59f00" stroke-width="1.5"/>
       <rect x="0" y="0" width="212" height="4" rx="2" fill="#f59f00"/>
       <text x="106" y="32" fill="#f59f00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">STEP 3 · RUN THE CARD</text>
       <text x="106" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">Follow ## E steps</text>
-      <text x="106" y="104" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">Emit config / code / SOP</text>
+      <text x="106" y="104" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">Emit config / code / SOP</text>
     </g><path d="M 938 112 L 954 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar2)"/><g transform="translate(960, 44)">
       <rect width="212" height="136" rx="8" fill="#ffffff" stroke="#2f9e44" stroke-width="1.5"/>
       <rect x="0" y="0" width="212" height="4" rx="2" fill="#2f9e44"/>
       <text x="106" y="32" fill="#2f9e44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">STEP 4 · SELF-CHECK GATE</text>
       <text x="106" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle">Audit against ## B</text>
-      <text x="106" y="104" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">5000t · BL-1..6 · de-AI taste</text>
+      <text x="106" y="104" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5" text-anchor="middle">5000t · BL-1..6 · de-AI taste</text>
     </g>
 </svg>

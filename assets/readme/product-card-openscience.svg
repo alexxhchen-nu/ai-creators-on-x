@@ -82,7 +82,7 @@
 
   <!-- stat strip -->
   <g transform="translate(88, 344)">
-    <text x="0" y="15" fill="#868e96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" font-weight="600">62,165 LIKES · 9,569 REPOSTS · 70% KEEP RATE · Triage 65.8 → 88.9 (+23.1) · PAIRED 3/3 KEEP · 18/18 ASSERTIONS (100%) · 0 ERRORS / 0 WARNINGS</text>
+    <text x="0" y="15" fill="#495057" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" font-weight="600">62,165 LIKES · 9,569 REPOSTS · 70% KEEP RATE · Triage 65.8 → 88.9 (+23.1) · PAIRED 3/3 KEEP · 18/18 ASSERTIONS (100%) · 0 ERRORS / 0 WARNINGS</text>
   </g>
 
   <g transform="translate(88, 380)">
@@ -92,7 +92,7 @@
     <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">01</text>
     <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">Agent Software Factory</text>
     <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
-    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">Worktree · 1-min CAS · 5,000-token gate</text>
+    <text x="24" y="96" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">Worktree · 1-min CAS · 5,000-token gate</text>
   </g><g transform="translate(568, 380)">
     <rect width="448" height="132" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
     <rect x="0" y="0" width="448" height="4" rx="2" fill="#4dabf7"/>
@@ -100,7 +100,7 @@
     <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">02</text>
     <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">SEO &amp; GEO Growth Engine</text>
     <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
-    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">1-keyword-1-page TDH · Fan-out intent groups</text>
+    <text x="24" y="96" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">1-keyword-1-page TDH · Fan-out intent groups</text>
   </g><g transform="translate(1048, 380)">
     <rect width="448" height="132" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
     <rect x="0" y="0" width="448" height="4" rx="2" fill="#f59f00"/>
@@ -108,7 +108,7 @@
     <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">03</text>
     <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">Video as Code</text>
     <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
-    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">White-model previz · BGM-first · Remotion MCP</text>
+    <text x="24" y="96" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">White-model previz · BGM-first · Remotion MCP</text>
   </g><g transform="translate(88, 536)">
     <rect width="448" height="132" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
     <rect x="0" y="0" width="448" height="4" rx="2" fill="#e8590c"/>
@@ -116,7 +116,7 @@
     <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">04</text>
     <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">De-AI Taste Protocol</text>
     <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
-    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">62 UI blacklists · physical imperfection · no AI draft</text>
+    <text x="24" y="96" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">62 UI blacklists · physical imperfection · no AI draft</text>
   </g><g transform="translate(568, 536)">
     <rect width="448" height="132" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
     <rect x="0" y="0" width="448" height="4" rx="2" fill="#4263eb"/>
@@ -124,7 +124,7 @@
     <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">05</text>
     <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">Artifact Benchmark &amp; Routing</text>
     <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
-    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">Vector-DB throughput · 6/6 draw · early-IQ-debt guard</text>
+    <text x="24" y="96" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">Vector-DB throughput · 6/6 draw · early-IQ-debt guard</text>
   </g><g transform="translate(1048, 536)">
     <rect width="448" height="132" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
     <rect x="0" y="0" width="448" height="4" rx="2" fill="#7950f2"/>
@@ -132,7 +132,7 @@
     <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">06</text>
     <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">Enterprise FDE &amp; One-Person Ops</text>
     <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
-    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">Foundation-cost filter · 3-layer error gate · approval loop</text>
+    <text x="24" y="96" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">Foundation-cost filter · 3-layer error gate · approval loop</text>
   </g>
 
   <!-- terminal -->
@@ -144,8 +144,8 @@
 
   <!-- footer right -->
   <g transform="translate(1512, 716)">
-    <text x="0" y="0" fill="#868e96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="600" text-anchor="end">SKILL.md · references/capabilities/ (6 cards)</text>
-    <text x="0" y="22" fill="#868e96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="600" text-anchor="end">Global 4-hub ready: Magpie · Claude · Agents · Pi</text>
+    <text x="0" y="0" fill="#495057" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="600" text-anchor="end">SKILL.md · references/capabilities/ (6 cards)</text>
+    <text x="0" y="22" fill="#495057" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="600" text-anchor="end">Global 4-hub ready: Magpie · Claude · Agents · Pi</text>
     <text x="0" y="44" fill="#0b7285" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="end">github.com/alexxhchen-nu/ai-creators-on-x</text>
   </g>
 
