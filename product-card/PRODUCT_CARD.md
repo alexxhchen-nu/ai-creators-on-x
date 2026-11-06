@@ -2,9 +2,9 @@
 
 ![product card](./card-openscience.png)
 
-> **Deterministic, project-native.** Built as a `1600×900` SVG (`assets/readme/product-card-openscience.svg`) and
-> rasterised at 2× (`1600×900` → `2000×1125`) through Chromium. No generative model is involved, so the palette is
-> pixel-exact against the README and reproducible byte-for-byte from source.
+> Built as a `1600×900` SVG (`assets/readme/product-card-openscience.svg`) and
+> rasterised at 1.25× (`2000×1125`) through Chromium. Rendering depends on the
+> installed fonts and Chromium version; the SVG remains the editable source.
 > Superseded APIMart `z-image-turbo` drafts (dark navy) were removed — they no longer matched the theme.
 
 ## Theme tokens — aligned to [aipoch/open-science](https://github.com/aipoch/open-science)
@@ -16,7 +16,7 @@
 | Chip | `#e8e7e3` | pill / section-header fill |
 | Border | `#d9d9d9` | gray-3 hairlines |
 | Ink | `#1a1a1a` | headline (serif) |
-| Muted | `#868e96` | gray-6 captions |
+| Muted | `#495057` | gray-7 captions |
 | Accent | `#0b7285` | cyan-9, the single brand accent |
 | Green | `#2f9e44` | green-8 — success / downloads |
 | Blue | `#4dabf7` | blue-4 — version / info |
@@ -25,6 +25,12 @@
 | Indigo | `#4263eb` | indigo-7 — platforms |
 | Violet | `#7950f2` | violet-6 — license |
 | Red | `#b31b1b` | danger / checkpoint gates |
+
+Number chips use the README's dark ink variants: green `#237532`, blue `#306a99`,
+yellow `#8e5c00`, orange `#b04409`, indigo `#3d5bd8`, violet `#6e49dc`.
+White labels measure 5.70–5.76:1 against these solid fills. Bright hues remain
+on decorative rules and unlabelled color strips.
+
 
 ## One-liner
 
