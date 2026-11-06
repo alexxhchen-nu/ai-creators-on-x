@@ -4,7 +4,27 @@
 
 <img src="./assets/readme/hero-en.svg" width="100%" alt="AI-CREATORS-ON-X Hero Banner: 20 Chinese X AI Creators · 1,145 Tech Posts → 8 RIA++ Agent Playbooks">
 
-<h1 align="center"><img src="./assets/readme/title-rainbow.svg" width="100%" alt="AI-CREATORS-ON-X"></h1>
+<pre align="center">
+                          ▒▒▒▒▒▒▒▒▒▒░░                  
+                      ▒▒▒▒▒▒▒▒▒▒▒▒░░                    
+        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░                      
+    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░                      
+  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒          ▒▒▒▒▒▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░    ▒▒▒▒▒▒▒▒  
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░▒▒▒▒▒▒▒▒  
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒░░▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒    
+  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒░░▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒    
+    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██▒▒░░▒▒░░▒▒░░▒▒▒▒▒▒▒▒░░▒▒▒▒    
+        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░  ░░▒▒    
+          ░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒░░░░░░        ░░▒▒    
+            ▒▒▒▒░░░░░░░░░░░░▒▒▒▒▒▒                ░░    
+            ▒▒▒▒▒▒          ▒▒▒▒▒▒                      
+            ▒▒▒▒▒▒            ▒▒▒▒                      
+            ▒▒▒▒                ▒▒                      
+            ▒▒                                          
+</pre>
+
+# AI-CREATORS-ON-X
 
 **1,145 high-signal technical posts and 60+ open-source repositories from 20 top Chinese AI creators on X — distilled into 8 callable RIA++ Agent Playbooks.**
 
