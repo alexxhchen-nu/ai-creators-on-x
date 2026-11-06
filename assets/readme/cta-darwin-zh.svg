@@ -1,14 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="248" height="32" viewBox="0 0 248 32" role="img" aria-labelledby="t">
-  <title id="t">达尔文进化报告 65.8 → 88.9</title>
-  <defs><linearGradient id="sh" x2="0" y2="100%"><stop stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".06"/></linearGradient></defs>
-  <clipPath id="c"><rect width="248" height="32" rx="4"/></clipPath>
-  <g clip-path="url(#c)">
-    <rect width="140" height="32" fill="#3d3d3d"/>
-    <rect x="140" width="108" height="32" fill="#4263eb"/>
-    <rect width="248" height="32" fill="url(#sh)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 32" width="100%" role="img" aria-labelledby="t">
+  <title id="t">达尔文进化报告 · 65.8 to 88.9</title>
+  <defs>
+    <linearGradient id="shp246043110" x2="0" y2="100%"><stop stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".06"/></linearGradient>
+    <clipPath id="clp246043110"><rect width="187" height="32" rx="4"/></clipPath>
+  </defs>
+  <g clip-path="url(#clp246043110)">
+    <rect width="99" height="32" fill="#3d3d3d"/>
+    <rect x="99" width="88" height="32" fill="#3d5bd8"/>
+    <rect width="187" height="32" fill="url(#shp246043110)"/>
   </g>
-  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600">
-    <text x="70" y="21" fill="#ffffff" text-anchor="middle">达尔文进化报告</text>
-    <text x="194" y="21" fill="#ffffff" text-anchor="middle">65.8 → 88.9</text>
-  </g>
-</svg>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">
+    <text x="49.5" y="21" fill="#ffffff">达尔文进化报告</text>
+    <text x="143.0" y="21" fill="#ffffff">65.8 → 88.9</text>
+  </g></svg>

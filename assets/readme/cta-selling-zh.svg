@@ -1,14 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="248" height="32" viewBox="0 0 248 32" role="img" aria-labelledby="t">
-  <title id="t">核心卖点手册 6 PLAYBOOKS</title>
-  <defs><linearGradient id="sh" x2="0" y2="100%"><stop stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".06"/></linearGradient></defs>
-  <clipPath id="c"><rect width="248" height="32" rx="4"/></clipPath>
-  <g clip-path="url(#c)">
-    <rect width="140" height="32" fill="#3d3d3d"/>
-    <rect x="140" width="108" height="32" fill="#2f9e44"/>
-    <rect width="248" height="32" fill="url(#sh)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 32" width="100%" role="img" aria-labelledby="t">
+  <title id="t">核心卖点手册 · 6 Playbooks</title>
+  <defs>
+    <linearGradient id="shp365246875" x2="0" y2="100%"><stop stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".06"/></linearGradient>
+    <clipPath id="clp365246875"><rect width="175" height="32" rx="4"/></clipPath>
+  </defs>
+  <g clip-path="url(#clp365246875)">
+    <rect width="87" height="32" fill="#3d3d3d"/>
+    <rect x="87" width="88" height="32" fill="#237532"/>
+    <rect width="175" height="32" fill="url(#shp365246875)"/>
   </g>
-  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600">
-    <text x="70" y="21" fill="#ffffff" text-anchor="middle">核心卖点手册</text>
-    <text x="194" y="21" fill="#ffffff" text-anchor="middle">6 PLAYBOOKS</text>
-  </g>
-</svg>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">
+    <text x="43.5" y="21" fill="#ffffff">核心卖点手册</text>
+    <text x="131.0" y="21" fill="#ffffff">6 PLAYBOOKS</text>
+  </g></svg>

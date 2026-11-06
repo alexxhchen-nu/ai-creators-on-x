@@ -1,14 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="248" height="32" viewBox="0 0 248 32" role="img" aria-labelledby="t">
-  <title id="t">简体中文 ← SWITCH</title>
-  <defs><linearGradient id="sh" x2="0" y2="100%"><stop stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".06"/></linearGradient></defs>
-  <clipPath id="c"><rect width="248" height="32" rx="4"/></clipPath>
-  <g clip-path="url(#c)">
-    <rect width="140" height="32" fill="#ffffff"/>
-    <rect x="140" width="108" height="32" fill="#ced4da"/>
-    <rect width="248" height="32" fill="url(#sh)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134 32" width="100%" role="img" aria-labelledby="t">
+  <title id="t">切换到简体中文</title>
+  <defs>
+    <linearGradient id="shp1452530223" x2="0" y2="100%"><stop stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".06"/></linearGradient>
+    <clipPath id="clp1452530223"><rect width="134" height="32" rx="4"/></clipPath>
+  </defs>
+  <g clip-path="url(#clp1452530223)">
+    <rect x="0.5" y="0.5" width="64" height="31" fill="#ffffff" stroke="#d9d9d9"/>
+    <rect x="65" y="0.5" width="68" height="31" fill="#ffffff" stroke="#d9d9d9"/>
+    
   </g>
-  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600">
-    <text x="70" y="21" fill="#212529" text-anchor="middle">简体中文</text>
-    <text x="194" y="21" fill="#ffffff" text-anchor="middle">← SWITCH</text>
-  </g>
-</svg>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">
+    <text x="32.5" y="21" fill="#212529">简体中文</text>
+    <text x="99.5" y="21" fill="#495057">← SWITCH</text>
+  </g></svg>

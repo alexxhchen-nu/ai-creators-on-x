@@ -1,37 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 212" width="100%" role="img" aria-labelledby="t">
   <title id="t">从 1,641 条原始推文到全机四端可执行 Skill 的五阶工程流水线</title>
   <defs><marker id="ar" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 8 5 L 0 9 z" fill="#ced4da"/></marker></defs>
-  <rect width="1200" height="200" rx="8" fill="#f1f0ed" stroke="#d9d9d9" stroke-width="1"/>
-  <text x="30" y="28" fill="#868e96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600">从 1,641 条原始推文到全机四端可执行 Skill 的五阶工程流水线</text>
-  <g transform="translate(30, 46)">
-      <rect width="202" height="132" rx="8" fill="#ffffff" stroke="#4dabf7" stroke-width="1.5"/>
-      <rect x="0" y="0" width="202" height="4" rx="2" fill="#4dabf7"/>
-      <text x="14" y="30" fill="#4dabf7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700">STEP 1 · 原始抓取</text>
-      <text x="14" y="72" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">1,641 条时间线推文</text>
-      <text x="14" y="100" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5">pagesift 1.1.2 · 20 位创作者</text>
-    </g><path d="M 236 112 L 256 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/><g transform="translate(262, 46)">
-      <rect width="202" height="132" rx="8" fill="#ffffff" stroke="#4263eb" stroke-width="1.5"/>
-      <rect x="0" y="0" width="202" height="4" rx="2" fill="#4263eb"/>
-      <text x="14" y="30" fill="#4263eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700">STEP 2 · 双层精筛</text>
-      <text x="14" y="72" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">1,145 条技术帖 · 保留 70%</text>
-      <text x="14" y="100" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5">累计 62,165 赞 / 9,569 转</text>
-    </g><path d="M 468 112 L 488 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/><g transform="translate(494, 46)">
-      <rect width="202" height="132" rx="8" fill="#ffffff" stroke="#f59f00" stroke-width="1.5"/>
-      <rect x="0" y="0" width="202" height="4" rx="2" fill="#f59f00"/>
-      <text x="14" y="30" fill="#f59f00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700">STEP 3 · 仓颉拆解</text>
-      <text x="14" y="72" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">6 张 RIA++ 能力卡</text>
-      <text x="14" y="100" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5">Cangjie v2.5 · R/I/A1/A2/E/B</text>
-    </g><path d="M 700 112 L 720 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/><g transform="translate(726, 46)">
-      <rect width="202" height="132" rx="8" fill="#ffffff" stroke="#2f9e44" stroke-width="1.5"/>
-      <rect x="0" y="0" width="202" height="4" rx="2" fill="#2f9e44"/>
-      <text x="14" y="30" fill="#2f9e44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700">STEP 4 · 达尔文进化</text>
-      <text x="14" y="72" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">Triage 65.8 → 88.9</text>
-      <text x="14" y="100" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5">Paired 3/3 全票 · 18/18 断言</text>
-    </g><path d="M 932 112 L 952 112" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/><g transform="translate(958, 46)">
-      <rect width="202" height="132" rx="8" fill="#ffffff" stroke="#e8590c" stroke-width="1.5"/>
-      <rect x="0" y="0" width="202" height="4" rx="2" fill="#e8590c"/>
-      <text x="14" y="30" fill="#e8590c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700">STEP 5 · 全机部署</text>
-      <text x="14" y="72" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">4 大全局目录同步生效</text>
-      <text x="14" y="100" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="11.5">Magpie · Claude · Agents · Pi</text>
-    </g>
+  <rect width="1200" height="212" rx="8" fill="#f1f0ed" stroke="#d9d9d9" stroke-width="1"/>
+  <text x="20" y="26" fill="#495057" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600">从 1,641 条原始推文到全机四端可执行 Skill 的五阶工程流水线</text>
+  <g transform="translate(20.0, 42)">
+    <rect width="219.2" height="148" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="219.2" height="4" rx="2" fill="#306a99"/>
+    <text x="14" y="32" fill="#306a99" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">STEP 1 · 原始抓取</text>
+    <text x="14" y="70" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">1,641 条时间线推文</text>
+    <line x1="14" y1="111" x2="205.2" y2="111" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="14" y="132" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">pagesift 1.1.2 · 20 位创作者</text>
+  </g>
+  <path d="M 242.2 116 L 251.2 116" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
+  <g transform="translate(255.2, 42)">
+    <rect width="219.2" height="148" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="219.2" height="4" rx="2" fill="#3d5bd8"/>
+    <text x="14" y="32" fill="#3d5bd8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">STEP 2 · 双层精筛</text>
+    <text x="14" y="70" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">1,145 条技术帖</text>
+    <text x="14" y="92" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">· 保留 70%</text>
+    <line x1="14" y1="111" x2="205.2" y2="111" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="14" y="132" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">累计 62,165 赞 / 9,569 转</text>
+  </g>
+  <path d="M 477.4 116 L 486.4 116" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
+  <g transform="translate(490.4, 42)">
+    <rect width="219.2" height="148" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="219.2" height="4" rx="2" fill="#8e5c00"/>
+    <text x="14" y="32" fill="#8e5c00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">STEP 3 · 仓颉拆解</text>
+    <text x="14" y="70" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">6 张 RIA++ 能力卡</text>
+    <line x1="14" y1="111" x2="205.2" y2="111" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="14" y="132" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Cangjie v2.5 · R/I/A1/A2/E/B</text>
+  </g>
+  <path d="M 712.6 116 L 721.6 116" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
+  <g transform="translate(725.6, 42)">
+    <rect width="219.2" height="148" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="219.2" height="4" rx="2" fill="#237532"/>
+    <text x="14" y="32" fill="#237532" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">STEP 4 · 达尔文进化</text>
+    <text x="14" y="70" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">Triage 65.8 → 88.9</text>
+    <line x1="14" y1="111" x2="205.2" y2="111" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="14" y="132" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Paired 3/3 全票 · 18/18 断言</text>
+  </g>
+  <path d="M 947.8 116 L 956.8 116" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
+  <g transform="translate(960.8, 42)">
+    <rect width="219.2" height="148" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="219.2" height="4" rx="2" fill="#b04409"/>
+    <text x="14" y="32" fill="#b04409" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">STEP 5 · 全机部署</text>
+    <text x="14" y="70" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">4 大全局目录同步生效</text>
+    <line x1="14" y1="111" x2="205.2" y2="111" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="14" y="132" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Magpie · Claude · Agents · Pi</text>
+  </g>
 </svg>

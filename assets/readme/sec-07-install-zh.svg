@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" width="100%" role="img" aria-labelledby="t">
   <title id="t">07 快速上手与全局安装 — GLOBAL 4-HUB READY</title>
   <rect width="1200" height="56" rx="6" fill="#e8e7e3"/>
-  <rect x="0" y="0" width="6" height="56" rx="3" fill="#7950f2"/>
-  <rect x="22" y="14" width="40" height="28" rx="4" fill="#7950f2"/>
+  <rect x="0" y="0" width="6" height="56" rx="3" fill="#6e49dc"/>
+  <rect x="22" y="14" width="40" height="28" rx="4" fill="#6e49dc"/>
   <text x="42" y="33" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" text-anchor="middle">07</text>
   <text x="78" y="35" fill="#1a1a1a" font-family="Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif" font-size="21" font-weight="700">快速上手与全局安装</text>
-  <text x="1176" y="34" fill="#868e96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" text-anchor="end">GLOBAL 4-HUB READY</text>
-</svg>
+  <text x="1176" y="34" fill="#495057" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" text-anchor="end">GLOBAL 4-HUB READY</text></svg>
