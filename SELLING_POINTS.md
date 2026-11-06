@@ -5,17 +5,17 @@
 
 ## 🎬 横屏宣传片（16:9 Horizontal · 1920×1080 · 36.2s · 无旁白 + 电影级 SFX/BGM）
 
-<video src="./promo/out/promo-readme.mp4" poster="./product-card/card.png" width="100%" controls autoplay loop muted playsinline>
+<video src="./promo/out/promo-readme.mp4" poster="./product-card/card-openscience.png" width="100%" controls autoplay loop muted playsinline>
   Your markdown viewer does not support HTML5 video.
 </video>
 
-[![AI-CREATORS-ON-X Horizontal 16:9 Promo Video](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
+[![AI-CREATORS-ON-X horizontal 16:9 promo, 36.2s, no narration](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
 
 ![[promo/out/promo-readme.mp4]]
 
-- **轻量内嵌有声版（`<10MB`，7.99 MB，1920×1080 16:9）**：[`promo/out/promo-readme.mp4`](./promo/out/promo-readme.mp4)
-- **纯 Markdown 横屏动图（8.41 MB，960×540 16:9）**：[`promo/out/promo-readme.gif`](./promo/out/promo-readme.gif)
-- **无损母版（带 BGM+SFX / 纯 SFX 无 BGM，23.60 MB）**：[`promo/out/promo-bgm.mp4`](./promo/out/promo-bgm.mp4) · [`promo/out/promo-sfx.mp4`](./promo/out/promo-sfx.mp4)
+- **轻量内嵌有声版（`<10MB`，7.01 MB，1920×1080 16:9）**：[`promo/out/promo-readme.mp4`](./promo/out/promo-readme.mp4)
+- **纯 Markdown 横屏动图（6.11 MB，960×540 16:9）**：[`promo/out/promo-readme.gif`](./promo/out/promo-readme.gif)
+- **无损母版（约 20.2 MB）**：刻意不入库，可在本地 `promo/` 内复现：`npx remotion render src/index.ts AiflPromo out/promo-bgm.mp4 --props=props-bgm.json`
 ---
 
 ## 一、核心痛点 vs 本 Skill 交付的终极解法

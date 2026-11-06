@@ -79,5 +79,14 @@
     "muted": "#65635f",
     "accent": "#955905",
     "border": "#ded8ce"
+  },
+  "open-science": {
+    "page": "#f1f0ed",
+    "surface": "#ffffff",
+    "field": "#f8f7f4",
+    "text": "#1a1a1a",
+    "muted": "#868e96",
+    "accent": "#0b7285",
+    "border": "#d9d9d9"
   }
 }

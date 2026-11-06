@@ -26,6 +26,7 @@ const styleKey = (key: string) =>
 export const withThemes = <T extends Manifest>(paper: T) => {
   const units = [...paper.shots, ...paper.transitions, ...paper.captions];
   const presets = [
+    {id: 'open-science', label: 'Open Science · 暖纸墨'},
     {id: 'ink-press', label: '纸质 · Ink Press'},
     {id: 'modern-light', label: '现代浅色 · Modern Light'},
     {id: 'midnight', label: '暗黑 · Midnight'},
@@ -63,6 +64,6 @@ export const withThemes = <T extends Manifest>(paper: T) => {
       })),
     };
   };
-  return {...paper, themeProp: '__theme', paletteProp: '__palette', defaultTheme: 'midnight', themes: presets,
+  return {...paper, themeProp: '__theme', paletteProp: '__palette', defaultTheme: 'open-science', themes: presets,
     shots: paper.shots.map(wrap), transitions: paper.transitions.map(wrap), captions: paper.captions.map(wrap)};
 };

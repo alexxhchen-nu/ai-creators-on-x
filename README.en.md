@@ -11,7 +11,7 @@
 
 <div align="center">
 
-<!-- architect-team:readme-theme=midnight -->
+<!-- readme-theme: open-science (aligned to aipoch/open-science: warm paper #f1f0ed, ink #1a1a1a, teal accent #0b7285, Open Color wayfinding) -->
 
 <img src="./assets/readme/hero-en.svg" width="100%" alt="AI-CREATORS-ON-X Hero Banner: 20 Chinese X AI Creators · 1,145 Tech Posts → 6 RIA++ Agent Playbooks">
 
@@ -20,11 +20,12 @@
 **1,145 high-signal technical posts and 60+ open-source repositories from 20 top Chinese AI creators on X — distilled into 6 callable RIA++ Agent Playbooks.**
 
 <p align="center">
-  <a href="./dist/ai-creators-on-x/SKILL.md"><img src="https://img.shields.io/badge/Cangjie-v2.5_RIA--TV++-2563EB?style=flat-square" alt="Cangjie v2.5"></a>
-  <a href="./evolve/REPORT.md"><img src="https://img.shields.io/badge/Darwin_v2.1-88.9_%2F_100_(+23.1)-3FB950?style=flat-square" alt="Darwin Score 88.9"></a>
-  <a href="./evolve/REPORT.md"><img src="https://img.shields.io/badge/Paired_Judge-3%2F3_Unanimous_Keep-3FB950?style=flat-square" alt="Paired 3/3"></a>
-  <a href="./acceptance/test-prompts.json"><img src="https://img.shields.io/badge/Assertions-18%2F18_(100%25)-10B981?style=flat-square" alt="Assertions 18/18"></a>
-  <a href="./ai-creators-on-x.md"><img src="https://img.shields.io/badge/Corpus-1145_Tech_Posts-F97316?style=flat-square" alt="1,145 Tech Posts"></a>
+  <a href="./dist/ai-creators-on-x/SKILL.md"><img alt="Built with Cangjie 2.5 RIA-TV++" src="https://img.shields.io/badge/Cangjie-v2.5%20RIA--TV%2B%2B-0b7285?style=flat"></a>
+  <a href="./evolve/REPORT.md"><img alt="Darwin v2.1 evolution score 88.9 out of 100" src="https://img.shields.io/badge/Darwin%20v2.1-88.9%20%2F%20100%20(%2B23.1)-2f9e44?style=flat"></a>
+  <a href="./evolve/REPORT.md"><img alt="Paired blind judge verdict: unanimous 3 of 3 keep" src="https://img.shields.io/badge/paired%20judge-3%2F3%20keep-4263eb?style=flat"></a>
+  <a href="./acceptance/test-prompts.json"><img alt="Empirical assertions passed 18 of 18" src="https://img.shields.io/badge/assertions-18%2F18%20(100%25)-4dabf7?style=flat"></a>
+  <a href="./ai-creators-on-x.md"><img alt="Corpus: 1145 technical posts from 20 creators" src="https://img.shields.io/badge/corpus-1%2C145%20posts-e8590c?style=flat"></a>
+  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-see%20LICENSE-7950f2?style=flat"></a>
 </p>
 
 <p align="center">
@@ -63,9 +64,9 @@
 | Video Edition | File Path | Aspect Ratio / Resolution | Size | Audio & Delivery Notes |
 | --- | --- | --- | --- | --- |
 | **README Web-Optimized MP4 (Recommended)** | [`promo/out/promo-readme.mp4`](./promo/out/promo-readme.mp4) | `1920×1080` (`16:9` Horizontal) | **7.99 MB** (`<10MB`) | 32 beat-pinned SFX + BGM (no narration, `+faststart` instant streaming) |
-| **README Animated GIF Preview** | [`promo/out/promo-readme.gif`](./promo/out/promo-readme.gif) | `960×540` (`16:9` Horizontal) | **8.41 MB** (`<10MB`) | Universal Markdown animated preview without plugins |
-| **Master: With BGM + SFX** | [`promo/out/promo-bgm.mp4`](./promo/out/promo-bgm.mp4) | `1920×1080` (`16:9` Horizontal) | 23.60 MB | Full-bitrate master (32 frame-pinned SFX + Tech House BGM) |
-| **Master: Pure SFX (No BGM)** | [`promo/out/promo-sfx.mp4`](./promo/out/promo-sfx.mp4) | `1920×1080` (`16:9` Horizontal) | 23.60 MB | SFX-only stem for custom post-production music beds |
+| **README Animated GIF Preview** | [`promo/out/promo-readme.gif`](./promo/out/promo-readme.gif) | `960×540` (`16:9` Horizontal) | **6.11 MB** (`<10MB`) | GitHub-native animated preview, no plugin needed |
+> Full-bitrate masters (≈20.2 MB each, with and without the Tech House bed) are reproducible locally: `npm i && npx remotion render src/index.ts AiflPromo out/promo-bgm.mp4 --props=props-bgm.json`. They are intentionally not committed — the two builds above are the release artifacts.
+
 
 ---
 
@@ -77,11 +78,7 @@
   <img src="./assets/readme/pipeline-en.svg" width="100%" alt="Five-Stage Pipeline: Collect 1,641 Raw Posts → Filter 1,145 Tech Posts → Distill 6 RIA++ Playbooks → Evolve to 88.9 via Darwin v2.1 → Deploy Across 4 Global Skill Hubs">
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./product-card/card.png">
-  <source media="(prefers-color-scheme: light)" srcset="./product-card/card.png">
-  <img alt="AI-CREATORS-ON-X Product Card: 20 X Creators · 1,145 Tech Posts → 6 Executable Playbooks" src="./product-card/card.png" width="100%">
-</picture>
+<a href="./SKILL.md"><img src="./assets/readme/product-card-openscience.svg" width="100%" alt="AI-CREATORS-ON-X product card: Cangjie v2.5 x Darwin v2.1, 20 creators, 1,145 technical posts, 6 RIA++ agent playbooks"></a>
 
 ---
 

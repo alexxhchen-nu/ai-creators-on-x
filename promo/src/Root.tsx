@@ -7,7 +7,7 @@ export const Root: React.FC = () => {
     <Composition
       id="AiflPromo"
       component={ThemedFilm}
-      defaultProps={{theme: 'midnight', bgm: false}}
+      defaultProps={{theme: 'open-science', bgm: false}}
       durationInFrames={AIFL_TOTAL}
       fps={30}
       width={1920}

@@ -164,7 +164,7 @@ const PAPER_WORKBENCH = {
   width: 1920,
   height: 1080,
   total: AIFL_TOTAL,
-  background: '#090f1a',
+  background: '#f1f0ed',
   shots: [
     scene('morning', 'S1 准星开场 → 全景 → 主角卡', SceneOpen, D.open, SCHEMAS.open),
     title('card1', '字卡① 6 Playbooks'),

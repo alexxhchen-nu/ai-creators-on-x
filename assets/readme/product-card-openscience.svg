@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="ct">
+  <title id="ct">AI-CREATORS-ON-X — 20 Chinese X AI creators, 1,145 tech posts distilled into 6 callable RIA++ agent playbooks</title>
+  <defs>
+    <linearGradient id="pillshine" x2="0" y2="100%">
+      <stop stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f1f0ed"/>
+  <rect x="0.5" y="0.5" width="1599" height="899" fill="none" stroke="#d9d9d9" stroke-width="1"/>
+
+  <!-- header rule -->
+  <rect x="88" y="72" width="88" height="4" rx="2" fill="#0b7285"/>
+
+  <!-- kicker -->
+  <text x="88" y="112" fill="#0b7285" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" letter-spacing="0.6">CANGJIE v2.5 RIA-TV++ BUNDLE × DARWIN v2.1 EVOLVED</text>
+
+  <!-- serif headline -->
+  <text x="88" y="196" fill="#1a1a1a" font-family="Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif" font-size="72" font-weight="700" letter-spacing="-1.5">AI-CREATORS-ON-X</text>
+
+  <!-- subtitle -->
+  <text x="88" y="242" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="21">20 Chinese X AI creators · 1,145 high-signal technical posts → 6 callable RIA++ agent playbooks</text>
+
+  <!-- badges -->
+  <g transform="translate(88, 300)">
+    <clipPath id="bc88"><rect width="163" height="26" rx="3"/></clipPath>
+    <g clip-path="url(#bc88)">
+      <rect width="163" height="26" fill="#3d3d3d"/>
+      <rect x="152" width="11" height="26" fill="#2f9e44"/>
+      <rect width="163" height="26" fill="url(#pillshine)"/>
+    </g>
+    <text x="76" y="17.5" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">Download the skill</text>
+  </g><g transform="translate(258.79999999999995, 300)">
+    <clipPath id="bc258.79999999999995"><rect width="117" height="26" rx="3"/></clipPath>
+    <g clip-path="url(#bc258.79999999999995)">
+      <rect width="117" height="26" fill="#3d3d3d"/>
+      <rect x="106" width="11" height="26" fill="#4dabf7"/>
+      <rect width="117" height="26" fill="url(#pillshine)"/>
+    </g>
+    <text x="54" y="17.5" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">v2.1 evolved</text>
+  </g><g transform="translate(383.99999999999994, 300)">
+    <clipPath id="bc383.99999999999994"><rect width="110" height="26" rx="3"/></clipPath>
+    <g clip-path="url(#bc383.99999999999994)">
+      <rect width="110" height="26" fill="#3d3d3d"/>
+      <rect x="99" width="11" height="26" fill="#0b7285"/>
+      <rect width="110" height="26" fill="url(#pillshine)"/>
+    </g>
+    <text x="50" y="17.5" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">Docker-free</text>
+  </g><g transform="translate(501.5999999999999, 300)">
+    <clipPath id="bc501.5999999999999"><rect width="110" height="26" rx="3"/></clipPath>
+    <g clip-path="url(#bc501.5999999999999)">
+      <rect width="110" height="26" fill="#3d3d3d"/>
+      <rect x="99" width="11" height="26" fill="#f59f00"/>
+      <rect width="110" height="26" fill="url(#pillshine)"/>
+    </g>
+    <text x="50" y="17.5" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">6 playbooks</text>
+  </g><g transform="translate(619.1999999999999, 300)">
+    <clipPath id="bc619.1999999999999"><rect width="110" height="26" rx="3"/></clipPath>
+    <g clip-path="url(#bc619.1999999999999)">
+      <rect width="110" height="26" fill="#3d3d3d"/>
+      <rect x="99" width="11" height="26" fill="#e8590c"/>
+      <rect width="110" height="26" fill="url(#pillshine)"/>
+    </g>
+    <text x="50" y="17.5" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">1,145 posts</text>
+  </g><g transform="translate(736.8, 300)">
+    <clipPath id="bc736.8"><rect width="110" height="26" rx="3"/></clipPath>
+    <g clip-path="url(#bc736.8)">
+      <rect width="110" height="26" fill="#3d3d3d"/>
+      <rect x="99" width="11" height="26" fill="#4263eb"/>
+      <rect width="110" height="26" fill="url(#pillshine)"/>
+    </g>
+    <text x="50" y="17.5" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">20 creators</text>
+  </g><g transform="translate(854.4, 300)">
+    <clipPath id="bc854.4"><rect width="125" height="26" rx="3"/></clipPath>
+    <g clip-path="url(#bc854.4)">
+      <rect width="125" height="26" fill="#3d3d3d"/>
+      <rect x="114" width="11" height="26" fill="#7950f2"/>
+      <rect width="125" height="26" fill="url(#pillshine)"/>
+    </g>
+    <text x="57" y="17.5" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">MIT-style use</text>
+  </g>
+
+  <!-- stat strip -->
+  <g transform="translate(88, 344)">
+    <text x="0" y="15" fill="#868e96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" font-weight="600">62,165 LIKES · 9,569 REPOSTS · 70% KEEP RATE · Triage 65.8 → 88.9 (+23.1) · PAIRED 3/3 KEEP · 18/18 ASSERTIONS (100%) · 0 ERRORS / 0 WARNINGS</text>
+  </g>
+
+  <g transform="translate(88, 380)">
+    <rect width="448" height="132" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="448" height="4" rx="2" fill="#2f9e44"/>
+    <rect x="24" y="28" width="34" height="24" rx="4" fill="#2f9e44"/>
+    <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">01</text>
+    <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">Agent Software Factory</text>
+    <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">Worktree · 1-min CAS · 5,000-token gate</text>
+  </g><g transform="translate(568, 380)">
+    <rect width="448" height="132" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="448" height="4" rx="2" fill="#4dabf7"/>
+    <rect x="24" y="28" width="34" height="24" rx="4" fill="#4dabf7"/>
+    <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">02</text>
+    <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">SEO &amp; GEO Growth Engine</text>
+    <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">1-keyword-1-page TDH · Fan-out intent groups</text>
+  </g><g transform="translate(1048, 380)">
+    <rect width="448" height="132" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="448" height="4" rx="2" fill="#f59f00"/>
+    <rect x="24" y="28" width="34" height="24" rx="4" fill="#f59f00"/>
+    <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">03</text>
+    <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">Video as Code</text>
+    <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">White-model previz · BGM-first · Remotion MCP</text>
+  </g><g transform="translate(88, 536)">
+    <rect width="448" height="132" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="448" height="4" rx="2" fill="#e8590c"/>
+    <rect x="24" y="28" width="34" height="24" rx="4" fill="#e8590c"/>
+    <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">04</text>
+    <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">De-AI Taste Protocol</text>
+    <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">62 UI blacklists · physical imperfection · no AI draft</text>
+  </g><g transform="translate(568, 536)">
+    <rect width="448" height="132" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="448" height="4" rx="2" fill="#4263eb"/>
+    <rect x="24" y="28" width="34" height="24" rx="4" fill="#4263eb"/>
+    <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">05</text>
+    <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">Artifact Benchmark &amp; Routing</text>
+    <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">Vector-DB throughput · 6/6 draw · early-IQ-debt guard</text>
+  </g><g transform="translate(1048, 536)">
+    <rect width="448" height="132" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="448" height="4" rx="2" fill="#7950f2"/>
+    <rect x="24" y="28" width="34" height="24" rx="4" fill="#7950f2"/>
+    <text x="41" y="45" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="middle">06</text>
+    <text x="70" y="46" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="17.5" font-weight="700">Enterprise FDE &amp; One-Person Ops</text>
+    <line x1="24" y1="70" x2="424" y2="70" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="24" y="96" fill="#868e96" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5">Foundation-cost filter · 3-layer error gate · approval loop</text>
+  </g>
+
+  <!-- terminal -->
+  <g transform="translate(88, 706)">
+    <rect width="760" height="52" rx="6" fill="#2b2b2b"/>
+    <text x="22" y="32" fill="#f59f00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700">$</text>
+    <text x="46" y="32" fill="#f1f0ed" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16">npx skills add alexxhchen-nu/ai-creators-on-x</text>
+  </g>
+
+  <!-- footer right -->
+  <g transform="translate(1512, 716)">
+    <text x="0" y="0" fill="#868e96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="600" text-anchor="end">SKILL.md · references/capabilities/ (6 cards)</text>
+    <text x="0" y="22" fill="#868e96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="600" text-anchor="end">Global 4-hub ready: Magpie · Claude · Agents · Pi</text>
+    <text x="0" y="44" fill="#0b7285" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" text-anchor="end">github.com/alexxhchen-nu/ai-creators-on-x</text>
+  </g>
+
+  <!-- baseline rule -->
+  <line x1="88" y1="812" x2="1512" y2="812" stroke="#d9d9d9" stroke-width="1"/>
+</svg>

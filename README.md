@@ -11,7 +11,7 @@
 
 <div align="center">
 
-<!-- architect-team:readme-theme=midnight -->
+<!-- readme-theme: open-science (aligned to aipoch/open-science: warm paper #f1f0ed, ink #1a1a1a, teal accent #0b7285, Open Color wayfinding) -->
 
 <img src="./assets/readme/hero-zh.svg" width="100%" alt="AI-CREATORS-ON-X Hero Banner: 20 位中文 X 头部 AI 创作者 · 1,145 条实战帖 → 6 张 RIA++ 能力卡">
 
@@ -20,11 +20,12 @@
 **把 20 位中文 X（Twitter）头部 AI 创作者的 1,145 条高纯度技术帖与 60+ 开源仓库，蒸馏为 6 张随叫随到的 RIA++ 实战能力卡。**
 
 <p align="center">
-  <a href="./dist/ai-creators-on-x/SKILL.md"><img src="https://img.shields.io/badge/Cangjie-v2.5_RIA--TV++-2563EB?style=flat-square" alt="Cangjie v2.5"></a>
-  <a href="./evolve/REPORT.md"><img src="https://img.shields.io/badge/Darwin_v2.1-88.9_%2F_100_(+23.1)-3FB950?style=flat-square" alt="Darwin Score 88.9"></a>
-  <a href="./evolve/REPORT.md"><img src="https://img.shields.io/badge/Paired_Judge-3%2F3_Unanimous_Keep-3FB950?style=flat-square" alt="Paired 3/3"></a>
-  <a href="./acceptance/test-prompts.json"><img src="https://img.shields.io/badge/Assertions-18%2F18_(100%25)-10B981?style=flat-square" alt="Assertions 18/18"></a>
-  <a href="./ai-creators-on-x.md"><img src="https://img.shields.io/badge/Corpus-1145_Tech_Posts-F97316?style=flat-square" alt="1,145 Tech Posts"></a>
+  <a href="./dist/ai-creators-on-x/SKILL.md"><img alt="Built with Cangjie 2.5 RIA-TV++" src="https://img.shields.io/badge/Cangjie-v2.5%20RIA--TV%2B%2B-0b7285?style=flat"></a>
+  <a href="./evolve/REPORT.md"><img alt="Darwin v2.1 evolution score 88.9 out of 100" src="https://img.shields.io/badge/Darwin%20v2.1-88.9%20%2F%20100%20(%2B23.1)-2f9e44?style=flat"></a>
+  <a href="./evolve/REPORT.md"><img alt="Paired blind judge verdict: unanimous 3 of 3 keep" src="https://img.shields.io/badge/paired%20judge-3%2F3%20keep-4263eb?style=flat"></a>
+  <a href="./acceptance/test-prompts.json"><img alt="Empirical assertions passed 18 of 18" src="https://img.shields.io/badge/assertions-18%2F18%20(100%25)-4dabf7?style=flat"></a>
+  <a href="./ai-creators-on-x.md"><img alt="Corpus: 1145 technical posts from 20 creators" src="https://img.shields.io/badge/corpus-1%2C145%20posts-e8590c?style=flat"></a>
+  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-see%20LICENSE-7950f2?style=flat"></a>
 </p>
 
 <p align="center">
@@ -57,15 +58,23 @@
 
 > **零人声旁白（No Narration）· 32 处逐帧钉死电影级 SFX + Tech House BGM · 2x 矢量界面渲染**
 
-<!-- 2. 标准 Markdown 16:9 横屏动图内嵌（GitHub README 通用，点击动图直接播放有声 MP4） -->
-[![AI-CREATORS-ON-X Horizontal 16:9 Promo Video](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
+<!-- 1. HTML5 播放器（VS Code / Typora / Obsidian / 网页 Markdown 均支持 <video>） -->
+<video src="./promo/out/promo-readme.mp4" poster="./product-card/card-openscience.png" width="100%" controls autoplay loop muted playsinline>
+  当前 Markdown 渲染器不支持 HTML5 视频，请点击下方预览图打开 MP4。
+</video>
+
+<!-- 2. GitHub 原生：动图预览，点击即打开带声音的 MP4 -->
+[![AI-CREATORS-ON-X 横屏 16:9 宣传片，36.2 秒，无人声旁白](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
+
+<!-- 3. Obsidian 原生内嵌 -->
+![[promo/out/promo-readme.mp4]]
 
 | 宣传片版本 | 文件路径 | 画幅 / 分辨率 | 体积 | 音轨与用途说明 |
 | --- | --- | --- | --- | --- |
-| **README 轻量有声版（推荐）** | [`promo/out/promo-readme.mp4`](./promo/out/promo-readme.mp4) | `1920×1080` (`16:9` 横屏) | **7.99 MB** (`<10MB`) | 32 处钉帧 SFX + BGM（无旁白，`+faststart` 流式秒开） |
-| **README 横屏动图预览** | [`promo/out/promo-readme.gif`](./promo/out/promo-readme.gif) | `960×540` (`16:9` 横屏) | **8.41 MB** (`<10MB`) | 纯 Markdown 动图免插件内嵌 |
-| **母版：带 BGM + SFX** | [`promo/out/promo-bgm.mp4`](./promo/out/promo-bgm.mp4) | `1920×1080` (`16:9` 横屏) | 23.60 MB | 无损高码率母版（32 处钉帧 SFX + Tech House BGM） |
-| **母版：纯 SFX 无 BGM** | [`promo/out/promo-sfx.mp4`](./promo/out/promo-sfx.mp4) | `1920×1080` (`16:9` 横屏) | 23.60 MB | 仅保留 32 处钉帧 SFX，方便后期自配音乐 |
+| **README 轻量有声版（推荐）** | [`promo/out/promo-readme.mp4`](./promo/out/promo-readme.mp4) | `1920×1080` (`16:9` 横屏) | **7.01 MB** (`<10MB`) | 32 处钉帧 SFX + BGM，`+faststart` 流式秒开 |
+| **横屏动图预览** | [`promo/out/promo-readme.gif`](./promo/out/promo-readme.gif) | `960×540` (`16:9` 横屏) | **6.11 MB** (`<10MB`) | GitHub 原生免插件内嵌 |
+> 无损母版（各约 20.2 MB，含/不含 Tech House 底乐）可在本地复现：`npm i && npx remotion render src/index.ts AiflPromo out/promo-bgm.mp4 --props=props-bgm.json`。母版刻意不入库，上表两项即为发布产物。
+
 
 ---
 
@@ -77,11 +86,7 @@
   <img src="./assets/readme/pipeline-zh.svg" width="100%" alt="五阶工程流水线：原始抓取 1,641 帖 → 双层精筛 1,145 帖 → 仓颉拆解 6 张能力卡 → 达尔文进化 88.9 分 → 全机 4 端同步部署">
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./product-card/card.png">
-  <source media="(prefers-color-scheme: light)" srcset="./product-card/card.png">
-  <img alt="AI-CREATORS-ON-X Product Card: 20 X Creators · 1,145 Tech Posts → 6 Executable Playbooks" src="./product-card/card.png" width="100%">
-</picture>
+<a href="./SKILL.md"><img src="./assets/readme/product-card-openscience.svg" width="100%" alt="AI-CREATORS-ON-X product card: Cangjie v2.5 x Darwin v2.1, 20 creators, 1,145 technical posts, 6 RIA++ agent playbooks"></a>
 
 ---
 

@@ -13,7 +13,7 @@
 
 ## Phase 1：视觉方向与动效 Tokens（Visual Direction & Motion Tokens）
 
-- **主视觉主题**：`midnight`（深邃黑曜石暗夜终端风 `#090f1a` 底色 + `#111c2c` 卡片表面 + `#61d9ef` 青碧高光强调色 + `#f0f5ff` 锐利正文），同时兼容 `ink-press`（纸墨晨读风 `#f2eee6` + 琥珀金 `#955905`）及全部 8 套可编辑主题。
+- **主视觉主题**：`open-science`（对齐 [aipoch/open-science](https://github.com/aipoch/open-science) 的暖纸墨学术风：暖纸底 `#f1f0ed` + 墨黑正文 `#1a1a1a` + 深青强调 `#0b7285` + Open Color 七色路标 `#2f9e44` / `#4dabf7` / `#f59f00` / `#e8590c` / `#b31b1b` / `#4263eb` / `#7950f2`），同时保留 9 套可编辑主题。
 - **动效性格预设**：**专业信赖 × 活力大胆混合（Engineering Precision）**
   - 入场主曲线：`bezier(0.3, 0, 0.2, 1)`（推进/摇臂）与 `bezier(0.34, 1.4, 0.44, 1)`（发牌/落座微过冲）
   - 呼吸留白（Hold 预算）：开场字标落定后静置 **30f (1.0s)**；主角卡悬浮扫描 **54f (1.8s)**；片尾合体字标砸落后静置 **>30f (1.0s)**。
