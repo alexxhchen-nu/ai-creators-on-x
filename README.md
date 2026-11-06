@@ -75,6 +75,7 @@
 | --- | --- | --- | --- | --- |
 | **README 轻量有声版（推荐）** | [`promo/out/promo-readme.mp4`](./promo/out/promo-readme.mp4) | `1920×1080` (`16:9` 横屏) | **7.01 MB** (`<10MB`) | 32 处钉帧 SFX + BGM，`+faststart` 流式秒开 |
 | **横屏动图预览** | [`promo/out/promo-readme.gif`](./promo/out/promo-readme.gif) | `960×540` (`16:9` 横屏) | **6.11 MB** (`<10MB`) | GitHub 原生免插件内嵌 |
+
 > 无损母版（各约 20.2 MB，含/不含 Tech House 底乐）可在本地复现：`npm i && npx remotion render src/index.ts AiflPromo out/promo-bgm.mp4 --props=props-bgm.json`。母版刻意不入库，上表两项即为发布产物。
 
 

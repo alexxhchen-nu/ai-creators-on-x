@@ -3,7 +3,7 @@
 <!-- Click-to-Switch Bilingual Bar (EN <-> ZH) -->
 <a href="./README.md"><img src="./assets/readme/btn-zh-switch.svg" height="34" alt="切换到简体中文"></a>
 &nbsp;
-<a href="./README.en.md"><img src="./assets/readme/btn-en-active.svg" height="34" alt="Active Language: English"></a>
+<span title="Active language"><img src="./assets/readme/btn-en-active.svg" height="34" alt="Active Language: English"></span>
 
 [**← 切换到简体中文**](./README.md) · **English**
 
@@ -52,27 +52,28 @@
 
 ---
 
-<div id="promo-video"></div>
-
-<img src="./assets/readme/sec-01-video-en.svg" width="100%" alt="01 Horizontal Promo Video">
+<h2 id="promo-video" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-01-video-en.svg" width="100%" alt="01 Horizontal Promo Video: 36.2s, no narration" style="display:block"></h2>
 
 > **Zero Voiceover Narration · 32 Frame-Pinned Cinematic SFX + Tech House BGM · 2x Vector UI Rendering**
 
 <!-- 2. Standard Markdown 16:9 Animated GIF Fallback (Works natively on GitHub README; click to open MP4 with sound) -->
-[![AI-CREATORS-ON-X Horizontal 16:9 Promo Video](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
+<details>
+<summary>▶ <a href="./promo/out/promo-readme.mp4">Play the MP4 with sound</a> — animated preview</summary>
+
+[![AI-CREATORS-ON-X Horizontal 16:9 Promo Video — expands and starts playing only on click](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
+</details>
 
 | Video Edition | File Path | Aspect Ratio / Resolution | Size | Audio & Delivery Notes |
 | --- | --- | --- | --- | --- |
-| **README Web-Optimized MP4 (Recommended)** | [`promo/out/promo-readme.mp4`](./promo/out/promo-readme.mp4) | `1920×1080` (`16:9` Horizontal) | **7.99 MB** (`<10MB`) | 32 beat-pinned SFX + BGM (no narration, `+faststart` instant streaming) |
+| **README Web-Optimized MP4 (Recommended)** | [`promo/out/promo-readme.mp4`](./promo/out/promo-readme.mp4) | `1920×1080` (`16:9` Horizontal) | **7.01 MB** (`<10MB`) | 32 beat-pinned SFX + BGM (no narration, `+faststart` instant streaming) |
 | **README Animated GIF Preview** | [`promo/out/promo-readme.gif`](./promo/out/promo-readme.gif) | `960×540` (`16:9` Horizontal) | **6.11 MB** (`<10MB`) | GitHub-native animated preview, no plugin needed |
+
 > Full-bitrate masters (≈20.2 MB each, with and without the Tech House bed) are reproducible locally: `npm i && npx remotion render src/index.ts AiflPromo out/promo-bgm.mp4 --props=props-bgm.json`. They are intentionally not committed — the two builds above are the release artifacts.
 
 
 ---
 
-<div id="pipeline"></div>
-
-<img src="./assets/readme/sec-02-pipeline-en.svg" width="100%" alt="02 Five-Stage Engineering Pipeline">
+<h2 id="pipeline" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-02-pipeline-en.svg" width="100%" alt="02 Five-Stage Distillation Pipeline" style="display:block"></h2>
 
 <p align="center">
   <img src="./assets/readme/pipeline-en.svg" width="100%" alt="Five-Stage Pipeline: Collect 1,641 Raw Posts → Filter 1,145 Tech Posts → Distill 6 RIA++ Playbooks → Evolve to 88.9 via Darwin v2.1 → Deploy Across 4 Global Skill Hubs">
@@ -82,9 +83,7 @@
 
 ---
 
-<div id="playbooks"></div>
-
-<img src="./assets/readme/sec-03-playbooks-en.svg" width="100%" alt="03 Six Executable Playbooks">
+<h2 id="playbooks" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-03-playbooks-en.svg" width="100%" alt="03 Six Executable Playbooks" style="display:block"></h2>
 
 Click any capability card below to expand its **real-world pain points, quantified engineering guardrails, and creator attributions** (full cards live under `dist/ai-creators-on-x/references/capabilities/`):
 
@@ -171,9 +170,7 @@ Click any capability card below to expand its **real-world pain points, quantifi
 
 ---
 
-<div id="gallery"></div>
-
-<img src="./assets/readme/sec-04-gallery-en.svg" width="100%" alt="04 Shotcraft Keyframe Gallery">
+<h2 id="gallery" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-04-gallery-en.svg" width="100%" alt="04 Shotcraft Keyframe Gallery" style="display:block"></h2>
 
 <table>
   <tr>
@@ -196,9 +193,7 @@ Click any capability card below to expand its **real-world pain points, quantifi
 
 ---
 
-<div id="logic-map"></div>
-
-<img src="./assets/readme/sec-05-gates-en.svg" width="100%" alt="05 Control Flow & Safety Gates">
+<h2 id="logic-map" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-05-gates-en.svg" width="100%" alt="05 Control Flow & Safety Gates" style="display:block"></h2>
 
 > [!IMPORTANT]
 > **🔴 Hard Safety Checkpoints (Grounded in Real Creator Post-Mortems)**
@@ -211,9 +206,7 @@ Click any capability card below to expand its **real-world pain points, quantifi
 
 ---
 
-<div id="scoreboard"></div>
-
-<img src="./assets/readme/sec-06-darwin-en.svg" width="100%" alt="06 Darwin v2.1 Evaluation Scoreboard">
+<h2 id="scoreboard" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-06-darwin-en.svg" width="100%" alt="06 Darwin v2.1 Evaluation Scoreboard" style="display:block"></h2>
 
 Evaluated under Microsoft Research's **SkillLens (arXiv 2605.23899) 9-Dimension Rubric** and **Darwin v2.1 Paired Within-Judge Blind Ratchet** (3 independent `scout` judges with randomized A/B order to cancel ±8 judge scale noise):
 
@@ -232,9 +225,7 @@ Evaluated under Microsoft Research's **SkillLens (arXiv 2605.23899) 9-Dimension 
 
 ---
 
-<div id="quick-start"></div>
-
-<img src="./assets/readme/sec-07-install-en.svg" width="100%" alt="07 Quick Start & Global Install">
+<h2 id="quick-start" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-07-install-en.svg" width="100%" alt="07 Quick Start & Global Install" style="display:block"></h2>
 
 ### 1. Global Installation Status (Live Across All 4 Agent Hubs)
 
