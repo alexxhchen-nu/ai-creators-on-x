@@ -140,7 +140,7 @@ for (const [file, label, value, leftFill, rightFill, alt] of PILLS) {
 const SECS = [
   ["01", "sec-01-video", "横屏宣传片", "16:9 Horizontal Promo", "NO NARRATION · 32 SFX + BGM", T.iGreen],
   ["02", "sec-02-pipeline", "五阶工程流水线", "Five-Stage Pipeline", "CANGJIE v2.5 × DARWIN v2.1", T.iCyan],
-  ["03", "sec-03-playbooks", "六大可执行能力卡", "Six Interactive Playbooks", "6 RIA++ CAPABILITY CARDS", T.iYellow],
+  ["03", "sec-03-playbooks", "八大可执行能力卡", "Six Interactive Playbooks", "8 RIA++ CAPABILITY CARDS", T.iYellow],
   ["04", "sec-04-gallery", "宣传片关键帧画廊", "Shotcraft Keyframe Gallery", "1920×1080 QA STILLS", T.iOrange],
   ["05", "sec-05-gates", "控制流与安全门禁", "Control Flow & Safety Gates", "CHECKPOINT 1 & 2 · BL-1..6", T.iRed],
   ["06", "sec-06-darwin", "达尔文量化评测账本", "Darwin v2.1 Scoreboard", "65.8 → 88.9 (+23.1) · 3/3 KEEP", T.iIndigo],
@@ -162,7 +162,7 @@ for (const [num, slug, zh, en, note, c] of SECS) {
 // so a 1200-unit canvas scales by 0.71 and every label landed at 7-8 effective
 // px — unreadable. At 960 units the scale is 0.88, which keeps the 16-unit main
 // line at 14.1 px and the 12-unit label/sub at 10.6 px on screen. Copy is
-// trimmed rather than the type, so '6 张 RIA++ 能力卡' became '6 张能力卡' with
+// trimmed rather than the type, so '8 张 RIA++ 能力卡' became '8 张能力卡' with
 // RIA++ moved to the sub-line: a diagram may say less than the caption.
 export const PIPELINE = { margin: 20, gap: 16, w: 171.2, h: 170, y: 42, inset: 13, vbH: 232 };
 const { margin: M, gap: G, w: NW, h: NH, y: NY, inset: IN } = PIPELINE;
@@ -173,7 +173,7 @@ const PL = {
   zh: [
     { label: "STEP 1 · 原始抓取", main: ["1,641 条推文"], sub: "pagesift · 20 人", c: T.iBlue },
     { label: "STEP 2 · 双层精筛", main: ["1,145 条技术帖", "· 保留 70%"], sub: "62,165 赞 / 9,569 转", c: T.iIndigo },
-    { label: "STEP 3 · 仓颉拆解", main: ["6 张能力卡"], sub: "Cangjie v2.5 · RIA++", c: T.iYellow },
+    { label: "STEP 3 · 仓颉拆解", main: ["8 张能力卡"], sub: "Cangjie v2.5 · RIA++", c: T.iYellow },
     { label: "STEP 4 · 量化进化", main: ["Triage 65.8", "→ 88.9"], sub: "Paired 3/3 · 18/18", c: T.iGreen },
     { label: "STEP 5 · 全机部署", main: ["4 端同步生效"], sub: "Magpie · Claude · Pi", c: T.iOrange },
   ],
@@ -215,7 +215,7 @@ ${nodes}`));
 const LM = {
   zh: [
     { label: "STEP 1 · 意图预检", main: ["实时价格 / 越权", "/ 泛问答?"], sub: "命中不适用项立即拦截", c: T.iBlue, rule: T.blue },
-    { label: "STEP 2 · 加载能力卡", main: ["匹配六大能力卡", "意图路由表"], sub: "核对 ## E 段必需参数", c: T.iIndigo, rule: T.indigo },
+    { label: "STEP 2 · 加载能力卡", main: ["匹配八大能力卡", "意图路由表"], sub: "核对 ## E 段必需参数", c: T.iIndigo, rule: T.indigo },
     { label: "CHECKPOINT 1 & 2", main: ["涉支付回调 / 群发", "/ 制造业 FDE?"], sub: "STOP：签名与地基核算", c: T.iRed, rule: T.red },
     { label: "STEP 3 · 执行步骤", main: ["按 ## E 段步骤", "生成工程产物"], sub: "输出配置 / 脚本 / 模板", c: T.iYellow, rule: T.yellow },
     { label: "STEP 4 · 门禁自检", main: ["对照 ## B 段清单", "逐条核销"], sub: "5000t · BL-1..6 · 去AI味", c: T.iGreen, rule: T.green },
@@ -276,15 +276,15 @@ const HERO_CARDS = {
 };
 const HERO_COPY = {
   zh: {
-    ttl: "AI-CREATORS-ON-X — 20 位中文 X 头部 AI 创作者 · 1,145 条实战帖 → 6 张 RIA++ 能力卡",
+    ttl: "AI-CREATORS-ON-X — 20 位中文 X 头部 AI 创作者 · 1,145 条实战帖 → 8 张 RIA++ 能力卡",
     kicker: "仓颉 v2.5 RIA-TV++ 能力包",
-    sub: "20 位中文 X 头部 AI 创作者 · 1,145 条实战帖 → 6 张 RIA++ 能力卡",
+    sub: "20 位中文 X 头部 AI 创作者 · 1,145 条实战帖 → 8 张 RIA++ 能力卡",
     chip2: "18/18 实测断言 · 100% 全过",
   },
   en: {
-    ttl: "AI-CREATORS-ON-X — 20 Chinese X AI creators · 1,145 tech posts → 6 RIA++ agent playbooks",
+    ttl: "AI-CREATORS-ON-X — 20 Chinese X AI creators · 1,145 tech posts → 8 RIA++ agent playbooks",
     kicker: "CANGJIE v2.5 RIA-TV++ BUNDLE",
-    sub: "20 Chinese X AI creators · 1,145 tech posts → 6 RIA++ playbooks",
+    sub: "20 Chinese X AI creators · 1,145 tech posts → 8 RIA++ playbooks",
     chip2: "18/18 assertions · 100%",
   },
 };

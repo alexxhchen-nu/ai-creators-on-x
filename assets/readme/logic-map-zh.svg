@@ -17,7 +17,7 @@
     <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#3d5bd8" stroke-width="1.5"/>
     <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#4263eb"/>
     <text x="13" y="34" fill="#3d5bd8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700">STEP 2 · 加载能力卡</text>
-    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">匹配六大能力卡</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">匹配八大能力卡</text>
     <text x="13" y="102" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15.5" font-weight="700">意图路由表</text>
     <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
     <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">核对 ## E 段必需参数</text>

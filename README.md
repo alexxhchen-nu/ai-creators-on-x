@@ -14,11 +14,11 @@
 
 <!-- readme-theme: open-science (aligned to aipoch/open-science: warm paper #f1f0ed, ink #1a1a1a, teal accent #0b7285, Open Color wayfinding) -->
 
-<img src="./assets/readme/hero-zh.svg" width="100%" alt="AI-CREATORS-ON-X Hero Banner: 20 位中文 X 头部 AI 创作者 · 1,145 条实战帖 → 6 张 RIA++ 能力卡">
+<img src="./assets/readme/hero-zh.svg" width="100%" alt="AI-CREATORS-ON-X Hero Banner: 20 位中文 X 头部 AI 创作者 · 1,145 条实战帖 → 8 张 RIA++ 能力卡">
 
 # AI-CREATORS-ON-X
 
-**把 20 位中文 X（Twitter）头部 AI 创作者的 1,145 条高纯度技术帖与 60+ 开源仓库，蒸馏为 6 张随叫随到的 RIA++ 实战能力卡。**
+**把 20 位中文 X（Twitter）头部 AI 创作者的 1,145 条高纯度技术帖与 60+ 开源仓库，蒸馏为 8 张随叫随到的 RIA++ 实战能力卡。**
 
 <p align="center">
   <a href="./dist/ai-creators-on-x/SKILL.md"><img alt="Built with Cangjie 2.5 RIA-TV++" src="./assets/readme/badges/badge-cangjie.svg"></a>
@@ -42,7 +42,7 @@
 <p align="center">
   <a href="#promo-video">🎬 横屏宣传片</a> ·
   <a href="#pipeline">⚡ 蒸馏流水线</a> ·
-  <a href="#playbooks">🧩 六大能力卡</a> ·
+  <a href="#playbooks">🧩 八大能力卡</a> ·
   <a href="#gallery">🖼️ 镜头画廊</a> ·
   <a href="#logic-map">🛡️ 门禁路由图</a> ·
   <a href="#scoreboard">📊 进化账本</a> ·
@@ -86,14 +86,14 @@
 <h2 id="pipeline" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-02-pipeline-zh.svg" width="100%" alt="02 五阶蒸馏流水线" style="display:block"></h2>
 
 <p align="center">
-  <img src="./assets/readme/pipeline-zh.svg" width="100%" alt="五阶工程流水线：原始抓取 1,641 帖 → 双层精筛 1,145 帖 → 仓颉拆解 6 张能力卡 → 达尔文进化 88.9 分 → 全机 4 端同步部署">
+  <img src="./assets/readme/pipeline-zh.svg" width="100%" alt="五阶工程流水线：原始抓取 1,641 帖 → 双层精筛 1,145 帖 → 仓颉拆解 8 张能力卡 → 达尔文进化 88.9 分 → 全机 4 端同步部署">
 </p>
 
-<a href="./SKILL.md"><img src="./assets/readme/product-card-openscience.svg" width="100%" alt="AI-CREATORS-ON-X product card: Cangjie v2.5 x Darwin v2.1, 20 creators, 1,145 technical posts, 6 RIA++ agent playbooks"></a>
+<a href="./SKILL.md"><img src="./assets/readme/product-card-openscience.svg" width="100%" alt="AI-CREATORS-ON-X product card: Cangjie v2.5 x Darwin v2.1, 20 creators, 1,145 technical posts, 8 RIA++ agent playbooks"></a>
 
 ---
 
-<h2 id="playbooks" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-03-playbooks-zh.svg" width="100%" alt="03 六大可执行能力卡" style="display:block"></h2>
+<h2 id="playbooks" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-03-playbooks-zh.svg" width="100%" alt="03 八大可执行能力卡" style="display:block"></h2>
 
 点击下方任意能力卡即可展开查看 **真实痛点、量化工程门禁、可执行命令与代表创作者**（完整卡片位于 `dist/ai-creators-on-x/references/capabilities/`）：
 
@@ -189,7 +189,7 @@
   </tr>
   <tr>
     <td align="center"><sub><b>Shot 1 · 3D 聚光主角卡（04 · Video as Code）</b>：2.6x 侧斜推近 + <code>18/18 Verified.</code> 悬浮批注 + 光束绕框两周</sub></td>
-    <td align="center"><sub><b>Shot 6 · 六大 RIA++ 能力卡堆叠</b>：下压回弹入槽 + 右上角 <code>DigitRoll</code> 计数器实时滚动</sub></td>
+    <td align="center"><sub><b>Shot 6 · 八大 RIA++ 能力卡堆叠</b>：下压回弹入槽 + 右上角 <code>DigitRoll</code> 计数器实时滚动</sub></td>
   </tr>
   <tr>
     <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-08-darwin-report.png" width="100%" alt="Shot 8: Darwin v2.1 Evolution Report"></a></td>
@@ -233,7 +233,7 @@
 | **dim3 失败模式编码** | 12 | 4.4 | **9.0** | **`+4.6`** | 新增 4×3 `触发条件 → 一线修复 → 仍失败兜底` 恢复表 |
 | **dim4 检查点设计** | 6 | 5.0 | **9.0** | **`+4.0`** | 新增 2 个显性 `🔴 CHECKPOINT` / `🛑 STOP` 门禁 |
 | **dim5 可执行具体性** | 18 | 6.8 | **9.0** | **`+2.2`** | 补齐每条原则 `@handle` 归属与量化阈值（5,000 tokens、62 项黑名单等） |
-| **dim6 资源整合度** | 4 | 8.5 | **9.0** | **`+0.5`** | 精确绑定 6 张能力卡的 `## E` 与 `## B` 章节锚点（0 断链） |
+| **dim6 资源整合度** | 4 | 8.5 | **9.0** | **`+0.5`** | 精确绑定 8 张能力卡的 `## E` 与 `## B` 章节锚点（0 断链） |
 | **dim7 整体架构** | 12 | 6.5 | **8.6** | **`+2.1`** | 从静态索引升级为「原则 → 4 步控制流 → 门禁/恢复 → 黑名单 → 路由」 |
 | **dim8 实测表现** | 23 | 8.5 | **9.0** | **`+0.5`** | 3 组复合场景路由 **3/3 命中**，断言 **`with_skill` 18/18 (100%) vs `baseline` 3/18 (16.7%)** |
 | **dim9 反例与黑名单** | 6 | 3.5 | **9.0** | **`+5.5`** | 新增 `BL-1..BL-6` 实证翻车反例与强制替代做法 |
@@ -272,8 +272,8 @@
 | --- | --- |
 | [`README.md`](./README.md) | 🇨🇳 中文交互式旗舰首页（点击右上角胶囊按钮一键切换英文） |
 | [`README.en.md`](./README.en.md) | 🌐 英文交互式旗舰首页（点击右上角胶囊按钮一键切换中文） |
-| [`SKILL.md`](./SKILL.md) / [`references/`](./references/) | 仓库根目录标准 Skill 入口与 6 张 RIA++ 能力卡（支持 `npx skills add` 直装） |
+| [`SKILL.md`](./SKILL.md) / [`references/`](./references/) | 仓库根目录标准 Skill 入口与 8 张 RIA++ 能力卡（支持 `npx skills add` 直装） |
 | [`ai-creators-on-x.md`](./ai-creators-on-x.md) | 20 位创作者 1,890 行完整蒸馏长文（§1–§6 全文与外链核验表） |
-| [`SELLING_POINTS.md`](./SELLING_POINTS.md) | 六大核心痛点与量化卖点速查手册 |
+| [`SELLING_POINTS.md`](./SELLING_POINTS.md) | 八大核心痛点与量化卖点速查手册 |
 | [`evolve/REPORT.md`](./evolve/REPORT.md) | Darwin v2.1 Paired 3/3 盲评与 9 维进化报告 |
 | [`promo/`](./promo/) | ShotCraft 36.2s 16:9 横屏宣传片 Remotion 工程与 MP4/GIF 产物 |

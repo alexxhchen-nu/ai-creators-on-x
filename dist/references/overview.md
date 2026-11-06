@@ -3,7 +3,7 @@
 ## 1. 资料来源与范围
 - **基础样本**：20 位 X（Twitter）中文 AI 垂直创作者（`@op7418`、`@waylybaye`、`@vista8`、`@AI_Jasonyu`、`@vikingmute`、`@gefei55`、`@FuSheng_0306`、`@liyue_ai`、`@MANISH1027512`、`@karminski3`、`@jinchenma_ai`、`@bozhou_ai`、`@sitinme`、`@joshesye`、`@yaojingang`、`@Adam38363368936`、`@TanLuAI`、`@icycat`、`@CoderJeffLee`、`@cnzhihao`）。
 - **抓取与过滤**：`pagesift 1.1.2` 于 `2026-11-04` 抓取 1,641 条时间线帖文，经规则层与主模型逐批判定后保留 **1,145 条技术帖**（70% 保留率，聚焦 `coding` / `ai_agent` / `tech_tools`），合计 **62,165 赞 / 9,569 转**，单帖均赞 **54.3**。
-- **核心价值**：将散落在 1,145 条推文与外链仓库中的一线实战经验，浓缩为 5 大赛道集群、6 条跨赛道强共识、5 组工程/商业路线交锋，以及 6 张可直接执行的 RIA++ 能力卡。
+- **核心价值**：将散落在 1,145 条推文与外链仓库中的一线实战经验，浓缩为 5 大赛道集群、6 条跨赛道强共识、5 组工程/商业路线交锋，以及 8 张可直接执行的 RIA++ 能力卡。
 
 ## 2. 五大赛道集群与代表创作者
 1. **A. Agent 工程与多分支「软件工厂」**（`@vikingmute`、`@waylybaye`、`@vista8`、`@bozhou_ai`、`@icycat`）：一项目一专属 Bot、Git Worktree 并发、Xcode 独立 DerivedData + 全局 CAS 1 分钟冷编译、`make preview` 渲染图片自检、E2E 录屏验收、`AGENTS.md` 反过度工程与 5,000-token Pre-commit 拦截。

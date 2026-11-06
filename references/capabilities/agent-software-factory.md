@@ -63,6 +63,17 @@
 - **结论**: 把“怎么造软件的踩坑过程”封装成可执行 Skill、把“跟进上游破坏性更新”交给定时任务，能将一次性经验转化为零边际成本的复利资产。
 - **结果**: 3 分钟即可产出 Obsidian 全局速记工具第一版，81 stars 的 UI 学习插件跨多个上游 RC 版本实现无人值守兼容更新。
 
+### 示例 4: Claude Code 工具作者的官方交互纪律与共享记忆闭环
+- **类型与来源**: 一手方法论 — `@bcherny`（Boris Cherny，Claude Code 作者）的 Claude Code Playbook（168 条团队 tips，`2026-01`）
+- **问题/输入**: 即使工程基建（Worktree/Pre-commit/AGENTS.md）已到位，Agent 仍会产出平庸代码或擅自改动；且团队/项目里每个人用法各异，个人踩坑经验无法沉淀共享、反复重踩。
+- **方法论的使用**:
+  1. **让 Agent 自证而非自吹**：要求「Grill me on these changes and don't make a PR until I pass your test」（让 Claude 当评审质询你，过不了就不发 PR）、「Prove to me this works」（让 Claude diff 对比 main 与 feature 分支行为差异来自证）；
+  2. **共享记忆文件**：维护一份团队级 `CLAUDE.md`，把「每次 Claude 犯错/踩坑」都追加进去（转述：作者团队的做法是"见到 Claude 做错一次，就写进共享 CLAUDE.md"），经验从个人口头记忆变为团队资产；
+  3. **交互语气与计划模式**：把 Claude 当同事而非工具对话，用 Plan mode 先对齐方案再动手；并明确「there is no one right way to use Claude Code — everyone's setup is different」，鼓励各自实验而非照搬唯一正解；
+  4. **subagents 卸载上下文**：对独立任务「use subagents」，把子任务 offload 出去，保持主 agent 上下文「clean and focused」。
+- **结论**: 工具作者自己的用法与普通用户不同——核心不是堆更多规则，而是「让 Agent 自证 + 把每次犯错沉淀进共享记忆」的双闭环；这与本卡既有「AGENTS.md 反过度工程」形成互补（一个防膨胀，一个防平庸与知识流失）。
+- **结果**: 一套 168 条、可直接复用的 Claude Code 团队最佳实践，成为 Claude Code 深度用户的交互纪律母本。
+
 ## A2 — 触发场景 (Future Trigger) ★
 
 ### 用户会在什么情境下需要这个 skill?

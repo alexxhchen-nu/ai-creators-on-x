@@ -26,7 +26,7 @@
     <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
     <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#8e5c00"/>
     <text x="13" y="34" fill="#8e5c00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">STEP 3 · 仓颉拆解</text>
-    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">6 张能力卡</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">8 张能力卡</text>
     <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
     <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">Cangjie v2.5 · RIA++</text>
   </g>

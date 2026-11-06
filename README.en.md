@@ -13,7 +13,7 @@
 
 <!-- readme-theme: open-science (aligned to aipoch/open-science: warm paper #f1f0ed, ink #1a1a1a, teal accent #0b7285, Open Color wayfinding) -->
 
-<img src="./assets/readme/hero-en.svg" width="100%" alt="AI-CREATORS-ON-X Hero Banner: 20 Chinese X AI Creators · 1,145 Tech Posts → 6 RIA++ Agent Playbooks">
+<img src="./assets/readme/hero-en.svg" width="100%" alt="AI-CREATORS-ON-X Hero Banner: 20 Chinese X AI Creators · 1,145 Tech Posts → 8 RIA++ Agent Playbooks">
 
 # AI-CREATORS-ON-X
 
@@ -78,10 +78,10 @@
 <h2 id="pipeline" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-02-pipeline-en.svg" width="100%" alt="02 Five-Stage Distillation Pipeline" style="display:block"></h2>
 
 <p align="center">
-  <img src="./assets/readme/pipeline-en.svg" width="100%" alt="Five-Stage Pipeline: Collect 1,641 Raw Posts → Filter 1,145 Tech Posts → Distill 6 RIA++ Playbooks → Evolve to 88.9 via Darwin v2.1 → Deploy Across 4 Global Skill Hubs">
+  <img src="./assets/readme/pipeline-en.svg" width="100%" alt="Five-Stage Pipeline: Collect 1,641 Raw Posts → Filter 1,145 Tech Posts → Distill 8 RIA++ Playbooks → Evolve to 88.9 via Darwin v2.1 → Deploy Across 4 Global Skill Hubs">
 </p>
 
-<a href="./SKILL.md"><img src="./assets/readme/product-card-openscience.svg" width="100%" alt="AI-CREATORS-ON-X product card: Cangjie v2.5 x Darwin v2.1, 20 creators, 1,145 technical posts, 6 RIA++ agent playbooks"></a>
+<a href="./SKILL.md"><img src="./assets/readme/product-card-openscience.svg" width="100%" alt="AI-CREATORS-ON-X product card: Cangjie v2.5 x Darwin v2.1, 20 creators, 1,145 technical posts, 8 RIA++ agent playbooks"></a>
 
 ---
 
@@ -264,7 +264,7 @@ Use ai-creators-on-x to draft a 15-second 4-shot commercial video prompt for See
 | --- | --- |
 | [`README.md`](./README.md) | 🇨🇳 Chinese Interactive Homepage (Click top-right button to switch) |
 | [`README.en.md`](./README.en.md) | 🌐 English Interactive Homepage (Click top-right button to switch) |
-| [`SKILL.md`](./SKILL.md) / [`references/`](./references/) | Root Agent Skill Entrypoint & 6 RIA++ Capability Cards (`npx skills add` ready) |
+| [`SKILL.md`](./SKILL.md) / [`references/`](./references/) | Root Agent Skill Entrypoint & 8 RIA++ Capability Cards (`npx skills add` ready) |
 | [`ai-creators-on-x.md`](./ai-creators-on-x.md) | Full 1,890-line Distilled Source Digest (§1–§6 across 20 creators) |
 | [`SELLING_POINTS.md`](./SELLING_POINTS.md) | Six Core Pain-Points & Quantified Value Matrix |
 | [`evolve/REPORT.md`](./evolve/REPORT.md) | Darwin v2.1 Paired 3/3 Blind Verdict & 9-Dimension Report |
