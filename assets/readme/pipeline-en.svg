@@ -1,52 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 212" width="100%" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 232" width="100%" role="img" aria-labelledby="t">
   <title id="t">End-to-end distillation &amp; Darwin v2.1 evolution pipeline</title>
   <defs><marker id="ar" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 8 5 L 0 9 z" fill="#ced4da"/></marker></defs>
-  <rect width="1200" height="212" rx="8" fill="#f1f0ed" stroke="#d9d9d9" stroke-width="1"/>
-  <text x="20" y="26" fill="#495057" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600">End-to-end distillation &amp; Darwin v2.1 evolution pipeline</text>
+  <rect width="960" height="232" rx="8" fill="#f1f0ed" stroke="#d9d9d9" stroke-width="1"/>
+  <text x="20" y="26" fill="#495057" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600">End-to-end distillation &amp; Darwin v2.1 evolution pipeline</text>
   <g transform="translate(20.0, 42)">
-    <rect width="219.2" height="148" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
-    <rect x="0" y="0" width="219.2" height="4" rx="2" fill="#306a99"/>
-    <text x="14" y="32" fill="#306a99" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">STEP 1 · COLLECT</text>
-    <text x="14" y="70" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">1,641 Raw X Posts</text>
-    <line x1="14" y1="111" x2="205.2" y2="111" stroke="#d9d9d9" stroke-width="1"/>
-    <text x="14" y="132" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">pagesift 1.1.2 · 20 accounts</text>
+    <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#306a99"/>
+    <text x="13" y="34" fill="#306a99" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">STEP 1 · COLLECT</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">1,641 Raw Posts</text>
+    <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">pagesift · 20 accounts</text>
   </g>
-  <path d="M 242.2 116 L 251.2 116" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
-  <g transform="translate(255.2, 42)">
-    <rect width="219.2" height="148" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
-    <rect x="0" y="0" width="219.2" height="4" rx="2" fill="#3d5bd8"/>
-    <text x="14" y="32" fill="#3d5bd8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">STEP 2 · FILTER</text>
-    <text x="14" y="70" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">1,145 Tech Posts</text>
-    <text x="14" y="92" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">· 70%</text>
-    <line x1="14" y1="111" x2="205.2" y2="111" stroke="#d9d9d9" stroke-width="1"/>
-    <text x="14" y="132" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">62,165 likes aggregated</text>
+  <path d="M 194.2 127 L 203.2 127" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
+  <g transform="translate(207.2, 42)">
+    <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#3d5bd8"/>
+    <text x="13" y="34" fill="#3d5bd8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">STEP 2 · FILTER</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">1,145 Tech</text>
+    <text x="13" y="102" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">· 70% Kept</text>
+    <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">62,165 likes aggregated</text>
   </g>
-  <path d="M 477.4 116 L 486.4 116" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
-  <g transform="translate(490.4, 42)">
-    <rect width="219.2" height="148" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
-    <rect x="0" y="0" width="219.2" height="4" rx="2" fill="#8e5c00"/>
-    <text x="14" y="32" fill="#8e5c00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">STEP 3 · DISTILL</text>
-    <text x="14" y="70" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">6 RIA++ Playbooks</text>
-    <line x1="14" y1="111" x2="205.2" y2="111" stroke="#d9d9d9" stroke-width="1"/>
-    <text x="14" y="132" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Cangjie v2.5 · R/I/A1/A2/E/B</text>
+  <path d="M 381.4 127 L 390.4 127" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
+  <g transform="translate(394.4, 42)">
+    <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#8e5c00"/>
+    <text x="13" y="34" fill="#8e5c00" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">STEP 3 · DISTILL</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">6 Playbooks</text>
+    <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">Cangjie v2.5 · RIA++</text>
   </g>
-  <path d="M 712.6 116 L 721.6 116" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
-  <g transform="translate(725.6, 42)">
-    <rect width="219.2" height="148" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
-    <rect x="0" y="0" width="219.2" height="4" rx="2" fill="#237532"/>
-    <text x="14" y="32" fill="#237532" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">STEP 4 · EVOLVE</text>
-    <text x="14" y="70" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">Darwin v2.1</text>
-    <text x="14" y="92" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">· 88.9 / 100</text>
-    <line x1="14" y1="111" x2="205.2" y2="111" stroke="#d9d9d9" stroke-width="1"/>
-    <text x="14" y="132" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Paired 3/3 keep · BL-1..6</text>
+  <path d="M 568.6 127 L 577.6 127" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
+  <g transform="translate(581.6, 42)">
+    <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#237532"/>
+    <text x="13" y="34" fill="#237532" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">STEP 4 · EVOLVE</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">Darwin v2.1</text>
+    <text x="13" y="102" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">· 88.9 / 100</text>
+    <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">Paired 3/3 · BL-1..6</text>
   </g>
-  <path d="M 947.8 116 L 956.8 116" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
-  <g transform="translate(960.8, 42)">
-    <rect width="219.2" height="148" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
-    <rect x="0" y="0" width="219.2" height="4" rx="2" fill="#b04409"/>
-    <text x="14" y="32" fill="#b04409" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">STEP 5 · DEPLOY</text>
-    <text x="14" y="70" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700">4 global skill hubs</text>
-    <line x1="14" y1="111" x2="205.2" y2="111" stroke="#d9d9d9" stroke-width="1"/>
-    <text x="14" y="132" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="10.5">Magpie · Claude · Agents · Pi</text>
+  <path d="M 755.8 127 L 764.8 127" stroke="#ced4da" stroke-width="2" marker-end="url(#ar)"/>
+  <g transform="translate(768.8, 42)">
+    <rect width="171.2" height="170" rx="8" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <rect x="0" y="0" width="171.2" height="4" rx="2" fill="#b04409"/>
+    <text x="13" y="34" fill="#b04409" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700">STEP 5 · DEPLOY</text>
+    <text x="13" y="76" fill="#1a1a1a" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">4 skill hubs</text>
+    <line x1="13" y1="132" x2="158.2" y2="132" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="13" y="152" fill="#495057" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12">Magpie · Claude · Pi</text>
   </g>
 </svg>

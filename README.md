@@ -1,7 +1,8 @@
 <div align="right">
 
 <!-- Click-to-Switch Bilingual Bar (ZH <-> EN) -->
-<a href="./README.md"><img src="./assets/readme/btn-zh-active.svg" height="34" alt="当前语言：简体中文"></a>
+<span title="当前语言"><img src="./assets/readme/btn-zh-active.svg" height="34" alt="当前语言：简体中文"></span>
+
 &nbsp;
 <a href="./README.en.md"><img src="./assets/readme/btn-en-switch.svg" height="34" alt="Switch to English"></a>
 
@@ -45,29 +46,30 @@
   <a href="#gallery">🖼️ 镜头画廊</a> ·
   <a href="#logic-map">🛡️ 门禁路由图</a> ·
   <a href="#scoreboard">📊 进化账本</a> ·
-  <a href="#-30-秒快速上手与全局安装">🚀 快速安装</a>
+  <a href="#quick-start">🚀 快速安装</a>
 </p>
 
 </div>
 
 ---
 
-<div id="promo-video"></div>
-
-<img src="./assets/readme/sec-01-video-zh.svg" width="100%" alt="01 Horizontal Promo Video">
+<h2 id="promo-video" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-01-video-zh.svg" width="100%" alt="01 横屏宣传片：36.2 秒零人声旁白宣传片" style="display:block"></h2>
 
 > **零人声旁白（No Narration）· 32 处逐帧钉死电影级 SFX + Tech House BGM · 2x 矢量界面渲染**
 
 <!-- 1. HTML5 播放器（VS Code / Typora / Obsidian / 网页 Markdown 均支持 <video>） -->
-<video src="./promo/out/promo-readme.mp4" poster="./product-card/card-openscience.png" width="100%" controls autoplay loop muted playsinline>
+<video src="./promo/out/promo-readme.mp4" poster="./product-card/card-openscience.png" width="100%" controls loop muted playsinline>
   当前 Markdown 渲染器不支持 HTML5 视频，请点击下方预览图打开 MP4。
 </video>
 
 <!-- 2. GitHub 原生：动图预览，点击即打开带声音的 MP4 -->
-[![AI-CREATORS-ON-X 横屏 16:9 宣传片，36.2 秒，无人声旁白](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
+<details>
+<summary>▶ <a href="./promo/out/promo-readme.mp4">打开 MP4 播放（含声音）</a> —— 动图预览</summary>
 
-<!-- 3. Obsidian 原生内嵌 -->
-![[promo/out/promo-readme.mp4]]
+[![AI-CREATORS-ON-X 横屏 16:9 宣传片，36.2 秒，无人声旁白 —— 点击展开后才开始播放](./promo/out/promo-readme.gif)](./promo/out/promo-readme.mp4)
+</details>
+
+<!-- 3. Obsidian / Typora：上方 HTML5 播放器已覆盖本地渲染器，无需额外内嵌 -->
 
 | 宣传片版本 | 文件路径 | 画幅 / 分辨率 | 体积 | 音轨与用途说明 |
 | --- | --- | --- | --- | --- |
@@ -78,9 +80,7 @@
 
 ---
 
-<div id="pipeline"></div>
-
-<img src="./assets/readme/sec-02-pipeline-zh.svg" width="100%" alt="02 Five-Stage Engineering Pipeline">
+<h2 id="pipeline" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-02-pipeline-zh.svg" width="100%" alt="02 五阶蒸馏流水线" style="display:block"></h2>
 
 <p align="center">
   <img src="./assets/readme/pipeline-zh.svg" width="100%" alt="五阶工程流水线：原始抓取 1,641 帖 → 双层精筛 1,145 帖 → 仓颉拆解 6 张能力卡 → 达尔文进化 88.9 分 → 全机 4 端同步部署">
@@ -90,9 +90,7 @@
 
 ---
 
-<div id="playbooks"></div>
-
-<img src="./assets/readme/sec-03-playbooks-zh.svg" width="100%" alt="03 Six Executable Playbooks">
+<h2 id="playbooks" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-03-playbooks-zh.svg" width="100%" alt="03 六大可执行能力卡" style="display:block"></h2>
 
 点击下方任意能力卡即可展开查看 **真实痛点、量化工程门禁、可执行命令与代表创作者**（完整卡片位于 `dist/ai-creators-on-x/references/capabilities/`）：
 
@@ -179,9 +177,7 @@
 
 ---
 
-<div id="gallery"></div>
-
-<img src="./assets/readme/sec-04-gallery-zh.svg" width="100%" alt="04 Shotcraft Keyframe Gallery">
+<h2 id="gallery" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-04-gallery-zh.svg" width="100%" alt="04 宣传片关键帧画廊" style="display:block"></h2>
 
 <table>
   <tr>
@@ -204,9 +200,7 @@
 
 ---
 
-<div id="logic-map"></div>
-
-<img src="./assets/readme/sec-05-gates-zh.svg" width="100%" alt="05 Control Flow & Safety Gates">
+<h2 id="logic-map" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-05-gates-zh.svg" width="100%" alt="05 控制流与安全门禁" style="display:block"></h2>
 
 > [!IMPORTANT]
 > **🔴 CHECKPOINT 硬门禁（源自 20 位创作者真实翻车教训）**
@@ -219,9 +213,7 @@
 
 ---
 
-<div id="scoreboard"></div>
-
-<img src="./assets/readme/sec-06-darwin-zh.svg" width="100%" alt="06 Darwin v2.1 Evaluation Scoreboard">
+<h2 id="scoreboard" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-06-darwin-zh.svg" width="100%" alt="06 达尔文量化评测账本" style="display:block"></h2>
 
 基于微软研究院 **SkillLens（arXiv 2605.23899）9 维 Rubric** 与 **Darwin v2.1 Paired 同-Judge 盲评棘轮**（3 个独立 `scout` 子代理随机互换 A/B 标签，消除单评 ±8 换尺噪音）：
 
@@ -240,9 +232,7 @@
 
 ---
 
-<div id="quick-start"></div>
-
-<img src="./assets/readme/sec-07-install-zh.svg" width="100%" alt="07 Quick Start & Global Install">
+<h2 id="quick-start" style="margin:0 0 10px;padding:0;border:0;font-size:0"><img src="./assets/readme/sec-07-install-zh.svg" width="100%" alt="07 快速上手与全局安装" style="display:block"></h2>
 
 ### 1. 本机 4 端全局安装状态（已同步生效）
 

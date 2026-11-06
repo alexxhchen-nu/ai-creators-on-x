@@ -151,35 +151,39 @@ for (const [num, slug, zh, en, note, c] of SECS) {
   for (const [lang, title] of [["zh", zh], ["en", en]]) {
     write(`${slug}-${lang}.svg`, svg(1200, 56, `${num} ${title} — ${note}`, `  <rect width="1200" height="56" rx="6" fill="${T.chip}"/>
   <rect x="0" y="0" width="6" height="56" rx="3" fill="${c}"/>
-  <rect x="22" y="14" width="40" height="28" rx="4" fill="${c}"/>
-  <text x="42" y="33" fill="#ffffff" font-family="${T.mono}" font-size="14" font-weight="700" text-anchor="middle">${num}</text>
-  <text x="78" y="35" fill="${T.ink}" font-family="${T.serif}" font-size="21" font-weight="700">${esc(title)}</text>
-  <text x="1176" y="34" fill="${T.gray7}" font-family="${T.mono}" font-size="12" font-weight="600" text-anchor="end">${esc(note)}</text>`));
+  <rect x="20" y="12" width="46" height="32" rx="4" fill="${c}"/>
+  <text x="43" y="35" fill="#ffffff" font-family="${T.mono}" font-size="17" font-weight="700" text-anchor="middle">${num}</text>
+  <text x="82" y="38" fill="${T.ink}" font-family="${T.serif}" font-size="26" font-weight="700">${esc(title)}</text>
+  <text x="1176" y="36" fill="${T.gray7}" font-family="${T.mono}" font-size="15" font-weight="600" text-anchor="end">${esc(note)}</text>`));
   }
 }
 
-// ------------------------------------------------- 3. pipeline 1200x212
-// Geometry is deliberately rebuilt. The previous 202-wide node with a 14 inset
-// left 188 units for a 195-unit line, so '1,145 条技术帖 · 保留 70%' crossed its
-// border by 7.1 units. Widening to 219.2 (margins 20, gaps 16) gives 191.2.
-export const PIPELINE = { margin: 20, gap: 16, w: 219.2, h: 148, y: 42, inset: 14, vbH: 212 };
+// ------------------------------------------------- 3. pipeline 960x232
+// Drawn at ~native display width. GitHub's markdown body is ~848 CSS px wide,
+// so a 1200-unit canvas scales by 0.71 and every label landed at 7-8 effective
+// px — unreadable. At 960 units the scale is 0.88, which keeps the 16-unit main
+// line at 14.1 px and the 12-unit label/sub at 10.6 px on screen. Copy is
+// trimmed rather than the type, so '6 张 RIA++ 能力卡' became '6 张能力卡' with
+// RIA++ moved to the sub-line: a diagram may say less than the caption.
+export const PIPELINE = { margin: 20, gap: 16, w: 171.2, h: 170, y: 42, inset: 13, vbH: 232 };
 const { margin: M, gap: G, w: NW, h: NH, y: NY, inset: IN } = PIPELINE;
-const STEP_STYLE = { label: 32, main1: 70, main2: 92, sub: NH - 16 };
+const STEP_STYLE = { label: 34, main1: 76, main2: 102, rule: 132, sub: 152 };
+const PL_FONT = { label: 13, main: 16, sub: 12 };
 
 const PL = {
   zh: [
-    { label: "STEP 1 · 原始抓取", main: ["1,641 条时间线推文"], sub: "pagesift 1.1.2 · 20 位创作者", c: T.iBlue },
-    { label: "STEP 2 · 双层精筛", main: ["1,145 条技术帖", "· 保留 70%"], sub: "累计 62,165 赞 / 9,569 转", c: T.iIndigo },
-    { label: "STEP 3 · 仓颉拆解", main: ["6 张 RIA++ 能力卡"], sub: "Cangjie v2.5 · R/I/A1/A2/E/B", c: T.iYellow },
-    { label: "STEP 4 · 达尔文进化", main: ["Triage 65.8 → 88.9"], sub: "Paired 3/3 全票 · 18/18 断言", c: T.iGreen },
-    { label: "STEP 5 · 全机部署", main: ["4 大全局目录同步生效"], sub: "Magpie · Claude · Agents · Pi", c: T.iOrange },
+    { label: "STEP 1 · 原始抓取", main: ["1,641 条推文"], sub: "pagesift · 20 人", c: T.iBlue },
+    { label: "STEP 2 · 双层精筛", main: ["1,145 条技术帖", "· 保留 70%"], sub: "62,165 赞 / 9,569 转", c: T.iIndigo },
+    { label: "STEP 3 · 仓颉拆解", main: ["6 张能力卡"], sub: "Cangjie v2.5 · RIA++", c: T.iYellow },
+    { label: "STEP 4 · 量化进化", main: ["Triage 65.8", "→ 88.9"], sub: "Paired 3/3 · 18/18", c: T.iGreen },
+    { label: "STEP 5 · 全机部署", main: ["4 端同步生效"], sub: "Magpie · Claude · Pi", c: T.iOrange },
   ],
   en: [
-    { label: "STEP 1 · COLLECT", main: ["1,641 Raw X Posts"], sub: "pagesift 1.1.2 · 20 accounts", c: T.iBlue },
-    { label: "STEP 2 · FILTER", main: ["1,145 Tech Posts", "· 70%"], sub: "62,165 likes aggregated", c: T.iIndigo },
-    { label: "STEP 3 · DISTILL", main: ["6 RIA++ Playbooks"], sub: "Cangjie v2.5 · R/I/A1/A2/E/B", c: T.iYellow },
-    { label: "STEP 4 · EVOLVE", main: ["Darwin v2.1", "· 88.9 / 100"], sub: "Paired 3/3 keep · BL-1..6", c: T.iGreen },
-    { label: "STEP 5 · DEPLOY", main: ["4 global skill hubs"], sub: "Magpie · Claude · Agents · Pi", c: T.iOrange },
+    { label: "STEP 1 · COLLECT", main: ["1,641 Raw Posts"], sub: "pagesift · 20 accounts", c: T.iBlue },
+    { label: "STEP 2 · FILTER", main: ["1,145 Tech", "· 70% Kept"], sub: "62,165 likes aggregated", c: T.iIndigo },
+    { label: "STEP 3 · DISTILL", main: ["6 Playbooks"], sub: "Cangjie v2.5 · RIA++", c: T.iYellow },
+    { label: "STEP 4 · EVOLVE", main: ["Darwin v2.1", "· 88.9 / 100"], sub: "Paired 3/3 · BL-1..6", c: T.iGreen },
+    { label: "STEP 5 · DEPLOY", main: ["4 skill hubs"], sub: "Magpie · Claude · Pi", c: T.iOrange },
   ],
 };
 const PL_TITLE = {
@@ -193,19 +197,19 @@ for (const lang of ["zh", "en"]) {
       ? `  <path d="M ${(x + NW + 3).toFixed(1)} ${NY + NH / 2} L ${(x + NW + G - 4).toFixed(1)} ${NY + NH / 2}" stroke="${T.rule}" stroke-width="2" marker-end="url(#ar)"/>\n`
       : "";
     const mains = n.main.map((t, k) =>
-      `    <text x="${IN}" y="${k === 0 ? STEP_STYLE.main1 : STEP_STYLE.main2}" fill="${T.ink}" font-family="${T.sans}" font-size="15" font-weight="700">${esc(t)}</text>`).join("\n");
+      `    <text x="${IN}" y="${k === 0 ? STEP_STYLE.main1 : STEP_STYLE.main2}" fill="${T.ink}" font-family="${T.sans}" font-size="${PL_FONT.main}" font-weight="700">${esc(t)}</text>`).join("\n");
     return `  <g transform="translate(${x.toFixed(1)}, ${NY})">
     <rect width="${NW}" height="${NH}" rx="8" fill="${T.surface}" stroke="${T.border}" stroke-width="1"/>
     <rect x="0" y="0" width="${NW}" height="4" rx="2" fill="${n.c}"/>
-    <text x="${IN}" y="${STEP_STYLE.label}" fill="${n.c}" font-family="${T.mono}" font-size="10.5" font-weight="700">${esc(n.label)}</text>
+    <text x="${IN}" y="${STEP_STYLE.label}" fill="${n.c}" font-family="${T.mono}" font-size="${PL_FONT.label}" font-weight="700">${esc(n.label)}</text>
 ${mains}
-    <line x1="${IN}" y1="${STEP_STYLE.sub - 21}" x2="${NW - IN}" y2="${STEP_STYLE.sub - 21}" stroke="${T.border}" stroke-width="1"/>
-    <text x="${IN}" y="${STEP_STYLE.sub}" fill="${T.gray7}" font-family="${T.sans}" font-size="10.5">${esc(n.sub)}</text>
+    <line x1="${IN}" y1="${STEP_STYLE.rule}" x2="${NW - IN}" y2="${STEP_STYLE.rule}" stroke="${T.border}" stroke-width="1"/>
+    <text x="${IN}" y="${STEP_STYLE.sub}" fill="${T.gray7}" font-family="${T.sans}" font-size="${PL_FONT.sub}">${esc(n.sub)}</text>
   </g>\n${arrow}`;
   }).join("");
-  write(`pipeline-${lang}.svg`, svg(1200, PIPELINE.vbH, PL_TITLE[lang], `  <defs><marker id="ar" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 8 5 L 0 9 z" fill="${T.rule}"/></marker></defs>
-  <rect width="1200" height="${PIPELINE.vbH}" rx="8" fill="${T.paper}" stroke="${T.border}" stroke-width="1"/>
-  <text x="${M}" y="26" fill="${T.gray7}" font-family="${T.mono}" font-size="12" font-weight="600">${esc(PL_TITLE[lang])}</text>
+  write(`pipeline-${lang}.svg`, svg(960, PIPELINE.vbH, PL_TITLE[lang], `  <defs><marker id="ar" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 8 5 L 0 9 z" fill="${T.rule}"/></marker></defs>
+  <rect width="960" height="${PIPELINE.vbH}" rx="8" fill="${T.paper}" stroke="${T.border}" stroke-width="1"/>
+  <text x="${M}" y="26" fill="${T.gray7}" font-family="${T.mono}" font-size="13" font-weight="600">${esc(PL_TITLE[lang])}</text>
 ${nodes}`));
 }
 console.log("wrote badges(6) + pills(10) + sections(14) + pipeline(2)");
