@@ -35,7 +35,7 @@ on decorative rules and unlabelled color strips.
 ## One-liner
 
 Twenty Chinese-language AI builders on X, 1,145 high-signal technical posts, distilled by Cangjie v2.5 and evolved by
-Darwin v2.1 into **six callable RIA++ agent playbooks** — Agent factory, SEO/GEO engine, video-as-code, de-AI taste,
+Darwin v2.1 into **eight callable RIA++ agent playbooks** — Agent factory, SEO/GEO engine, video-as-code, de-AI taste,
 artifact benchmarking, and enterprise FDE.
 
 ## Proof strip printed on the card

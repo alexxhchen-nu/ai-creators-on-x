@@ -196,7 +196,7 @@
     <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-10-group-photo-finale.png" width="100%" alt="Shot 10: Group Photo Finale"></a></td>
   </tr>
   <tr>
-    <td align="center"><sub><b>Shot 8 · Darwin v2.1 进化报告自写</b>：<code>65.8 → 88.9 (+23.1)</code> 成对擦除揭示 + 左栏 6 大赛道逐条弹入</sub></td>
+    <td align="center"><sub><b>Shot 8 · Darwin v2.1 进化报告自写</b>：<code>65.8 → 88.9 (+23.1)</code> 成对擦除揭示 + 左栏 8 大能力卡逐条弹入</sub></td>
     <td align="center"><sub><b>Shot 10 · 群像合体终章</b>：9 大界面组件带残影飞入列阵 + 中央字标重锤砸落静置 2.0s</sub></td>
   </tr>
 </table>
@@ -228,7 +228,7 @@
 
 | 维度 | 权重 | Before (v1.0) | After (v2.1) | Δ 提升 | 关键结构与实测证据 |
 | --- | :---: | :---: | :---: | :---: | --- |
-| **dim1 Frontmatter 质量** | 7 | 8.5 | **8.5** | `0.0` | 覆盖 6 大工作流、不适用边界与中英 Triggers |
+| **dim1 Frontmatter 质量** | 7 | 8.5 | **8.5** | `0.0` | 覆盖 8 大工作流、不适用边界与中英 Triggers |
 | **dim2 工作流清晰度** | 12 | 5.4 | **8.8** | **`+3.4`** | 新增 4 步显式 `输入 / 动作 / 输出` 闭环 |
 | **dim3 失败模式编码** | 12 | 4.4 | **9.0** | **`+4.6`** | 新增 4×3 `触发条件 → 一线修复 → 仍失败兜底` 恢复表 |
 | **dim4 检查点设计** | 6 | 5.0 | **9.0** | **`+4.0`** | 新增 2 个显性 `🔴 CHECKPOINT` / `🛑 STOP` 门禁 |

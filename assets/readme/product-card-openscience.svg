@@ -53,7 +53,7 @@
       <rect x="99" width="11" height="26" fill="#f59f00"/>
       <rect width="110" height="26" fill="url(#pillshine)"/>
     </g>
-    <text x="50" y="17.5" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">6 playbooks</text>
+    <text x="50" y="17.5" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">8 playbooks</text>
   </g><g transform="translate(619.1999999999999, 300)">
     <clipPath id="bc619.1999999999999"><rect width="110" height="26" rx="3"/></clipPath>
     <g clip-path="url(#bc619.1999999999999)">

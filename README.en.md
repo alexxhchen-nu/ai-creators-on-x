@@ -188,7 +188,7 @@ Click any capability card below to expand its **real-world pain points, quantifi
     <td width="50%"><a href="./promo/out/promo-readme.mp4"><img src="./assets/readme/gallery/shot-10-group-photo-finale.png" width="100%" alt="Shot 10: Group Photo Finale"></a></td>
   </tr>
   <tr>
-    <td align="center"><sub><b>Shot 8 · Darwin v2.1 Self-Writing Report</b>: <code>65.8 → 88.9 (+23.1)</code> pairwise wipe reveal + 6 creator tracks popping into the left rail</sub></td>
+    <td align="center"><sub><b>Shot 8 · Darwin v2.1 Self-Writing Report</b>: <code>65.8 → 88.9 (+23.1)</code> pairwise wipe reveal + 8 capability cards popping into the left rail</sub></td>
     <td align="center"><sub><b>Shot 10 · Group Photo Finale</b>: 9 core UI components fly in with ghost trails + letterpressed wordmark impact &amp; 2.0s hold</sub></td>
   </tr>
 </table>
@@ -207,7 +207,7 @@ Click any capability card below to expand its **real-world pain points, quantifi
 </p>
 
 1. **STEP 1 · Pre-Check**: Stop immediately on out-of-scope or live-pricing prompts, or answer strictly from the overview table.
-2. **STEP 2 · Load Card**: Route to exactly 1 of the 6 playbooks and verify all required `## E` inputs.
+2. **STEP 2 · Load Card**: Route to exactly 1 of the 8 playbooks and verify all required `## E` inputs.
 3. **CHECKPOINT 1 & 2 · Hard Gate**: On payment webhooks, bulk messaging, or manufacturing FDE, STOP and output signature verification, approval gates, and foundation-cost estimates first.
 4. **STEP 3 · Execute**: Follow the playbook's `## E` steps deterministically to emit configs, scripts, or prompt templates.
 5. **STEP 4 · Self-Check**: Audit the final output against the `## B` checklist (`5000-token` cap, `BL-1..6`, de-AI taste) before delivery.
@@ -220,12 +220,12 @@ Evaluated under Microsoft Research's **SkillLens (arXiv 2605.23899) 9-Dimension 
 
 | Dimension | Weight | Before (v1.0) | After (v2.1) | Δ Gain | Structural &amp; Empirical Evidence |
 | --- | :---: | :---: | :---: | :---: | --- |
-| **dim1 Frontmatter Quality** | 7 | 8.5 | **8.5** | `0.0` | Covers all 6 workflows, negative triggers, and bilingual trigger tokens |
+| **dim1 Frontmatter Quality** | 7 | 8.5 | **8.5** | `0.0` | Covers all 8 workflows, negative triggers, and bilingual trigger tokens |
 | **dim2 Workflow Clarity** | 12 | 5.4 | **8.8** | **`+3.4`** | Added explicit 4-step `Input / Action / Output` control loop |
 | **dim3 Failure Mode Encoding** | 12 | 4.4 | **9.0** | **`+4.6`** | Added 4×3 `Trigger → First-Line Fix → Fallback` recovery matrix |
 | **dim4 Checkpoint Design** | 6 | 5.0 | **9.0** | **`+4.0`** | Added 2 explicit `🔴 CHECKPOINT` / `🛑 STOP` gates |
 | **dim5 Actionable Specificity** | 18 | 6.8 | **9.0** | **`+2.2`** | Bound every principle to `@handle` sources and hard thresholds (5,000 tokens, 62 rules) |
-| **dim6 Resource Integration** | 4 | 8.5 | **9.0** | **`+0.5`** | Pinned `## E` and `## B` anchors across all 6 capability cards (0 broken links) |
+| **dim6 Resource Integration** | 4 | 8.5 | **9.0** | **`+0.5`** | Pinned `## E` and `## B` anchors across all 8 capability cards (0 broken links) |
 | **dim7 Overall Architecture** | 12 | 6.5 | **8.6** | **`+2.1`** | Upgraded from static index to `Principles → 4-Step Loop → Gates → Blacklist → Router` |
 | **dim8 Empirical Performance** | 23 | 8.5 | **9.0** | **`+0.5`** | **3/3 exact routing**, **`with_skill` 18/18 (100%) vs `baseline` 3/18 (16.7%)** assertions |
 | **dim9 Counter-Examples &amp; Blacklist** | 6 | 3.5 | **9.0** | **`+5.5`** | Added `BL-1..BL-6` evidence-backed failure modes &amp; mandatory replacements |

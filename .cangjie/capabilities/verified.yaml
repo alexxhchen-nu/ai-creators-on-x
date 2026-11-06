@@ -385,7 +385,7 @@ capabilities:
   slug: from-scratch-teaching
   title: 「从零重建」学习法与 AI 教育内容生产协议
   importance: high
-  importance_rationale: 新增能力域，填补「如何真正搞懂模型原理、并产出教育内容」的空白；@karpathy 的 Zero to Hero / micrograd / nanoGPT / llm.c 从零实现路线是未被现有 6 卡覆盖的独有方法论。
+  importance_rationale: 新增能力域，填补「如何真正搞懂模型原理、并产出教育内容」的空白；@karpathy 的 Zero to Hero / micrograd / nanoGPT / llm.c 从零实现路线是未被原有 6 卡覆盖的独有方法论。
   one_liner: 理解 = 从零重建最小可运行版（micrograd/nanoGPT/llm.c 路线），再把重建路径压缩成递进式教程；教学与 agent 工程内容分路由。
   intents:
   - 怎么真正搞懂 Transformer/反向传播而不是只会调 API
